@@ -182,6 +182,7 @@ GEM
     geocoder (1.2.5)
     globalid (0.3.0)
       activesupport (>= 4.1.0)
+    gmaps4rails (2.1.2)
     haml (4.1.0.beta.1)
       tilt
     haml-rails (0.7.0)
@@ -353,6 +354,7 @@ DEPENDENCIES
   foundation-rails
   friendly_id
   geocoder
+  gmaps4rails
   haml-rails
   jbuilder (~> 2.0)
   jquery-cookie-rails
