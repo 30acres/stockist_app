@@ -1,8 +1,8 @@
 class Stockist < ActiveRecord::Base
-  after_validation :geocode, if: ->(obj){ obj.address.present? and obj.address_changed? }
+  after_validation :geocode #, if: ->(obj){ obj.address.present? and obj.address.changed? }
   geocoded_by :address
 
   def address
-    [street, city, state, country].compact.join(', ')
+    [street_address, city, state, country].compact.join(', ')
   end
 end

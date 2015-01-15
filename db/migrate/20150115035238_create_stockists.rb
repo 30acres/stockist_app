@@ -6,6 +6,8 @@ class CreateStockists < ActiveRecord::Migration
       t.string :city
       t.string :state
       t.string :country
+      t.string :website
+      t.string :postcode
       t.float :longitude
       t.float :latitude
       t.string :primary_phone
