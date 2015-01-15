@@ -1,6 +1,6 @@
 .row
   .header
-    %h1 Find a stockist near you
+    %h1 Find Eye of Horus in #{@stockist.city}, #{@stockist.country}
 
 .row
   .columns.large-12
@@ -8,11 +8,15 @@
 
 .row
   .columns.large-12
-    - @stockists.each do |stockist|
-      .row.panel
-
-        %h4= link_to stockist.name, stockist
-        = stockist.inspect
+    .row.panel
+      %h4= @stockist.name
+      %ul
+        %li Directions to here
+        %li More nearby
+        %li Send to a friend (SHARE)
+        %li Link to website
+        %li Phone Number
+      = @stockist.inspect
 
 
 = content_for :footer_scripts do
@@ -27,3 +31,4 @@
       markers = handler.addMarkers(#{raw @hash.to_json })
       handler.bounds.extendWith markers
       handler.fitMapToBounds()
+
