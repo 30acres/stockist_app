@@ -7,16 +7,19 @@
     #map{style: 'width: 100%; height: 500px;'}
 
 .row
-  .columns.large-12
-    .row.panel
+  .columns.large-8
+    .panel
       %h4= @stockist.name
       %ul
         %li Directions to here
-        %li More nearby
+        %li= link_to 'More nearby', stockists_path
         %li Send to a friend (SHARE)
         %li Link to website
         %li Phone Number
       = @stockist.inspect
+  .columns.large-4
+    .panel
+      Some juicy Eye of Horus Stuff
 
 
 = content_for :footer_scripts do
