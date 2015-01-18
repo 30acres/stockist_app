@@ -743,6 +743,7 @@ stockists.each do |stockist|
   country = Country.find_or_create_by(name: stockist[:country])
   new.country_id = country.id
   new.save!
+  sleep(1.1)
   country.save!
 end
 
