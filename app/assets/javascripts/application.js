@@ -14,6 +14,6 @@
 //= require jquery_ujs
 //= require foundation
 //= require underscore
-//= require gmaps/google
+// = require gmaps/google
 
 $(function(){ $(document).foundation(); });
