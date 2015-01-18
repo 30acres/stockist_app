@@ -1,0 +1,46 @@
+default: &default
+  logo: "new/logo_color.png"
+  site_name: 'Canvas Theme'
+  site_slogan: "Theming"
+  hero1: 'hero1.jpg'
+
+canvas:
+  site_name: 'Canvas'
+  site_code: 'canvas'
+  <<: *default
+
+eyeofhorus:
+  <<: *default
+  site_name: "Eye of Horus"
+  site_code: 'eyeofhorus'
+  site_slogan: 'Awaken the Goddess Within'
+  page_title: "Eye of Horus Stockists | Mascara, Eyeshadow, Eyeline, Makeup Specialists"
+  address_street: '17 Lawson Street'
+  address_city: 'Byron Bay'
+  address_postcode: '2481'
+  address_state: 'NSW'
+  address_country: 'Australia'
+  phone_one: '(02) 6685 XXX'
+  phone_two: '(02) 6685 XXX'
+  email: 'info@eyeofhoruscosmetics.com'
+  domain: 'stockists.eyeofhoruscosmetics.com'
+  logo: 'http://cdn.shopify.com/s/files/1/0717/7955/t/2/assets/logo.png?1311'
+  tag_manager: 'GTM-KVHWWC'
+
+childrenofthetribe:
+  <<: *default
+  site_name: "Children of the Tribe"
+  site_code: 'childrenofthetribe'
+  site_slogan: 'Children of the Tribe'
+  page_title: "Children of the Tribe"
+  address_street: '17 Lawson Street'
+  address_city: 'Byron Bay'
+  address_postcode: '2481'
+  address_state: 'NSW'
+  address_country: 'Australia'
+  phone_one: '(02) 6685 XXX'
+  phone_two: '(02) 6685 XXX'
+  email: 'info@childrenofthetribe.com'
+  domain: 'stockists.childrenofthetribe.com'
+  tag_manager: 'GTM-XXX'
+

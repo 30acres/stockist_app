@@ -1,739 +1,748 @@
 # This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup},.
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Stockist.create(name:'Store Name',city: 'District / City', country:'Country',postcode:'Postal / Zip Code',street_address:'Address')
-Stockist.create(name:'Eye of Horus Headquarters',city: 'Torquay', country:'Australia',postcode:'3228',street_address:'1-44 Puebla Street')
-Stockist.create(name:'Ara Beauty and Day Spa',city: 'Potts Point', country:'Australia',postcode:'2011',street_address:'Diamant Hotel, Suite 8.10, 14 Kingscross Road')
-Stockist.create(name:'Actual Wellness &amp; Beauty',city: 'Keilor Downs ', country:'Australia',postcode:'3038',street_address:'Sibyl Court')
-Stockist.create(name:'Allure for Beauty',city: 'Caulfield North', country:'Australia',postcode:'3161',street_address:'213 Balaclava Road')
-Stockist.create(name:'Allure Skin &amp; Body',city: 'Malvern', country:'Australia',postcode:'3144',street_address:'251 Glenferrie Road')
-Stockist.create(name:'Areti Skin Therapy',city: 'Mt Waverley', country:'Australia',postcode:'3149',street_address:'Mt Waverley')
-Stockist.create(name:'Aura Beauty',city: 'Swan Hill', country:'Australia',postcode:'3585',street_address:'Shop 10 Safeway Arcade')
-Stockist.create(name:'Bayside Beauty Lounge',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'Shop5/216 Main Street')
-Stockist.create(name:'Beauty Delphine ',city: 'Eltham', country:'Australia',postcode:'3095',street_address:'43 Floriston Grove')
-Stockist.create(name:'The Beauty Studio',city: 'Lorne', country:'Australia',postcode:'3232',street_address:'146a Mountjoy Parade (off Brownes Lane)')
-Stockist.create(name:'Beauty Works',city: 'Tatura', country:'Australia',postcode:'3616',street_address:'6 Flanagan Drive ')
-Stockist.create(name:'Body &amp; Soul Day Spa Beauty Therapy',city: 'Beaumaris', country:'Australia',postcode:'3193',street_address:'4 North Concourse Road')
-Stockist.create(name:'Body &amp; Soul Day Spa Beauty Therapy',city: 'Brighton ', country:'Australia',postcode:'3186',street_address:'246 Bay Street')
-Stockist.create(name:'Body Glow Beauty Therapy ',city: 'Wantirna South ', country:'Australia',postcode:'3152',street_address:'L 1, 452 Burwood Highway')
-Stockist.create(name:'Body Works Organic Spa',city: 'Wangaratta ', country:'Australia',postcode:'3677',street_address:'Shop 3, 103 Murphy Street')
-Stockist.create(name:'Calm Beauty Therapy',city: 'Berwick', country:'Australia',postcode:'3806',street_address:'4 Riverglen Road')
-Stockist.create(name:'Calma Medispa Retreat',city: 'Armadale', country:'Australia',postcode:'3143',street_address:'1100 High Street ')
-Stockist.create(name:'Clay Skin &amp; Body Salon Spa',city: 'Wliiamstown', country:'Australia',postcode:'3016',street_address:'97 Douglas Parade')
-Stockist.create(name:'Clover Beauty Skin &amp; Body ',city: 'Armadale', country:'Australia',postcode:'3143',street_address:'1 Kings Way')
-Stockist.create(name:'Coburg Health Shop',city: 'Coburg', country:'Australia',postcode:'3058',street_address:'5/, Shop 5, 461-463 Sydney Road')
-Stockist.create(name:'Dermal Aesthetics Laser Clinic',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'The Bays Hospital, Level 1/ 262 Main Street')
-Stockist.create(name:'Dermal Resolution',city: 'Beaconsfield', country:'Australia',postcode:'3807',street_address:'56 Oneil Road')
-Stockist.create(name:'Elita Cosmetic Medicine',city: 'Glenroy', country:'Australia',postcode:'3046',street_address:'4 Post Office Place ')
-Stockist.create(name:'Eyelash Inez',city: 'Mill Park ', country:'Australia',postcode:'3082',street_address:'43 Streeton Circuit')
-Stockist.create(name:'Feeling Smooth',city: 'Port Melbourne ', country:'Australia',postcode:'3207',street_address:'120 Bridge Street ')
-Stockist.create(name:'Fiona Fairley',city: 'Kialla', country:'Australia',postcode:'3631',street_address:'615 Archer Road')
-Stockist.create(name:'Flavour Beauty Therapists',city: 'Kew East ', country:'Australia',postcode:'3102',street_address:'666 High Street ')
-Stockist.create(name:'Fringe Benefits Organics',city: 'Parkdale', country:'Australia',postcode:'3194',street_address:'30 Mountview Avenue')
-Stockist.create(name:'Giota Hairdresser',city: 'Bellfield/Ivanhoe area', country:'Australia',postcode:'3081',street_address:'Bellfield/Ivanhoe area ')
-Stockist.create(name:'Go Vita Doncaster',city: 'Doncaster', country:'Australia',postcode:'3108',street_address:'Shop G200 Westfield Shopping Centre, 619 Doncaster Road')
-Stockist.create(name:'Go Vita Forest Hill',city: 'Forest Hill', country:'Australia',postcode:'3131',street_address:'Shop 13 Market Place, Forest Hill Chase, 270 Canterbury Road')
-Stockist.create(name:'777 Whitfords City Pharmacy',city: 'Hillarys', country:'Australia',postcode:'6025',street_address:'Shop 42, Westfield Whitford City, Whitfords Avenue ')
-Stockist.create(name:'Aesthetica',city: 'Coorparoo', country:'Australia',postcode:'4161',street_address:'Shop 8, 377 Cavendish Road')
-Stockist.create(name:'AFS Friendly Care Pharmacy',city: 'Mackay', country:'Australia',postcode:'4740',street_address:'4 Ways Plaza 135-137 Nebo Road')
-Stockist.create(name:'Alfred Hospital',city: 'Melbourne', country:'Australia',postcode:'3004',street_address:'55 Commercial Road ')
-Stockist.create(name:'Amcal Max Doncaster ( Chandra Pharmacy )',city: 'Doncaster East ', country:'Australia',postcode:'3109',street_address:'274-276 Blackburn Road')
-Stockist.create(name:' Wendouree Village Pharmacy ',city: 'Wendouree', country:'Australia',postcode:'3355',street_address:'Shop 73  Stocklands Wendouree Gillies Street, Wendouree Shopping Centre')
-Stockist.create(name:' Mundaring Pharmacy ',city: 'Mundaring ', country:'Australia',postcode:'6073',street_address:'Shop 4/ 5 Nichol Street')
-Stockist.create(name:'Inverell Amcal Pharmacy ',city: 'Inverell', country:'Australia',postcode:'2360',street_address:'132- 134 Byron Street')
-Stockist.create(name:'Armidale Pharmacy ',city: 'Armidale ', country:'Australia',postcode:'2350',street_address:'114 Dangar Street')
-Stockist.create(name:'Aroma Beauty Therapy Clinic',city: 'Runaway Bay', country:'Australia',postcode:'4216',street_address:'9/131 Morala Avenue')
-Stockist.create(name:'Avenues Hair',city: 'Townsville', country:'Australia',postcode:'4817',street_address:'The Avenues Shopping Centre Corner Kern Brothers Drive &amp; Burnda Street')
-Stockist.create(name:'AWB Holdings ',city: 'Currumbin Waters', country:'Australia',postcode:'4223',street_address:'9 Traders Way')
-Stockist.create(name:'Chemplus Balhannah ',city: 'Balhannah', country:'Australia',postcode:'4721',street_address:'Shop 3/84 Main Road')
-Stockist.create(name:'Barracks Pharmacy',city: 'Brisbane ', country:'Australia',postcode:'4000',street_address:'61 Petrie Terrace (top of Caxton Street)')
-Stockist.create(name:'Bayswater North Pharmacy ',city: 'Bayswater ', country:'Australia',postcode:'3153',street_address:' 17-39 Canterbury Road')
-Stockist.create(name:'Beauty Bizz',city: 'Bridgetown ', country:'Australia',postcode:'6255',street_address:'Shp2/ 84 Hampton Street')
-Stockist.create(name:'Benowa Gardens Amcal Pharmacy ',city: 'Benowa', country:'Australia',postcode:'4217',street_address:'Gardens Shopping Centre Corner Ashmore &amp; Benowa Road')
-Stockist.create(name:'Black Rock Amcal Pharmacy',city: 'Black Rock', country:'Australia',postcode:'3193',street_address:'6 Bluff Road')
-Stockist.create(name:'Blooms The Chemist - Miranda',city: 'Miranda', country:'Australia',postcode:'2228',street_address:'Shop 2089 Westfield Miranda')
-Stockist.create(name:'Blooms The Chemist - Shellharbour ',city: 'Shellharbour ', country:'Australia',postcode:'2529',street_address:'Shop 11-12 Stockland Shopping Centre')
-Stockist.create(name:'Blooms The Chemist - Belmont Central ',city: 'Belmont ', country:'Australia',postcode:'2280',street_address:'Shop 24, Belmont Central Shopping Centre, Singleton Street')
-Stockist.create(name:'Bode Hair Lounge',city: 'Unley Park', country:'Australia',postcode:'5061',street_address:'2/384 Unley Road')
-Stockist.create(name:'Boulder Beauty Care ',city: 'Boulder ', country:'Australia',postcode:'6432',street_address:'22 Burt Street')
-Stockist.create(name:'Bowen Healthcare pharmacy ',city: 'Bowen', country:'Australia',postcode:'4805',street_address:'16 Gregory Street')
-Stockist.create(name:'Brands Pharmacy ',city: 'Lismore', country:'Australia',postcode:'2480',street_address:'136 Molesworth Street')
-Stockist.create(name:'Butchers Pharmacy ',city: 'Kew North ', country:'Australia',postcode:'3101',street_address:'101 Willsmere Road')
-Stockist.create(name:'Byron Bay Plaza Amcal Pharmacy ',city: 'Byron Bay ', country:'Australia',postcode:'2481',street_address:'Shop 4B/5-6 Byron Bay Plaza North Jonson Street')
-Stockist.create(name:'Amcal Pharmacy ',city: 'Capalaba', country:'Australia',postcode:'4157',street_address:'Capalaba Park Shopping Centre, 7-45 Redland Bay Road')
-Stockist.create(name:'Care Plus Pharmacy Sydenham',city: 'Sydenham ', country:'Australia',postcode:'3037',street_address:'523 Melton Highway')
-Stockist.create(name:'Chelsea Central Soul Pattinson Pharmacy',city: 'Chelsea ', country:'Australia',postcode:'3196',street_address:'425 Nepean Highway')
-Stockist.create(name:'Chemist Works, Glendale',city: 'Glendale ', country:'Australia',postcode:'2285',street_address:'Shop 22, Lake Road, Stockland Drive')
-Stockist.create(name:'Brighton Chemmart Pharmacy ',city: 'Brighton ', country:'Australia',postcode:'5048',street_address:'479 Brighton Road')
-Stockist.create(name:'Chemmart Pharmacy Superstore - Geraldton',city: 'Geraldton', country:'Australia',postcode:'6530',street_address:'113 Marine Terrace')
-Stockist.create(name:'Waikerie Chemplus Pharmacy ',city: 'Waikerie ', country:'Australia',postcode:'5330',street_address:'1 White Street')
-Stockist.create(name:'Chi Hair Skin and Body - Hallett Cove',city: 'Hallett Cove', country:'Australia',postcode:'5158',street_address:'Shop 54, Hallett Cove Shopping Centre')
-Stockist.create(name:'Classic Beauty Therapy',city: 'East Toowoomba', country:'Australia',postcode:'4350',street_address:'Range Shopping Centre, James Street')
-Stockist.create(name:'Clip Go the Shears',city: 'Greenock', country:'Australia',postcode:'5360',street_address:'13 Murray Street')
-Stockist.create(name:'Creelman\'s Pharmacy',city: 'Melbourne ', country:'Australia',postcode:'3000',street_address:'Shop 20 Target City Centre 222 Bourke Street')
-Stockist.create(name:'Amcal Max Dalby Pharmacy',city: 'Dalby', country:'Australia',postcode:'4405',street_address:'Shop 22, Dalby Shopping World Cunningham Street')
-Stockist.create(name:'Day Night Chemist Crows Nest',city: 'Crows Nest ', country:'Australia',postcode:'2065',street_address:'9 Willoughby Road')
-Stockist.create(name:'Direct Chemist Outlet Mt Waverley ',city: 'Mt Waverley', country:'Australia',postcode:'3149',street_address:' 33 Hamilton Place')
-Stockist.create(name:'Debra\'s Beauty Shoppe',city: 'Kensington Gardens', country:'Australia',postcode:'5068',street_address:'365 Kensington Road ')
-Stockist.create(name:'Direct Chemist Outlet - Glenroy',city: 'Glenroy ', country:'Australia',postcode:'3046',street_address:'785 Pascoe Vale Road ')
-Stockist.create(name:'Discount Pharmacy Australia Ripponlea',city: 'Ripponlea', country:'Australia',postcode:'3185',street_address:'93 Glen Eira Rd')
-Stockist.create(name:'Dupuy\'s Pharmacy',city: 'North Mackay', country:'Australia',postcode:'4740',street_address:'12-14 Grandview Drive')
-Stockist.create(name:'Ebony Beauty Noosa',city: 'Noosaville', country:'Australia',postcode:'4566',street_address:'2, 11 Lake Weyba Drive')
-Stockist.create(name:'Amcal Pharmacy - Euroa',city: 'Euroa', country:'Australia',postcode:'3666',street_address:'26 Binney Street')
-Stockist.create(name:'Face Bar',city: 'Devonport', country:'Australia',postcode:'7310',street_address:'22 Stewart Street')
-Stockist.create(name:'First Wave Hair Shoppe',city: 'Tugan', country:'Australia',postcode:'4224',street_address:'474 Golden Four Drive')
-Stockist.create(name:'Forest Lakes Pharmacy',city: 'Thornlie', country:'Australia',postcode:'6108',street_address:'Shopping Centre, Corner Forest Lakes Drive &amp; Murdoch Road')
-Stockist.create(name:'Forestway Pharmacy',city: 'Frenchs Forest', country:'Australia',postcode:'2086',street_address:'Shop 24 Forestway Cntr, 2-18 Forest Way')
-Stockist.create(name:'Friendlies Chemists Subiaco',city: 'Subiaco ', country:'Australia',postcode:'6008',street_address:'136-142 Rokeby Road')
-Stockist.create(name:'Friendlies Chemist Leederville',city: 'Leederville', country:'Australia',postcode:'6007',street_address:'143 Oxford Street')
-Stockist.create(name:'Frost Pharmacy',city: 'Eltham ', country:'Australia',postcode:'3095',street_address:'Eltham Village Center Corner Main Road &amp; Arthur Street')
-Stockist.create(name:'Fuze Hair &amp; Beauty',city: 'East Ipswich', country:'Australia',postcode:'4305',street_address:'5a Jacaranda St ')
-Stockist.create(name:'Gaia Song Natural Health',city: 'Busselton', country:'Australia',postcode:'6280',street_address:'Shop 14- 16 Fig Tree Lane')
-Stockist.create(name:'Chemplus Pharmacy Gawler',city: 'Gawler', country:'Australia',postcode:'5118',street_address:'21 Adelaide Road')
-Stockist.create(name:'Glam Nails ',city: 'Caloundra', country:'Australia',postcode:'4551',street_address:' Currimundi Junction, 5a, 710 Nicklin Way')
-Stockist.create(name:'Go Vita Currambine',city: 'Currambine', country:'Australia',postcode:'6028',street_address:'T2 Currambine Central, Cnr Marmion &amp; Shenton Avenues')
-Stockist.create(name:'Go Forest Hill',city: 'Forest Hill', country:'Australia',postcode:'3131',street_address:'Shop 13 Market Place, Forest Hill Chase, 270 Canterbury Road')
-Stockist.create(name:'Go Vita Greensborough',city: 'Greensborough', country:'Australia',postcode:'3088',street_address:'Level 1 Shop 121A Greensborough Plaza, 25 Main Street')
-Stockist.create(name:'Go Vita Greenwood',city: 'Greenwood', country:'Australia',postcode:'6024',street_address:'Shop 4 Greenwood Village Shopping Centre')
-Stockist.create(name:'Go Vita Kalgoorlie',city: 'Kalgoorlie', country:'Australia',postcode:'6430',street_address:'279 Hannan Street')
-Stockist.create(name:'Go Vita Knox City ',city: 'Knox City ', country:'Australia',postcode:'3152',street_address:'Shop 1063 Knox City Shopping Centre, 425 Burwood Highway')
-Stockist.create(name:'Go Vita Rye ',city: 'Rye', country:'Australia',postcode:'3941',street_address:'Shop 4 Safeway Complex Point Nepean Road')
-Stockist.create(name:'Go Vita Southland/Willetton',city: 'WILLETTON', country:'Australia',postcode:'6155',street_address:'Shop 31 Southlands Boulevard')
-Stockist.create(name:'Go Vita Tanunda',city: 'Tanunda', country:'Australia',postcode:'5352',street_address:'98 Murray Street')
-Stockist.create(name:'Go Vita Warrnambool',city: 'Warrnambool', country:'Australia',postcode:'3280',street_address:'155 Fairy Street')
-Stockist.create(name:'Go Vita Woodvale',city: 'Woodvale', country:'Australia',postcode:'6026',street_address:'Shop 11 Woodvale Boulevarde Shopping Centre, Corner of Whitfords Avenue &amp; Trappers Drive')
-Stockist.create(name:'Goddess Body Treatments',city: 'Montmorency', country:'Australia',postcode:'3094',street_address:'13 Were Street')
-Stockist.create(name:'Goldfields Fullife Pharmacy',city: 'Gympie', country:'Australia',postcode:'4570',street_address:'Goldfields Plaza Monkland Street')
-Stockist.create(name:'Gore &amp; Dickson Pharmacy',city: 'Port Melbourne ', country:'Australia',postcode:'3207',street_address:'243-247 Bay Street')
-Stockist.create(name:'Grace and Style Professional Hair &amp; Make up ',city: 'The Gap ', country:'Australia',postcode:'4061',street_address:'1 Kadina Street')
-Stockist.create(name:'MakeUp By Rory',city: 'Miami', country:'United States',postcode:'33137',street_address:'2001 Biscayne Blvd #117/77')
-Stockist.create(name:'Zenyu Skin &amp; Body',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'8/234 Main St, Mornington VIC 3931')
-Stockist.create(name:'Woods Pharmacy Royal Childrens Hospital',city: 'Parkville', country:'Australia',postcode:'3052',street_address:'50 Flemington Rd Parkville VIC 3052')
-Stockist.create(name:'Williams &amp; Golby Boronia',city: 'Boronia', country:'Australia',postcode:'3155',street_address:'Boronia Mall Shopping Centre 47 Dorset Square  Boronia VIC 3155')
-Stockist.create(name:'Wild for Beauty',city: 'Carlton', country:'Australia',postcode:'3054',street_address:'795 Rathdowne Street')
-Stockist.create(name:'Whittlesea Amcal',city: 'Whittlesea', country:'Australia',postcode:'3757',street_address:'69 Church St  Whittlesea VIC 3757')
-Stockist.create(name:'Whitsunday Pharmacy',city: 'Cannonvale', country:'Australia',postcode:'4802',street_address:'Sh 11 Whitsundays Shopping Centre Shute Harbour Rd. CANNONVALE. QLD 4802')
-Stockist.create(name:'Whitebridge Phamacy',city: 'Whitebridge', country:'Australia',postcode:'2290',street_address:'136 Dudley Rd, Whitebridge NSW 2290')
-Stockist.create(name:'West Street Hideaway',city: 'Toowoomba', country:'Australia',postcode:'4350',street_address:'196 West St SOUTH TOOWOOMBA, QLD, 4350')
-Stockist.create(name:'Watsonia Pharmacy',city: 'Watsonia', country:'Australia',postcode:'3087',street_address:'45 Watsonia Rd, Watsonia, VIC 3087')
-Stockist.create(name:'Wangara Pharmacy',city: 'Wangara', country:'Australia',postcode:'6065',street_address:'9/2 Prindiville Dr  Wangara WA 6065')
-Stockist.create(name:'Wallis C &amp; Son',city: 'Toorak', country:'Australia',postcode:'3142',street_address:'426 Toorak Rd  Toorak VIC 3142')
-Stockist.create(name:'Vital Beauty ',city: 'Carina', country:'Australia',postcode:'4152',street_address:'Shop 7/3 Mayfield Rd Carina, QLD, 4152')
-Stockist.create(name:'Verve Beauty Therapy',city: 'Kew', country:'Australia',postcode:'3101',street_address:'4/4-14 Walpole St  Kew VIC 3101')
-Stockist.create(name:'Versailles Beauty',city: ' Redbank Plains ', country:'Australia',postcode:'4301',street_address:'1 / 4 Jirra Street  ')
-Stockist.create(name:'UpBeet Health and Wholefoods Wonthaggi',city: 'Wonthaggi', country:'Australia',postcode:'3995',street_address:'125 Graham St, Wonthaggi VIC 3995')
-Stockist.create(name:'Ultra Essence Skin &amp; Body',city: 'Blacks Beach', country:'Australia',postcode:'4740',street_address:'15 Blacks Beach Rd  Blacks Beach QLD 4740')
-Stockist.create(name:'Ultimate Indulgence Beauty Therapy',city: 'Garfield', country:'Australia',postcode:'3814',street_address:'Shop 1, 91 Main Street, Garfield, VIC 3814')
-Stockist.create(name:'A Glamorous Touch',city: 'Thornton', country:'Australia',postcode:'2322',street_address:'5 Avard Close')
-Stockist.create(name:'A Kur Day Spa',city: 'Gymea Bay', country:'Australia',postcode:'2227',street_address:'17 Casuarina Rd')
-Stockist.create(name:'Allura Hairdressing Boutique',city: 'Berwick', country:'Australia',postcode:'3806',street_address:'10 Wheeler Street')
-Stockist.create(name:'Ann Hassarati Makeup',city: 'Baulkham Hills', country:'Australia',postcode:'2153',street_address:'36 Rockley Avenue')
-Stockist.create(name:'Ara Beauty',city: 'Potts Point', country:'Australia',postcode:'2011',street_address:'Se 810 2-14 Kings Cross Rd')
-Stockist.create(name:'B\'Gorgeous',city: 'Basin View', country:'Australia',postcode:'2540',street_address:'Shop 3 / 1 Tallyan Point Rd')
-Stockist.create(name:'Beauty By Georgie Cullen',city: 'Berwick', country:'Australia',postcode:'3806',street_address:'36 Coolong Ave')
-Stockist.create(name:'Beauty Presence',city: 'North Lyneham', country:'Australia',postcode:'2602',street_address:'Unit 4/2 Montford ST,')
-Stockist.create(name:'Beauty with Michele',city: 'Clovelly', country:'Australia',postcode:'2031',street_address:'170 Clovelly Road')
-Stockist.create(name:'Beautyfull',city: 'Drummoyne', country:'Australia',postcode:'2047',street_address:'lv 1 20B 30-50 Lyons Rd')
-Stockist.create(name:'Bella Vera True Beauty',city: '33 Golden Grove', country:'Australia',postcode:'2100',street_address:'33 Golden Grove')
-Stockist.create(name:'Bellabox',city: 'Cremorne', country:'Australia',postcode:'3121',street_address:'Unit 6, 83-87 Dover Street')
-Stockist.create(name:'Berry Beauty Escape',city: 'Berry', country:'Australia',postcode:'2535',street_address:'65 Queens Street')
-Stockist.create(name:'Blush Cosmetics',city: 'Sydney', country:'Australia',postcode:'2000',street_address:'Shop 909B World Square Shopping Centre')
-Stockist.create(name:'Brow &amp; Beauty',city: 'Eastlakes', country:'Australia',postcode:'2018',street_address:'Shop 1 62 Maloney St')
-Stockist.create(name:'Catwalk Hair &amp; Beauty',city: 'Gladesville', country:'Australia',postcode:'2111',street_address:'230 Victoria Rd')
-Stockist.create(name:'Classique Hair Design',city: 'Queanbeyan', country:'Australia',postcode:'2620',street_address:'180 Crawford street')
-Stockist.create(name:'Clay Organic Beauty',city: 'Mullumbimby', country:'Australia',postcode:'2482',street_address:'97 Dalley Street')
-Stockist.create(name:'Cosmetic Laser Clinic',city: 'Phillip', country:'Australia',postcode:'2606',street_address:'Se 4 36-38 Corinna St')
-Stockist.create(name:'Creative Beaute',city: 'Mudgee', country:'Australia',postcode:'2850',street_address:'17 Perry Street,')
-Stockist.create(name:'Crystal Essenic',city: 'Wyong', country:'Australia',postcode:'2259',street_address:'Po Box 592')
-Stockist.create(name:'Dr Earth',city: 'NEWTOWN', country:'Australia',postcode:'2042',street_address:'287 - 289 King Street')
-Stockist.create(name:'Elegance Beauty',city: 'Canberra', country:'Australia',postcode:'2601',street_address:'Shop 19, Centre Point Plaza Petrie Plaza')
-Stockist.create(name:'Elume Beauty Salon',city: 'West Kempsey', country:'Australia',postcode:'2440',street_address:'13 Tozer Street')
-Stockist.create(name:'Emmadean',city: 'Rozelle ', country:'Australia',postcode:'2039',street_address:'Shop 2, 654 Darling Street ')
-Stockist.create(name:'Empress Beauty Salon &amp; Day Spa',city: 'Lithgow', country:'Australia',postcode:'2790',street_address:'62 Main St')
-Stockist.create(name:'EnhanSe Natural Wellbeing',city: 'Brandy Hill', country:'Australia',postcode:'2324',street_address:'17 Bangalay Close')
-Stockist.create(name:'Essence of Eve',city: 'Mollymook', country:'Australia',postcode:'2539',street_address:'13 Buckland St')
-Stockist.create(name:'FACIAL CO',city: 'Keperra', country:'Australia',postcode:'4054',street_address:'65 Gilston Street')
-Stockist.create(name:'Fancy Dish',city: 'Orange', country:'Australia',postcode:'2800',street_address:'109 Moulder Street')
-Stockist.create(name:'Flannerys Benowa',city: 'Benowa', country:'Australia',postcode:'4217',street_address:'Bronberg Plaza, Slatyer Avenue')
-Stockist.create(name:'Flannerys Chermside',city: 'Chermside', country:'Australia',postcode:'4032',street_address:'Corner Rode &amp; Webster Roads,')
-Stockist.create(name:'Flannerys Loganholme',city: 'Loganholme', country:'Australia',postcode:'4129',street_address:'Shop 5/1 Bryants Rd')
-Stockist.create(name:'Flannerys Maroochydore',city: 'Maroochydore', country:'Australia',postcode:'4558',street_address:'Central One, 45 Plaza Pde')
-Stockist.create(name:'Flannerys Miami',city: 'Miami', country:'Australia',postcode:'4220',street_address:'2184 Gold Coast Highway')
-Stockist.create(name:'Flannerys Paradise Point',city: 'Paradise Point ', country:'Australia',postcode:'4216',street_address:'Shop 1A, 17 Grice Avenue')
-Stockist.create(name:'Flannerys Robina',city: 'Robina', country:'Australia',postcode:'4218',street_address:'Shop 7 Easy T Centre Cnr Scottsdale Drive &amp; Christine Avenue')
-Stockist.create(name:'Flannerys Taringa',city: 'Taringa', country:'Australia',postcode:'4068',street_address:'191 Moggill Road')
-Stockist.create(name:'Fundies Wholefood Market Lismore',city: 'Lismore', country:'Australia',postcode:'2480',street_address:'140 Keen Street')
-Stockist.create(name:'The Green Dispensary ',city: 'Stirling', country:'Australia',postcode:'5152',street_address:'28 Mount Barker Road')
-Stockist.create(name:'Greenbank Pharmacy ',city: 'Greenbank ', country:'Australia',postcode:'4124',street_address:'Corner Pub Lane, Teviot Road')
-Stockist.create(name:'Hagley &amp; Osmond Pharmacy',city: 'Gunnedah', country:'Australia',postcode:'2380',street_address:'204 Conadilly Street')
-Stockist.create(name:'Halka B Organics',city: 'Fremantle', country:'Australia',postcode:'6160',street_address:'Shop 8, The Piazza, (Off South Terrace)')
-Stockist.create(name:'Harpers Pharmacy Earlwood',city: 'Earlwood ', country:'Australia',postcode:'2206',street_address:'6 Clarke Street')
-Stockist.create(name:'Health &amp; Savings Harrington Park Pharmacy',city: 'Harrington Park ', country:'Australia',postcode:'2576',street_address:'Shop 4-5 Fairwater Drive, Harrington Park Plaza,')
-Stockist.create(name:'Hastings Health Food &amp; Clinic ',city: 'Hastings ', country:'Australia',postcode:'3915',street_address:'46 High street ')
-Stockist.create(name:'Hawthorn Road Nova Pharmacy ',city: 'Forest Hill', country:'Australia',postcode:'3131',street_address:'490 Springvale Road')
-Stockist.create(name:'Health Information Pharmacy  ',city: 'Deer Park ', country:'Australia',postcode:'3023',street_address:'74 Neale Road')
-Stockist.create(name:'Health Life ',city: 'Karrinyup', country:'Australia',postcode:'6018',street_address:' Karrinyup Shopping Centre, Karrinyup Road')
-Stockist.create(name:'Healthpoint Chemist Helensvale ',city: 'Helensvale', country:'Australia',postcode:'4212',street_address:'Shop 1037/38 Westfield Shopping Centre/1-29 Millaroo Drive ')
-Stockist.create(name:'HealthSmart Pharmacy Melbourne',city: 'Parkville', country:'Australia',postcode:'3052',street_address:'Shop, 5 Grattan Street ')
-Stockist.create(name:'Healthpoint Day &amp; Night',city: 'Mackay', country:'Australia',postcode:'4740',street_address:' 65 Sydney Street')
-Stockist.create(name:'Heavens Beauty Salon',city: 'Mt Pleasant', country:'Australia',postcode:'6153',street_address:'2/38 Moolyeen Road')
-Stockist.create(name:'Hibiscus Beauty',city: 'Park Orchards', country:'Australia',postcode:'3114',street_address:'Shop 1 &amp; 2 1 Hopetoun Rd')
-Stockist.create(name:'Hip Pharmacy Brimbank ',city: 'Deer Park ', country:'Australia',postcode:'3023',street_address:'28 Neale Road')
-Stockist.create(name:'Hollywood Pharmacy',city: 'Nedlands', country:'Australia',postcode:'6009',street_address:'29 Hampden Road')
-Stockist.create(name:'Hope Island Amcal Chempro Chemist',city: 'Hope Island', country:'Australia',postcode:'4212',street_address:'Santa Barbara Road, Shop 9-11 Hope Island Shopping Centre')
-Stockist.create(name:'Elite Body Treatments',city: 'Ivanhoe East', country:'Australia',postcode:'3079',street_address:'2/242 Lower Heidelberg Road')
-Stockist.create(name:'iBeauty Skin &amp; Nail Care',city: 'Greensborough', country:'Australia',postcode:'3088',street_address:'69 Grimshaw Street')
-Stockist.create(name:'Impressions In Highton',city: 'Highton ', country:'Australia',postcode:'3216',street_address:'4 Bellevue Ave')
-Stockist.create(name:'Hair &amp; Beauty by Irene Evans',city: 'Rosebud West', country:'Australia',postcode:'3940',street_address:'3/52 Grenville Grove')
-Stockist.create(name:'Ishtar Beauty',city: 'Bell Park', country:'Australia',postcode:'3215',street_address:' 27 Milton Street')
-Stockist.create(name:'J\'adore Lashes ',city: 'Berwick ', country:'Australia',postcode:'3806',street_address:'5 Kruger Street')
-Stockist.create(name:'JC Unique Health &amp; Beauty',city: 'Nunawading', country:'Australia',postcode:'3131',street_address:'295 Springfield Road')
-Stockist.create(name:'Jieya',city: 'Dandenong ', country:'Australia',postcode:'3175',street_address:'76 Langhorne Street')
-Stockist.create(name:'Jon Ravech\'s Prescription Shoppe',city: 'Coburg North', country:'Australia',postcode:'3058',street_address:'11-17 Orvieto Street')
-Stockist.create(name:'Karen Carter Chemist',city: 'Gunnedah', country:'Australia',postcode:'2380',street_address:'270/274 Conadilly Street')
-Stockist.create(name:'Khodary\'s Pharmacy',city: ' Coonabarabran', country:'Australia',postcode:'2357',street_address:'77 John Street ')
-Stockist.create(name:'La Tua Bellezza ',city: 'Doncaster East', country:'Australia',postcode:'3109',street_address:' 28 Meryl Street')
-Stockist.create(name:'Le\'Dee Makeover',city: 'Shepparton ', country:'Australia',postcode:'3630',street_address:'14B Tower Arcade 222 Maude Street')
-Stockist.create(name:'Makeup and Glow ',city: 'Paddington ', country:'Australia',postcode:'4064',street_address:'Suite 13/261 Given Terrace')
-Stockist.create(name:'Makeup For You ',city: 'Newstead', country:'Australia',postcode:'7250',street_address:'6 David Street')
-Stockist.create(name:'McKenzies Chemist',city: 'Mt Lawley', country:'Australia',postcode:'6050',street_address:'689 Beaufort Street')
-Stockist.create(name:'Mega Health Mitcham',city: 'Mitcham', country:'Australia',postcode:'5062',street_address:'Shop 48, Mitcham Sq Shopping Centre')
-Stockist.create(name:'Mega Save Chemist',city: 'Erina', country:'Australia',postcode:'2250',street_address:'620-658 Terrigal Drive')
-Stockist.create(name:'Mega Save Pharmacy',city: 'Charlestown', country:'Australia',postcode:'2290',street_address:'Charlestown Square, Pearson Street ')
-Stockist.create(name:'Melton Pharmacy',city: 'Melton', country:'Australia',postcode:'3337',street_address:'2/211 Barries Road')
-Stockist.create(name:'Mermaids',city: 'Ocean Grove', country:'Australia',postcode:'3226',street_address:' 3/85 The Parade')
-Stockist.create(name:'Meticulous Beauty',city: 'Prahran', country:'Australia',postcode:'3181',street_address:'1/182 Commercial Road')
-Stockist.create(name:'Midland Gate Shopping Centre',city: 'Midland', country:'Australia',postcode:'6056',street_address:'274 Great Eastern Highway')
-Stockist.create(name:'Millewa Spa Retreat',city: 'Echuca', country:'Australia',postcode:'3564',street_address:'509-511 High Street')
-Stockist.create(name:'Miss Eyelash',city: 'Mount Eliza', country:'Australia',postcode:'3930',street_address:'25 Ranelagh Drive')
-Stockist.create(name:'Miss Eyelash',city: 'Elwood', country:'Australia',postcode:'3184',street_address:'Upstairs 1 Ormond Road')
-Stockist.create(name:'Glamazon Hair Studio',city: 'Coolalinga', country:'Australia',postcode:'835',street_address:'Shop 6 452 Stuart Hwy Coolalinga Village')
-Stockist.create(name:'Glow Beauty Therapy',city: 'Taree', country:'Australia',postcode:'2430',street_address:'Cnr Of Albert St And Pulteney St')
-Stockist.create(name:'Go Vita  Ballina Fair',city: 'Ballina', country:'Australia',postcode:'2478',street_address:'Shop 65 Ballina Fair Kerr Street')
-Stockist.create(name:'Go Vita Byron Bay',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'Shop 2 / 69 Jonson Street')
-Stockist.create(name:'Go Vita Cairns City',city: 'Cairns City', country:'Australia',postcode:'4870',street_address:'48 Aplin street')
-Stockist.create(name:'Go Vita Cessnock',city: 'Cessnock', country:'Australia',postcode:'2325',street_address:'Shop 18 Cessnock Plaza, Keene &amp; Cooper Streets')
-Stockist.create(name:'Go Vita Chermside',city: 'Chermside', country:'Australia',postcode:'4032',street_address:'Shop 126 Westfield Chermside, Gympie Road')
-Stockist.create(name:'Go Vita Coffs Central',city: 'Coff Harbour', country:'Australia',postcode:'2450',street_address:'Ground Floor Coffs Central  Harbour Drive')
-Stockist.create(name:'Go Vita Earlvillie',city: 'Earlville', country:'Australia',postcode:'4870',street_address:'Shop 126 Stockland Earlville Mulgrave Road')
-Stockist.create(name:'Go Vita Edgecliff',city: 'Edgecliff', country:'Australia',postcode:'2027',street_address:'Shop 6 East Point Food Fair')
-Stockist.create(name:'Go Vita Hervey Bay',city: 'Hervey Bay', country:'Australia',postcode:'4655',street_address:'Shop 7 Urangan Central Shopping Centre')
-Stockist.create(name:'Go Vita Katoomba',city: 'Katoomba', country:'Australia',postcode:'2780',street_address:'Shop 3B Katoomba Fair Parke Street')
-Stockist.create(name:'Go Vita Kurrajong',city: ' Kurrajong', country:'Australia',postcode:'2758',street_address:'Shop 1147 Grosevale rd')
-Stockist.create(name:'Go Vita Lane Cove',city: 'Lane Cove', country:'Australia',postcode:'2066',street_address:'15A Burns Bay Road')
-Stockist.create(name:'Go Vita Loganholme',city: 'Loganholme', country:'Australia',postcode:'4129',street_address:'Shop 64B Hyperdome Shopping Centre')
-Stockist.create(name:'Go Vita Narellan',city: 'Narellan', country:'Australia',postcode:'2567',street_address:' 326 Camden Valley Way')
-Stockist.create(name:'Go Vita Newport Beach',city: 'Newport Beach', country:'Australia',postcode:'2106',street_address:'2/355 Barrenjoey Road')
-Stockist.create(name:'Go Vita Nowra',city: 'Nowra', country:'Australia',postcode:'2541',street_address:'27 Kinghorn Street')
-Stockist.create(name:'Go Vita Salamander Bay',city: 'Salamander Bay', country:'Australia',postcode:'2317',street_address:'Shop 11 Salamander Bay Shopping Centre')
-Stockist.create(name:'Go Vita The Junction',city: 'The Junction', country:'Australia',postcode:'2291',street_address:'179 Union Street')
-Stockist.create(name:'Go Vita Toowoomba',city: 'Toowoomba', country:'Australia',postcode:'4350',street_address:'139 Herries Street')
-Stockist.create(name:'Go Vita Tweed City',city: 'Tweed City', country:'Australia',postcode:'2486',street_address:'Shop 100 Tweed City Shopping Centre Minjungbal Street')
-Stockist.create(name:'Go Vita West End',city: 'West End', country:'Australia',postcode:'4101',street_address:'Shop 14 West End Markets 69/79 Boundary Street')
-Stockist.create(name:'Hair and Beauty on Goonoo Goonoo Tania',city: 'Tamworth', country:'Australia',postcode:'2340',street_address:'229 Goonoo Goonoo Rd,')
-Stockist.create(name:'Hanna\'s Beauty',city: 'Nowra', country:'Australia',postcode:'2541',street_address:'10 Coral Sea Drive')
-Stockist.create(name:'Happy Herb Shop',city: 'Newcastle', country:'Australia',postcode:'2300',street_address:'97 Hunter Street')
-Stockist.create(name:'Healthy Life Buderim',city: 'Buderim', country:'Australia',postcode:'4556',street_address:'Shop 1 56 Burnett Street')
-Stockist.create(name:'Healthy Life Cardiff',city: 'Cardiff', country:'Australia',postcode:'2285',street_address:'Shop T9 Woolworths Cardiff Crn Macquarie &amp; Mains Rd')
-Stockist.create(name:'Healthy Life Dubbo',city: 'Dubbo', country:'Australia',postcode:'2830',street_address:'269 Darling Street')
-Stockist.create(name:'Huxley School of Make up',city: 'Burleigh Heads', country:'Australia',postcode:'4220',street_address:'1/91 West Burleigh Rd')
-Stockist.create(name:'Indulgence at Kurmond',city: 'Kurmond', country:'Australia',postcode:'2757',street_address:'Shop 3, 519 Bells Line of Road')
-Stockist.create(name:'Ingenue  skin &amp; Massage',city: 'Milton', country:'Australia',postcode:'2538',street_address:'3/97 Princes HWY')
-Stockist.create(name:'Isis Day Spa',city: 'Burrill Lake', country:'Australia',postcode:'2539',street_address:'1 Commonwealth Avenue')
-Stockist.create(name:'Jess\'s Hair and Makeup',city: 'Blacktown', country:'Australia',postcode:'2148',street_address:'83 Stephen St')
-Stockist.create(name:'Jessica Jane - Paramedical &amp; Natural Beauty Therapy',city: 'Dubbo', country:'Australia',postcode:'2830',street_address:'Suite 3/88-90 Macquarie Street')
-Stockist.create(name:'Pure Beauty by Angie Beauty and Hair ',city: 'Fig Tree', country:'Australia',postcode:'2525',street_address:'Westfield Shoppingtown Shop 45 Princes Hwy')
-Stockist.create(name:'Le Body Beaute',city: 'Brighton le Sand', country:'Australia',postcode:'2216',street_address:'Shop 2, 251-269 Bay Street')
-Stockist.create(name:'LIPSTICK REPUBLIC',city: 'Aspendale', country:'Australia',postcode:'3195',street_address:'PO BOX 7011')
-Stockist.create(name:'LYNS SKIN CLINIC',city: 'Dapto', country:'Australia',postcode:'2530',street_address:'36 Baan Baan Street')
-Stockist.create(name:'Madame Butterfly',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'Shop 11 Feros Arcade')
-Stockist.create(name:'Magic Mountain Health Foods',city: 'Murwillumbah', country:'Australia',postcode:'2484',street_address:'Shop 4 10-16 Brisbane Street')
-Stockist.create(name:'Mink Hair &amp; Beauty',city: 'Wagga Wagga', country:'Australia',postcode:'2650',street_address:'69 Coleman Steet')
-Stockist.create(name:'Mr Vitamin Go Vita',city: 'Chatswood', country:'Australia',postcode:'2067',street_address:'324 Victoria Ave')
-Stockist.create(name:'Muswellbrook Nail And Beauty',city: 'Sandy Hollow', country:'Australia',postcode:'2333',street_address:'1460 Giants Creek Road')
-Stockist.create(name:'Natural Beauty Skin Clinic',city: 'Lavington', country:'Australia',postcode:'2641',street_address:'Suite 2-334 Griffith Road')
-Stockist.create(name:'Natural Body Image',city: 'Queanbeyan', country:'Australia',postcode:'2620',street_address:'Shop16 Karabar Shopping Centre')
-Stockist.create(name:'Natural Food Store',city: 'Forest Glen', country:'Australia',postcode:'4556',street_address:'330 Mons Rd')
-Stockist.create(name:'Naturally Radiant',city: 'Tugun', country:'Australia',postcode:'4224',street_address:'PO box 238')
-Stockist.create(name:'Pharmacy Express Mt Annan',city: 'Mt Annan ', country:'Australia',postcode:'2567',street_address:'1 Main Street')
-Stockist.create(name:'Meadow Heights Pharmacy',city: 'Meadow Heights', country:'Australia',postcode:'3048',street_address:'Shop 5 Meadow Heights Shopping Centre Paringa Boulevard')
-Stockist.create(name:'Highlands Pharmacy Select',city: 'Craigieburn', country:'Australia',postcode:'3064',street_address:'Shop 9, Stockland Highlands 300 Grand Boulevard')
-Stockist.create(name:'Pharmacy Select',city: 'Mill Park ', country:'Australia',postcode:'3082',street_address:'G 65, 415 McDonalds Road')
-Stockist.create(name:'Lyndarum Pharmacy Select',city: 'Epping North', country:'Australia',postcode:'3076',street_address:'Shop T-7 Epping North Shopping Centre 2 Lyndarum Drive')
-Stockist.create(name:'Pharmacy World Fawkner',city: 'Fawkner', country:'Australia',postcode:'3060',street_address:'63/65 Bonwick Street')
-Stockist.create(name:'Berwick Pharmacy',city: 'Berwick ', country:'Australia',postcode:'3806',street_address:'51 High Street')
-Stockist.create(name:'PharmaSave Pharmacy - Brentford',city: 'Forest Hill ', country:'Australia',postcode:'3131',street_address:'4-6 Brentford Square ')
-Stockist.create(name:'Pharmasave Charman Road Pharmacy',city: 'Cheltenham', country:'Australia',postcode:'3192',street_address:'322 Charman Road')
-Stockist.create(name:'Pharmasave Mountain Gate Pharmacy',city: 'Ferntree Gully', country:'Australia',postcode:'3156',street_address:'29 Mountain Gate Shopping Centre')
-Stockist.create(name:'Pharmasave Pharmacy Northcote',city: '3070', country:'Australia',postcode:'3070',street_address:'Shop 5, 3 Separation Street')
-Stockist.create(name:'Plaza Pharmacy Bass Hill',city: 'Bass Hill', country:'Australia',postcode:'2197',street_address:'753 Hume Highway ')
-Stockist.create(name:'Pro-health',city: 'Eltham ', country:'Australia',postcode:'3095',street_address:'Shop 21, 906 Main Road')
-Stockist.create(name:'Amcal Pharmacy Waurn Ponds',city: 'Waurn Ponds', country:'Australia',postcode:'3216',street_address:'1d/173-199 Pioneer Road')
-Stockist.create(name:'Pulse Pharmacy',city: 'Wantirna South', country:'Australia',postcode:'3152',street_address:'Shop 1060, Knox Shopping Centre. Corner Stud Road &amp; Burwood Highway')
-Stockist.create(name:'Ramai Skin and Body Care',city: 'Woodend', country:'Australia',postcode:'3442',street_address:'6 Corinella Road')
-Stockist.create(name:'Raymond\'s Pharmacy Kempsey',city: 'Kempsey', country:'Australia',postcode:'2440',street_address:'24 Smith Street')
-Stockist.create(name:'Restore Beauty &amp; Skin Clinic',city: 'Ashburton', country:'Australia',postcode:'3147',street_address:'287 High Street')
-Stockist.create(name:'Rita Abi Khalil - Lebanese Belly Dancer',city: 'Reservoir', country:'Australia',postcode:'3073',street_address:' rita.a.khalil@gmail.com')
-Stockist.create(name:'Soul Pattinson Chemist',city: 'Robina ', country:'Australia',postcode:'4230',street_address:' Robina Town Centre, Arbour Lane')
-Stockist.create(name:'Romeo\'s Organic Wholefoods',city: 'North Adelaide', country:'Australia',postcode:'5006',street_address:'71-79 O\'Connell Street')
-Stockist.create(name:'Ron Davis Pharmacy',city: 'Melton', country:'Australia',postcode:'3337',street_address:' 308-312 High Street')
-Stockist.create(name:'Rowville Lakes Pharmacy',city: 'Rowville', country:'Australia',postcode:'3178',street_address:' 2/150 Kelletts Road')
-Stockist.create(name:'Sadleirs Pharmacy',city: 'Ingham', country:'Australia',postcode:'4850',street_address:'1 Lannercost Street')
-Stockist.create(name:'Salamander Amcal Pharmacy',city: 'Salamander Bay', country:'Australia',postcode:'2317',street_address:' Salamander Shopng Centre')
-Stockist.create(name:'SCHMINK Beauty House',city: 'Altona', country:'Australia',postcode:'3018',street_address:'90 Railway Street')
-Stockist.create(name:'Scone Chemist',city: 'Scone', country:'Australia',postcode:'2337',street_address:'153 Kelly Street')
-Stockist.create(name:'Naturally Safe',city: 'Clayton', country:'Australia',postcode:'3168',street_address:'71 Manton Road')
-Stockist.create(name:'Scott-Dibben Chemist',city: 'Kotara ', country:'Australia',postcode:'2289',street_address:'Shop 1060 Westfield')
-Stockist.create(name:'Chemmart Pharmacy',city: 'Seaford', country:'Australia',postcode:'3198',street_address:'115A Nepean Highway')
-Stockist.create(name:'Nerinasbellezza Face and Body Studio',city: 'Seaforth', country:'Australia',postcode:'2092',street_address:'Shop 18 567 Sydney Rd')
-Stockist.create(name:'Shades Hair Studio',city: 'Glenorchy', country:'Australia',postcode:'7010',street_address:'285 Main Road')
-Stockist.create(name:'Sharkra Health &amp; Beauty',city: 'Hobart', country:'Australia',postcode:'7000',street_address:'110 Collins Street')
-Stockist.create(name:'Nimbin Emporium',city: 'Nimbin', country:'Australia',postcode:'2480',street_address:'58 Cullen St')
-Stockist.create(name:'Noreen\'s Beauty Studio',city: 'Dubbo', country:'Australia',postcode:'2830',street_address:'Shop 1, 46 Victoria St')
-Stockist.create(name:'Shop Neutral',city: 'South Yarra', country:'Australia',postcode:'3181',street_address:'Shop 6 Prahran Market 163 Commercial Road')
-Stockist.create(name:'North Nowra Beauty',city: 'North Nowra', country:'Australia',postcode:'2541',street_address:'Shop 15 North Nowra Shopping Centre')
-Stockist.create(name:'Skinfit Body &amp; Beauty',city: 'Warrnambool', country:'Australia',postcode:'3280',street_address:'150 Timor Street')
-Stockist.create(name:'Scynergy Medispa',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'16b/50 Marri Road')
-Stockist.create(name:'Soler Nails ',city: 'Ascot Vale ', country:'Australia',postcode:'3032',street_address:'41 Fisher Parade')
-Stockist.create(name:'One Room Salon',city: 'Bronte', country:'Australia',postcode:'2024',street_address:'Shop1 414 Bronte Road ')
-Stockist.create(name:'Solley Lew\'s Pharmacy',city: 'St Kilda ', country:'Australia',postcode:'3182',street_address:'39-41 Fitzroy Street')
-Stockist.create(name:'Organic Bliss Meleny',city: 'Meleny', country:'Australia',postcode:'4552',street_address:'11 Coral St')
-Stockist.create(name:'Raw Organic Australia, Brisbane  -',city: 'Sundays at Redcliffe Jetty Markets', country:'Australia',postcode:'4020',street_address:'realfoodraw@live.com.au')
-Stockist.create(name:'Soul Pattinson Chemist',city: 'Mount Druitt', country:'Australia',postcode:'2770',street_address:' Westfield Mt Druitt, 21 Luxford Road')
-Stockist.create(name:'Pure Bliss',city: 'Cowra', country:'Australia',postcode:'2794',street_address:'83 Kendal Street')
-Stockist.create(name:'Spoilt Beauty Boutique',city: 'Montmorency', country:'Australia',postcode:'3094',street_address:' 26 Were Street')
-Stockist.create(name:'Rafael At Cosmo',city: 'Double Bay', country:'Australia',postcode:'2028',street_address:'G11 2/22 Knox Street')
-Stockist.create(name:'Spraytan Queen',city: 'Doncaster ', country:'Australia',postcode:'3108',street_address:'134 Ayr Street')
-Stockist.create(name:'St Helena Amcal Pharmacy',city: 'Diamond Creek', country:'Australia',postcode:'3089',street_address:'Shop 3, St Helena Market Place, Aqueduct Road')
-Stockist.create(name:'Star Skin Body Beauty',city: 'Nobby Beach', country:'Australia',postcode:'4218',street_address:'Level 2, 17 Lavarack Road')
-Stockist.create(name:'Stud Park Amcal ',city: 'Rowville', country:'Australia',postcode:'3178',street_address:'Shop 36 Stud Park Shopping Centre')
-Stockist.create(name:'Revive with Jo',city: 'Gerringong', country:'Australia',postcode:'2534',street_address:'29 Saxonia Road')
-Stockist.create(name:'Rouche Boutique',city: 'Moorebank', country:'Australia',postcode:'2170',street_address:'9/153-155 Nuwarra Rd')
-Stockist.create(name:'Studio Village Pharmacy',city: 'Oxenford', country:'Australia',postcode:'4210',street_address:'Studio Drive')
-Stockist.create(name:'Styles On South',city: 'Wodonga ', country:'Australia',postcode:'3690',street_address:'25 South Street')
-Stockist.create(name:'Sally Richardson Make Up',city: 'South Melbourne ', country:'Australia',postcode:'3205',street_address:'337 Clarendon St')
-Stockist.create(name:'Salus Spa &amp; Beauty',city: 'Manly', country:'Australia',postcode:'2095',street_address:'Suite 18, 74-78 The Corso')
-Stockist.create(name:'Caxton Lane Amcal Pharmacy',city: 'Petrie Terrace', country:'Australia',postcode:'4000',street_address:'Shop 16 61 Petrie Terrace')
-Stockist.create(name:'Sasha\'s Hair',city: 'Bondi', country:'Australia',postcode:'2026',street_address:'215 Bondi Rd')
-Stockist.create(name:'Express Discount Pharmacy Logan Hyperdome',city: 'Brisbane ', country:'Australia',postcode:'4129',street_address:'Shop 1-2 Logan Hyperdome, Corner Pacific Highway &amp; Bryants Road')
-Stockist.create(name:'Friendlies Chemists Subiaco',city: 'Subiaco', country:'Australia',postcode:'6008',street_address:'136-142 Rokeby Road')
-Stockist.create(name:'Scruples Hair &amp; Beauty',city: 'NOWRA', country:'Australia',postcode:'2541',street_address:'SHOP 8A 45-53 KINGHORNE STREET')
-Stockist.create(name:'Skin Essence',city: 'LYNEHAM', country:'Australia',postcode:'2602',street_address:'33/193 Mouat Street')
-Stockist.create(name:'Good Life Health Stores',city: 'Ellenbrook', country:'Australia',postcode:'6069',street_address:'Shop T8 The shops')
-Stockist.create(name:'Skin Perfection Boutique',city: 'Carlingford', country:'Australia',postcode:'2118',street_address:'Shop 3, 14-20 Carmen Drive')
-Stockist.create(name:'Skin Plus',city: 'Pymble', country:'Australia',postcode:'2073',street_address:'95 Grandview Street,')
-Stockist.create(name:'St George Pharmacy',city: 'St George', country:'Australia',postcode:'4487',street_address:'103 Victoria Street')
-Stockist.create(name:'Skinwear Pty Ltd trading as Beauty Me',city: 'Galston', country:'Australia',postcode:'2159',street_address:'PO Box 404')
-Stockist.create(name:'Smithfield Go-Vita',city: 'Smithfield', country:'Australia',postcode:'4878',street_address:'Shop 151 Smithfield Centre Captain Cook Hwy ')
-Stockist.create(name:'Spa Veda',city: 'Lennox head', country:'Australia',postcode:'2478',street_address:'66 Ballina st')
-Stockist.create(name:'Stacey\'s Secret Beauty Salon',city: 'Collaroy Plateau', country:'Australia',postcode:'2097',street_address:'Shop 4D 65 Veterans Parade')
-Stockist.create(name:'Superstyle',city: 'Mawson', country:'Australia',postcode:'2607',street_address:'Shop 2 South Lands Shopping Centre 2/ 22 Mawson Pl, ')
-Stockist.create(name:'The Beauty Bar',city: 'Brunswick Heads', country:'Australia',postcode:'2483',street_address:'3/32 Mullumbimbi St')
-Stockist.create(name:'Tina Kays Beauty',city: 'Maitland', country:'Australia',postcode:'2320',street_address:'52 Sempill Street')
-Stockist.create(name:'Total Bliss Body Spa',city: 'Wollongong', country:'Australia',postcode:'2500',street_address:'114 Kembla Street')
-Stockist.create(name:'Totally Fab',city: 'Cardiff', country:'Australia',postcode:'2285',street_address:'191B Main Rd')
-Stockist.create(name:'Wellbeing Women',city: 'Springwood', country:'Australia',postcode:'2777',street_address:'95 Burns Rd')
-Stockist.create(name:'Wild Rose Organics',city: 'BUNGENDORE', country:'Australia',postcode:'2621',street_address:'2/38 ELLENDON ST,')
-Stockist.create(name:'xternalbeauty',city: 'Arana Hills', country:'Australia',postcode:'4054',street_address:'4 Chatswood Crt')
-Stockist.create(name:'Brallis AB',city: 'Vasterbotten', country:'Sweden',postcode:'SE904 22',street_address:'Norre Obbola Vagen 89')
-Stockist.create(name:'Cocktail Cosmetics Ltd',city: 'West Midlands', country:'United Kingdom',postcode:'B75',street_address:'Vision Point - Suite 21A, Vaughan Trading Estate Sedgley Rd East')
-Stockist.create(name:'Crave Beauty',city: 'Grand Blanc', country:'United States',postcode:'48439',street_address:'9186 Meadowland Drive')
-Stockist.create(name:'Eyecon Bahamas',city: 'Reston VA', country:'United States',postcode:'20191',street_address:'11961 Barrel Cooper Ct')
-Stockist.create(name:'Glamourbox',city: 'Mr. Manolo Ona Valle Verde  Pasig City', country:'Philippines',postcode:'1600',street_address:'16 Malipajo St.')
-Stockist.create(name:'Inside Out Beauty Bar',city: 'Bellmore N.Y', country:'United States',postcode:'11710',street_address:'2789 Merrick Road')
-Stockist.create(name:'Make up by Rory',city: 'Miami', country:'United States',postcode:'33137',street_address:'2001 Biscayne Blvd 117/77')
-Stockist.create(name:'ROOTS the Beauty Underground',city: 'Laguna Beach', country:'United States',postcode:'92651',street_address:'384 Forest Ave. #9')
-Stockist.create(name:'Soul Patterson Hoppers Crossing',city: 'Hoppers Crossing', country:'Australia',postcode:'3029',street_address:'Shop 3, 24-48 Old Geelong Rd')
-Stockist.create(name:'Pharmacy Select Roxburgh',city: 'Roxburgh Park', country:'Australia',postcode:'3064',street_address:'Shop 2 Roxburgh Park Shopping Centre Cnr David Munroe Drive &amp; Somerton Road')
-Stockist.create(name:'Terry White Annandale',city: 'Annandale', country:'Australia',postcode:'4814',street_address:'Shop 1 Annandale Central Shopng Cntr, Cnr University Rd &amp; MacArthur Drive')
-Stockist.create(name:'Ralphs Pharmacy',city: 'Campbelltown', country:'Australia',postcode:'2560',street_address:'246 Queen St')
-Stockist.create(name:'Vaucluse Pharmacy',city: 'Vaucluse', country:'Australia',postcode:'2030',street_address:'93 New South Head Rd  ')
-Stockist.create(name:'Pharmacy Select Wyndham',city: 'Tarneit', country:'Australia',postcode:'3029',street_address:'Shp 5, Wyndham Village Shpg Cntr Cnr Sayers &amp; Morris Rds ')
-Stockist.create(name:'Optimal Pharmacy Plus Carine',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'5/ 485 Beach Rd')
-Stockist.create(name:'Stay Healthy',city: 'Morley', country:'Australia',postcode:'6062',street_address:'Shop 41 Galleria Morley, Russell St')
-Stockist.create(name:'Ocean Reef Pharmacy',city: 'Ocean Reef', country:'Australia',postcode:'6027',street_address:'Cnr Marina Blvd &amp; Venturi Drv ')
-Stockist.create(name:'Go Vita Southern Cross',city: ' Melbourne', country:'Australia',postcode:'3008',street_address:'Level 1, CS 11 Southern Cross Station  99 Spencer St ')
-Stockist.create(name:'Derwent Park Pharmacy',city: 'Derwent Park', country:'Australia',postcode:'7009',street_address:'254 Main Rd')
-Stockist.create(name:'Terry White Yarrawonga',city: 'Yarrawonga', country:'Australia',postcode:'3730',street_address:'54 Belmore St')
-Stockist.create(name:'Terry White  Cairns Central',city: 'Cairns', country:'Australia',postcode:'4870',street_address:'Cairns Central 1 - 21 McLeod St, ')
-Stockist.create(name:'Chemplus Newton',city: 'Newton', country:'Australia',postcode:'5074',street_address:'Shop 6&amp;7 Central Shopping Centre ,CNR Gorge &amp; Newton Rds')
-Stockist.create(name:'Beaufort St 24 Hour Chemist',city: 'Mt Lawley', country:'Australia',postcode:'6050',street_address:'647 Beaufort St')
-Stockist.create(name:'Go Vita Ballarat',city: 'Ballarat', country:'Australia',postcode:'3350',street_address:'7 Sturt St')
-Stockist.create(name:'Stay Healthy Subiaco',city: 'Subiaco', country:'Australia',postcode:'6008',street_address:'Shop 26 Crossways Shopping Centre Rokeby Rd')
-Stockist.create(name:'My Healthy Place Floreat',city: 'Floreat', country:'Australia',postcode:'6014',street_address:'Shop 71a Howtree Way')
-Stockist.create(name:'Denmark Pharmacy',city: 'Denmark', country:'Australia',postcode:'6333',street_address:'20 Strickland St')
-Stockist.create(name:'Curtis Adams Chemmart',city: 'Wangaratta', country:'Australia',postcode:'3572',street_address:'46 Reid St')
-Stockist.create(name:'Go Vita Mt Barker',city: 'Mt Barker', country:'Australia',postcode:'5251',street_address:'Cental Mall Shop 9, McLaren St ')
-Stockist.create(name:'Prahran Health Food',city: 'Prahran', country:'Australia',postcode:'3181',street_address:'201 Commercial Road')
-Stockist.create(name:'Ibuki Health',city: 'Noosa Heads', country:'Australia',postcode:'4567',street_address:'71/6 Quamby Place')
-Stockist.create(name:'De La Rue',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'Shop 13 90 Main St')
-Stockist.create(name:'Healthy Life Kawana',city: 'Budina', country:'Australia',postcode:'4575',street_address:'Shop 348 Kawana Shopping World Nicklin Way')
-Stockist.create(name:'Beauty by Danielle',city: 'Wollongong', country:'Australia',postcode:'2500',street_address:'34 Atchison Street')
-Stockist.create(name:'Burnside Village Chemmart',city: 'Glenside', country:'Australia',postcode:'5065',street_address:'Shop 111, 447 Portrush Rd')
-Stockist.create(name:'Beaconsfield Community Phy',city: 'Beaconsfield', country:'Australia',postcode:'6163',street_address:'Shop 15 Winterfold S/C 115 Lefroy Rd')
-Stockist.create(name:'Brows &amp; Lash Corner',city: 'South Yarra', country:'Australia',postcode:'3141',street_address:'Shop 4, 430-436 Chapel St')
-Stockist.create(name:'Go Vita Fairview Park',city: 'Fairview Park', country:'Australia',postcode:'5126',street_address:'Shop 8, 325 Hancock Rd')
-Stockist.create(name:'Health Kick Whitfords',city: 'Hillarys', country:'Australia',postcode:'6025',street_address:'Shop 234 Whitford City S/C Whitfords Ave')
-Stockist.create(name:'Chemcoast Airlie Beach D&amp;N Phyarmacy',city: 'Airlie Beach', country:'Australia',postcode:'4802',street_address:'366 Shute Harbour Rd')
-Stockist.create(name:'Discount Drug Store - Aitkenvale',city: 'Aitkenvale', country:'Australia',postcode:'4814',street_address:'268 Ross River Rd')
-Stockist.create(name:'Victoria Melissas Pharmacy',city: 'Clayton', country:'Australia',postcode:'3168',street_address:'Shop 1/1310 Centre Rd')
-Stockist.create(name:'Fountain of Youth ',city: 'Alderley', country:'Australia',postcode:'4051',street_address:'126 Banks Street')
-Stockist.create(name:'Reflections Day Spa  ',city: 'Williamstown', country:'Australia',postcode:'3016',street_address:'143 Railway Place')
-Stockist.create(name:'Kingscliffe Beauty &amp; Massage',city: 'Kingscliff', country:'Australia',postcode:'2487',street_address:'11/60 Marine Parade')
-Stockist.create(name:'Red Rose Beauty',city: 'West Hoxton', country:'Australia',postcode:'2171',street_address:'117 Carmichael Drive')
-Stockist.create(name:'Go Vita Maryborough',city: 'Maryborough', country:'Australia',postcode:'4650',street_address:'Shop 2, 239 Adelaide Street')
-Stockist.create(name:'Heavenlee',city: 'Highland Park', country:'Australia',postcode:'4211',street_address:'45 Renfrew Drive')
-Stockist.create(name:'Beauty Worx',city: 'Wagga Wagga', country:'Australia',postcode:'2650',street_address:'4/56 Forsyth Street ')
-Stockist.create(name:'At Home Beauty Therapy',city: 'Balmoral', country:'Australia',postcode:'4171',street_address:'7/77 Bilyana Street')
-Stockist.create(name:'Indulge Beauty Bar',city: 'Kambah', country:'Australia',postcode:'2902',street_address:'Shop 2-3 Carleton Street')
-Stockist.create(name:'Renew Skin &amp; Body Clinic',city: 'Picton', country:'Australia',postcode:'2571',street_address:'161a Argyle Street')
-Stockist.create(name:'Bresilienne Wax Lounge',city: 'Albury ', country:'Australia',postcode:'2640',street_address:'Shop 8, 586 Dean Street')
-Stockist.create(name:'Belle Femme',city: 'Narraweena', country:'Australia',postcode:'2099',street_address:'42 Nimbey Avenue')
-Stockist.create(name:'Capalaba Park Amcal Max',city: 'Capalaba', country:'Australia',postcode:'4157',street_address:'64-45 Redland Bay Rd')
-Stockist.create(name:'Deep Cleanse',city: 'Torquay', country:'Australia',postcode:'3228',street_address:'Shop 5, 15 Bell St,')
-Stockist.create(name:'Euroa Pharmacy',city: 'Euroa', country:'Australia',postcode:'3666',street_address:'26 Binney St')
-Stockist.create(name:'IMAGE ONE BEAUTY',city: 'Roley Stone', country:'Australia',postcode:'6111',street_address:'33 Buchanan Road')
-Stockist.create(name:'Karen Martiensen',city: 'Nobby Beach', country:'Afghanistan',postcode:'4218',street_address:'24 Petrel Ave,')
-Stockist.create(name:'Manly West Chammart Pharmacy',city: 'Manly', country:'Australia',postcode:'4179',street_address:'S10 Crn Manly &amp; Hargreaves Roads')
-Stockist.create(name:'Mornington Amcal',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'113 Main St')
-Stockist.create(name:'Mosman Drive in Chemist',city: 'Mosman Park ', country:'Australia',postcode:'6012',street_address:'590 Stirling Hwy, ')
-Stockist.create(name:'Mount Evelyn Pharmacy',city: 'Mt Evelyn', country:'Australia',postcode:'3796',street_address:'35 Wray Crescent')
-Stockist.create(name:'Mt Barker Pharmacy',city: 'Mt Barker', country:'Australia',postcode:'6324',street_address:'23 Lowood Road')
-Stockist.create(name:'Mt Isa Pharmacy',city: 'Mt Isa', country:'Australia',postcode:'4825',street_address:'Shop 1/80 Camooweal Street')
-Stockist.create(name:'Myrtleford Pharmacy',city: 'Myrtleford', country:'Australia',postcode:'3737',street_address:'43 Clyde St')
-Stockist.create(name:'Narrabri Pharmacy',city: 'Narrabri', country:'Australia',postcode:'2390',street_address:'127 Maitland St')
-Stockist.create(name:'Natasha Skin &amp; Body',city: 'South Bank ', country:'Australia',postcode:'3006',street_address:'Shop 14 89 City Road ')
-Stockist.create(name:'Neutral Bay Pharmacy',city: 'Neutral Bay ', country:'Australia',postcode:'2089',street_address:'177 Military Rd ')
-Stockist.create(name:'Nicole\'s Angelic Beauty Therapy',city: 'Shepparton ', country:'Australia',postcode:'3630',street_address:'13 Chevrolet Ave ')
-Stockist.create(name:'Nightingales Pharmacy Erskine ',city: 'Mandurah', country:'Australia',postcode:'6210',street_address:'Shop 4 / Erskine Central Shopping Centre, Old Coast Road, ')
-Stockist.create(name:'Nightingales Pharmacy Kalamanda ',city: 'Kalamanda ', country:'Australia',postcode:'6076',street_address:'123 canning Rd, ')
-Stockist.create(name:'Noosa holistic Health',city: 'Noosaville ', country:'Australia',postcode:'4566',street_address:'35 Mary Street ')
-Stockist.create(name:'North Brighton Pharmacy ',city: 'Brighton ', country:'Australia',postcode:'3186',street_address:'326 Bay Street ')
-Stockist.create(name:'Ogg\'s Pharmacy',city: 'South Yarra ', country:'Australia',postcode:'3141',street_address:'189 Toorak Road')
-Stockist.create(name:'Olga Hardy Beauty Therapy',city: 'Pascoe Vale ', country:'Australia',postcode:'3044',street_address:'3 Elgin Street')
-Stockist.create(name:'Om Day Spa',city: 'Yallingup', country:'Australia',postcode:'6282',street_address:'3/40 Hemsley Road')
-Stockist.create(name:'Organic Salon Dimentions',city: 'Terry Hills ', country:'Australia',postcode:'2084',street_address:'6/19 Yulong Avenue ')
-Stockist.create(name:'Oria Massa Holistic Centre',city: 'Northcote ', country:'Australia',postcode:'3070',street_address:'579 High Street ')
-Stockist.create(name:'Our Corner Pharmacy',city: 'Belmont', country:'Australia',postcode:'3216',street_address:'145 High St ')
-Stockist.create(name:'Outshine',city: 'Fortitude Valley ', country:'Australia',postcode:'4006',street_address:'Shop 3 Centro on James 39 James St ')
-Stockist.create(name:'Paloma ',city: 'Bendigo ', country:'Australia',postcode:'3550',street_address:'461 Hargreaves st ')
-Stockist.create(name:'Pamper Clinic',city: 'Newtown ', country:'Australia',postcode:'3220',street_address:'313 Packington St ')
-Stockist.create(name:'Paradise Point Pharmacy',city: 'Paradise Point ', country:'Australia',postcode:'4216',street_address:'30 The Esplanade ')
-Stockist.create(name:'Pardeys Belmont Village Pharmacies',city: 'Belmont', country:'Australia',postcode:'3216',street_address:'10/ 65 High St')
-Stockist.create(name:'Perry Moshidis Pharmacy',city: 'Richmond  ', country:'Australia',postcode:'3121',street_address:'22/246 Church St, ')
-Stockist.create(name:'Pharmacy360 Stotts Corner',city: 'Hawthorn  ', country:'Australia',postcode:'3122',street_address:'Cnr Riversdale &amp; Glenferrie Roads')
-Stockist.create(name:'Quality Pharmacy Knox',city: 'Wantirna South ', country:'Australia',postcode:'3152',street_address:'Shop 1060, Knox S/C. Cnr Stud Rd &amp; Burwood Hwy, ')
-Stockist.create(name:'Seaford Pharmacy',city: 'Seaford ', country:'Australia',postcode:'3198',street_address:'115 Nepean Hwy ')
-Stockist.create(name:'Seeds of Wellness',city: 'Griffith ', country:'Australia',postcode:'2680',street_address:'Shop16, Griffin Plaza, Corner Crossing &amp; Yambil Sts')
-Stockist.create(name:'Karisma Hair Studio',city: 'Torrensville ', country:'Australia',postcode:'5031',street_address:'Shop 2 158 Henley Beach Rd ')
-Stockist.create(name:'Style with Cindy',city: 'Chadstone ', country:'Australia',postcode:'3148',street_address:'Suite 1,Level 2 Boarder Tower')
-Stockist.create(name:'Sunshine Plaza Pharmacy',city: 'Sunshine', country:'Australia',postcode:'3020',street_address:'Sunshine Plaza S/C, Shop 38-39 Hampshire Rd, ')
-Stockist.create(name:'Super Saver Sunshine',city: 'Sunshine ', country:'Australia',postcode:'3020',street_address:'Shop 45 Sunshine Market Place ')
-Stockist.create(name:'Surfers Paradise Midnight',city: 'Surfers Paradise', country:'Australia',postcode:'4217',street_address:'Shop 36, 3221 Surfers Paradise Boulevard ')
-Stockist.create(name:'Swan Hill Beauty Salon',city: 'Swan Hill ', country:'Australia',postcode:'3585',street_address:'261 Campbell Street ')
-Stockist.create(name:'Swansea Guardian',city: 'Swansea ', country:'Australia',postcode:'2281',street_address:'148 Pacific Hwy 	')
-Stockist.create(name:'Terry White Mermaid Waters',city: 'Mermaid Waters ', country:'Australia',postcode:'4218',street_address:'Shop C28, Q Super Centre, Cnr Bermuda &amp; Markeri Streets ')
-Stockist.create(name:'Terry White Albury',city: 'Albury ', country:'Australia',postcode:'2640',street_address:'543 Dean St ')
-Stockist.create(name:'Terry White Clifford Gardens Toowoomba',city: 'Toowoomba', country:'Australia',postcode:'4350',street_address:'S47 Clifford Gardens S/C  cnr James St &amp; Anzac Ave')
-Stockist.create(name:'Terry White Hamilton',city: 'Hamilton', country:'Australia',postcode:'2292',street_address:'119-125 Beaumont St ')
-Stockist.create(name:'Terry White Mitchelton',city: 'Mitchelton ', country:'Australia',postcode:'4053',street_address:'Shop 86 Brookside S/centre, 159 Osborne Rd,')
-Stockist.create(name:'Terry White Myer Centre',city: 'Brisbane ', country:'Australia',postcode:'4000',street_address:'Shop 103, Myer Centre Level E, 91 Queen St ')
-Stockist.create(name:'Terry White Pharmacy Gladstone Park ',city: 'Gladstone Park', country:'Australia',postcode:'3043',street_address:'Shop 104, Gladstone Park Shopping Centre/Gladstone Park Dr, ')
-Stockist.create(name:'Terry White Pharmacy Sunbury',city: 'Sunbury ', country:'Australia',postcode:'3429',street_address:' 83/85 Evans Arcade, ')
-Stockist.create(name:'Terry White Wodonga',city: 'Wodonga ', country:'Australia',postcode:'3690',street_address:'127 High St, ')
-Stockist.create(name:'Terry White Chemists Carindale Upper',city: 'Carindale', country:'Australia',postcode:'4152',street_address:'Shop 2069 Westfield S/centre,  Cnr Creek &amp; Old Cleveland Roads')
-Stockist.create(name:'Terry White Garden City',city: 'UPPER MT GRAVATT ', country:'Australia',postcode:'4122',street_address:' Shop 2084. Garden City Shopping Centre, Cnr Kessels &amp; Logan Roads ')
-Stockist.create(name:'Terry White Taigum',city: 'Taigum ', country:'Australia',postcode:'4018',street_address:'Cnr Church &amp; Beams Road ')
-Stockist.create(name:'The Berry Pharmacy',city: 'Berry ', country:'Australia',postcode:'2535',street_address:'113 Queen St')
-Stockist.create(name:'Chai Color Me Hairdressing',city: 'Essendon  ', country:'Australia',postcode:'3041',street_address:'295 Buckley Street')
-Stockist.create(name:'The Essence Of A Woman',city: 'Kew ', country:'Australia',postcode:'3101',street_address:'323 High Street ')
-Stockist.create(name:'The Greater Discount',city: 'Broadmeadows ', country:'Australia',postcode:'3047',street_address:'1/11-17 Pearcedale Parade ')
-Stockist.create(name:'The Green Disp Blackwood',city: 'Blackwood ', country:'Australia',postcode:'5051',street_address:'202 Main Rd ')
-Stockist.create(name:'The Green Disp Erindale',city: 'Kensington Gardens ', country:'Australia',postcode:'5068',street_address:'361A Kensington Rd ')
-Stockist.create(name:'The Hair Lounge',city: 'Launceston ', country:'Australia',postcode:'7250',street_address:'Level 1 125A Brisbane Street ')
-Stockist.create(name:'The Whole Body',city: 'Warragul ', country:'Australia',postcode:'3820',street_address:'Shop 1 /126 Albert rd ')
-Stockist.create(name:'Thomas &amp; Chong',city: 'Castlemaine ', country:'Australia',postcode:'3450',street_address:'2 FREDERICK STREET')
-Stockist.create(name:'Tropical Beauty',city: 'Brinsmead ', country:'Australia',postcode:'4870',street_address:'19 Brady Close ')
-Stockist.create(name:'Tuncurry',city: 'Tuncurry ', country:'Australia',postcode:'2428',street_address:'70 Manning St, ')
-Stockist.create(name:'You Save Chemist Avalon',city: 'AVALON ', country:'Australia',postcode:'2107',street_address:'60 Old Barrenjoey Rd ')
-Stockist.create(name:'Sabastian Salons ',city: 'Sydney ', country:'Australia',postcode:'2000',street_address:'Lv 9 117 Macquarie Street ')
-Stockist.create(name:'Catwalk Hair &amp; Beauty Paramatta ',city: 'Parramatta ', country:'Australia',postcode:'2150',street_address:'Shop 5048 Westfield Shopping Centre, Level 5. 159-175 Church Street ')
-Stockist.create(name:'Surfcoast Wholefoods',city: 'Torquay', country:'Australia',postcode:'3228',street_address:'Shop 104, 41 Bristol Road')
-Stockist.create(name:'Aunt Maggies Balaclava',city: 'Balaclava', country:'Australia',postcode:'3183',street_address:'270 Carlise Street')
-Stockist.create(name:'Aunt Maggies Malvern',city: 'Malvern', country:'Australia',postcode:'3144',street_address:'72 Glenferrie Road')
-Stockist.create(name:'Flannerys Wynnum',city: 'Wynnum ', country:'Australia',postcode:'4178',street_address:'Shop B1 &amp; B2, 20-21 Wynnum Road, Wynnum Plaza')
-Stockist.create(name:'Makeup by Angela Paris',city: 'West Richmond', country:'Australia',postcode:'5033',street_address:'8 Dover Street')
-Stockist.create(name:'Edgewater Town Mall',city: 'Edgeworth', country:'Australia',postcode:'2285',street_address:'Shop 5, 720 Main Rd')
-Stockist.create(name:'Priceline Firle',city: 'Firle', country:'Australia',postcode:'5070',street_address:'Shop 4 Glynburn Plaza 151 Glynburn Rd')
-Stockist.create(name:'Pacific Pines Amcal Chempro',city: 'Oxenford   ', country:'Australia',postcode:'4210',street_address:'Shop 2, 14 Studio Drive')
-Stockist.create(name:'Aphrodites on the Lake',city: 'Valentine', country:'Australia',postcode:'2280',street_address:'Shop 4/28 Allambee Place')
-Stockist.create(name:'Beauty By Tasha',city: 'East Albury', country:'Australia',postcode:'2640',street_address:'108 Rivergum Drive')
-Stockist.create(name:'Livelife Pharmacy  ',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'31 Jonson Street')
-Stockist.create(name:'My Healthy Place Karrinyup',city: 'Karrinyup', country:'Australia',postcode:'6018',street_address:'Shop F36 Karrinyup Shopping Centre Karrinyup Rd')
-Stockist.create(name:'Skynergy',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'16b/50 Marri Road')
-Stockist.create(name:'Goodlife Ellenbrooke',city: 'Ellenbrook', country:'Australia',postcode:'6069',street_address:'Shop T42 ‰ÛÏThe Shops‰Û Main st,')
-Stockist.create(name:'777 Whitford‰Ûªs City Pharmacy',city: 'Hillarys', country:'Australia',postcode:'6025',street_address:'Shop 42, Westfield Whitford City, Whitfords Avenue')
-Stockist.create(name:'Chemmart Fountains Pharmacy ',city: 'Geralton', country:'Australia',postcode:'6530',street_address:'113 Marine Terrace')
-Stockist.create(name:'Optimal Carine Pharmacy Plus',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'S5/473 Beach Road')
-Stockist.create(name:'Forestlakes Pharmacy',city: 'Thornlie', country:'Australia',postcode:'6108',street_address:'Shopping Centre, Corner Forest Lakes Drive &amp; Murdoch Road')
-Stockist.create(name:'Thomsons Lake Pharmacy',city: 'Jandakot', country:'Australia',postcode:'6164',street_address:'1/850 North Lake Road')
-Stockist.create(name:'Blossoms Health Food Store',city: 'Treendale, Australind', country:'Australia',postcode:'6233',street_address:'Shop 24 Treendale Shopping Centre, The Promendade')
-Stockist.create(name:'Miami Health Solutions',city: 'Erskine', country:'Australia',postcode:'6210',street_address:'Shop 2 Erskine Shopping Centre, Cnr Old Coast Rd &amp; Oakleigh Dr')
-Stockist.create(name:'Terry White Coorparoo ',city: 'Coorparoo ', country:'Australia',postcode:'4151',street_address:'332 Old Cleveland Road ')
-Stockist.create(name:'Logan Central Plaza Pharmacy ',city: 'Logan Central ', country:'Australia',postcode:'4114',street_address:'Logan Central Shopping Plaza (K-mart Plaza) 38-74 Wembley Road ')
-Stockist.create(name:'Natures Emporium',city: 'Bundaberg', country:'Australia',postcode:'4670',street_address:'55 Bourbong Street')
-Stockist.create(name:'Hibiscus Health Market',city: 'Nambucca Heads ', country:'Australia',postcode:'2448',street_address:'Shop 7 Nambucca Plaza A1, ')
-Stockist.create(name:'Terry White - Indooroopilly',city: 'Indooroopilly ', country:'Australia',postcode:'4068',street_address:'Shop 1019, 322 Moggill Road')
-Stockist.create(name:'Healthpoint Chemist The Pines',city: 'Elanora', country:'Australia',postcode:'4221',street_address:'Shop 22, Pines Shopping Centre')
-Stockist.create(name:'Healthpoint Chemist - Tweed Heads',city: 'Tweed Heads South', country:'Australia',postcode:'2486',street_address:'Shop 115, Tweed City S/Centre , Minjumgbal Street')
-Stockist.create(name:'Sadleirs Pharmacy - Ingham',city: 'Ingham', country:'Australia',postcode:'4850',street_address:'1 Lannercost Street')
-Stockist.create(name:'Terry White - Mermaid Waters',city: 'Mermaid Waters', country:'Australia',postcode:'4218',street_address:'Shop C28, Q Super Centre - Cnr Bermuda &amp; Markeri Sts')
-Stockist.create(name:'Pardeys Eastbrooke Medical Centre Pharmacy',city: 'Belmont ', country:'Australia',postcode:'3216',street_address:' 75 -77 Roslyn Rd')
-Stockist.create(name:'Terry White - Rockhampton',city: 'Rockhampton', country:'Australia',postcode:'4701',street_address:'Shop 91B, Stockland S/C, Cnr Yamba Rd &amp; Bruce Hwy')
-Stockist.create(name:'Go Vita Boronia Park',city: 'HUNTERS HILL', country:'Australia',postcode:'2111',street_address:'99 Pittwater Road')
-Stockist.create(name:'Maple Street Co-Op',city: 'Maleny', country:'Australia',postcode:'4552',street_address:'37 Maple St')
-Stockist.create(name:'Rustic Hair Room',city: 'Geelong West', country:'Australia',postcode:'3218',street_address:'Shop 3,226 Pakington Street')
-Stockist.create(name:'The Goddess Beauty',city: 'Wahroonga', country:'Australia',postcode:'2076',street_address:'Se 2 5 Redleaf Ave')
-Stockist.create(name:'The Nail Depot',city: 'Subiaco', country:'Australia',postcode:'6008',street_address:'Village Close Shop 9, 1 Forrest St')
-Stockist.create(name:'Ooh La Lana',city: 'Somerset', country:'Australia',postcode:'7322',street_address:'63 Simpson Street')
-Stockist.create(name:'Advanced Aesthethics Australia',city: 'Caroline Springs', country:'Australia',postcode:'3023',street_address:'9/242-244 Caroline Springs Bvd')
-Stockist.create(name:'Nails Talk &amp; Beauty',city: 'Cheltenham', country:'Australia',postcode:'3192',street_address:'Unit 1 4 Coleman Crt')
-Stockist.create(name:'Lila Hair Design',city: 'Kingsville', country:'Australia',postcode:'3012',street_address:'273 Geelong Rd')
-Stockist.create(name:'Egolista',city: 'Grenfell', country:'Australia',postcode:'2810',street_address:'40 Main Street')
-Stockist.create(name:'ARGUS',city: 'HONG KONG', country:'Hong Kong SAR China',postcode:'HONG KONG',street_address:'HONG KONG')
-Stockist.create(name:'Glamour and Beauty',city: 'Glenroy', country:'Australia',postcode:'3046',street_address:'101 Wheatsheaf Rd')
-Stockist.create(name:'Aunt Maggies Fitzroy ',city: 'Fitzroy', country:'Australia',postcode:'3065',street_address:'188-196 Gertrude Street')
-Stockist.create(name:'Arundel Amcal Pharmacy - Chempro',city: 'Arundel', country:'Australia',postcode:'4214',street_address:'Shop 6, Arundel Plaza, 230-232 Napper Road')
-Stockist.create(name:'Barcaldine Pharmacy ',city: 'Barcaldine', country:'Australia',postcode:'4725',street_address:'91 Oak Street')
-Stockist.create(name:'Beerwah Soul Pattinson Chemist',city: 'Beerwah', country:'Australia',postcode:'4519',street_address:'Shop 8, Beerwah Market Place, 54 Simpson Street')
-Stockist.create(name:'Broadbeach Amcal Chempro Chemist',city: 'Broadbeach ', country:'Australia',postcode:'4218',street_address:'Oracle Building, Shop 1E / 13 Charles Avenue')
-Stockist.create(name:'Chemcoast - Airlie Beach Day &amp; Night Pharmacy',city: 'Airlie Beach ', country:'Australia',postcode:'4802',street_address:'366 Shute Harbour Road')
-Stockist.create(name:'Chemist Outlet - Townsville',city: 'Townsville', country:'Australia',postcode:'4814',street_address:'Domain Central, 5 / 143 Duckworth Street')
-Stockist.create(name:'Dicky Beach Pharmacy',city: 'Dicky Beach ', country:'Australia',postcode:'4551',street_address:'Shop 5-6 Beerburrum Street')
-Stockist.create(name:'Discount Drug Store - Pease St',city: 'Manoora', country:'Australia',postcode:'4870',street_address:'Shop 22, 159 - 161 Pease St, Piccone\'s S/Village')
-Stockist.create(name:'Discount Drug Store - Newmarket',city: 'Newmarket', country:'Australia',postcode:'4051',street_address:'Shop 106/107, Reading Newmarket, 400 Newmarket Road')
-Stockist.create(name:'Duggans Amcal Pharmacy',city: 'Warwick', country:'Australia',postcode:'4370',street_address:'Shop 10, Rose City S/World, Palmerin Street')
-Stockist.create(name:'Dupuys Amcal - North Mackay',city: 'Mackay', country:'Australia',postcode:'4740',street_address:'12-14 Grandview Drive, Greenfields')
-Stockist.create(name:'Infinity Beauty Spa',city: 'Kyabram', country:'Australia',postcode:'3620',street_address:'32 Unitt street')
-Stockist.create(name:'LiveLife Pharmacy - Byron Bay Plaza',city: 'Byron Bay ', country:'Australia',postcode:'2481',street_address:'Shop 4B, 5&amp;6, Byron Bay Plaza North, Jonson Street')
-Stockist.create(name:'Logan Central Plaza Pharmacy',city: 'Logan Central', country:'Australia',postcode:'4114',street_address:'Logan Central S/Plaza (Kmart Plaza), 38 - 74 Wembley Rd')
-Stockist.create(name:'Lucy Walker Chemmart Pharmacy',city: 'Goondiwindi', country:'Australia',postcode:'4390',street_address:'95 Marshall Street')
-Stockist.create(name:'Mt. Isa Pharmacy First',city: 'Mt Isa ', country:'Australia',postcode:'4825',street_address:'Shop 1, 80 Camooweal Street')
-Stockist.create(name:'Range Pharmacy',city: 'Toowoomba ', country:'Australia',postcode:'4350',street_address:'11A James Street')
-Stockist.create(name:'Robina Easy-T Centre Amcal Pharmacy',city: 'Robina', country:'Australia',postcode:'4226',street_address:'Shop 15, Robina Easy-T Centre, Cnr Scottsdale Rd &amp; Christine Ave')
-Stockist.create(name:'Robina Soul Pattinson Chemist',city: 'Robina', country:'Australia',postcode:'4226',street_address:'Shop AD.4 58 / 56 Robina Town Centre')
-Stockist.create(name:'Sadleirs Pharmacy - Ingham',city: 'Ingham ', country:'Australia',postcode:'4850',street_address:'1 Lannercost Street')
-Stockist.create(name:'Springfield Day &amp; Night Amcal Chemist',city: 'Springfield', country:'Australia',postcode:'4300',street_address:'Springfield Fair S/C, Cnr Springfield Parkway &amp; Topaz Rd')
-Stockist.create(name:'Surfers Paradise Midnight Amcal Chemist',city: 'Surfers Paradise ', country:'Australia',postcode:'4217',street_address:'Shop 36, 3221 Surfers Paradise Boulevard')
-Stockist.create(name:'Terry White - Annandale',city: 'Annandale ', country:'Australia',postcode:'4814',street_address:'Shop 1, Annandale S/C, Cnr University Rd &amp; McArthur Dr')
-Stockist.create(name:'Terry White - Brookside Centre',city: 'Mitchelton', country:'Australia',postcode:'4053',street_address:'Shop 86 ,Brookside Shopping Centre, 159 Osborne Road')
-Stockist.create(name:'Terry White - Cairns Central',city: 'Cairns', country:'Australia',postcode:'4870',street_address:'Shop 112, Cairns Central S/Ctr,  Cnr Aplin &amp; McLeod Sts')
-Stockist.create(name:'Terry White - Carindale Upper',city: 'Carindale ', country:'Australia',postcode:'4152',street_address:'Shop 2069, Westfield S/Town, Cnr Creek &amp; Old Cleveland')
-Stockist.create(name:'Terry White - Carindale Lower',city: 'Carindale', country:'Australia',postcode:'4152',street_address:'Shop 1112, Westfield S/Town, Creek &amp; Old Cleveland')
-Stockist.create(name:'Terry White - Chermside',city: 'Chermside', country:'Australia',postcode:'4032',street_address:'Shop 334/36 Westfield Chermside, Corner Gympie &amp; Hamilton Roads')
-Stockist.create(name:'Terry White - Clifford Gardens Toowoomba',city: 'Toowoomba ', country:'Australia',postcode:'4350',street_address:'Shop 47, Clifford Gardens S/C, Cnr James St &amp; Anzac Ave')
-Stockist.create(name:'Terry White - Clifton Beach',city: 'Clifton Beach ', country:'Australia',postcode:'4879',street_address:'Shop 14, Captain Cook Hwy, Clifton Village S/Centre')
-Stockist.create(name:'Terry White - Garden City',city: 'Mt Gravatt', country:'Australia',postcode:'4122',street_address:'Shop 2084, Garden City S/C, Cnr Logan &amp; Kessels Rd')
-Stockist.create(name:'Pharaohs Treasure',city: 'Deltona', country:'United States',postcode:'FL',street_address:'2723 Timberlake Ave')
-Stockist.create(name:'Go Vita Tenterfield',city: 'TENTERFIELD,', country:'Australia',postcode:'2372',street_address:'230 Rouse Street')
-Stockist.create(name:'Grub Organics',city: 'Pacific Paradise', country:'Australia',postcode:'4564',street_address:'20c Timari St')
-Stockist.create(name:'Natural Food Market Neutral Bay',city: 'Neutral Bay', country:'Australia',postcode:'2089',street_address:'184 Military Rd')
-Stockist.create(name:'Stay Healthy Morley',city: 'Morley', country:'Australia',postcode:'6062',street_address:'Shop 41, Galleria Shopping Centre, Russell Street')
-Stockist.create(name:'Health Kick Rockingham',city: 'Rockingham', country:'Australia',postcode:'6068',street_address:'Shop G081 Rockingham City S/C, 1 Council Ave')
-Stockist.create(name:'Health Kick Joondalup',city: 'Joondalup', country:'Australia',postcode:'6127',street_address:'Shop T101, Lakeside Joondalup S/C')
-Stockist.create(name:'Healthy Choice Carousel',city: 'Cannington', country:'Australia',postcode:'6107',street_address:'Shop T1101 Carousel S/Ctr, Albany Highway')
-Stockist.create(name:'Stay Healthy Belmont',city: 'Belmont', country:'Australia',postcode:'6104',street_address:'Belmont Forum S/C, Abernethy Road')
-Stockist.create(name:'Goodlife Warwick',city: 'Warwick', country:'Australia',postcode:'6024',street_address:'Shop 4 Centrol Warwick S/C, Beach Road')
-Stockist.create(name:'Stay Healthy Landsadale',city: 'Madeley', country:'Australia',postcode:'6055',street_address:'Shop 11, Kingsway City Sh/Ctr, Cnr Wanneroo/Hepburn Ave')
-Stockist.create(name:'Stay Healthy Warnbro',city: 'Warnbro Sound', country:'Australia',postcode:'6169',street_address:'Shop 36 Warnbro Fair S/C, Warnbro Sound Avenue')
-Stockist.create(name:'Health Kick Raine Square',city: 'Perth', country:'Australia',postcode:'6000',street_address:'Shop 10 TM Raine Square, 306 Murray Street')
-Stockist.create(name:'Healthy Choice Armadale',city: 'Armadale', country:'Australia',postcode:'6112',street_address:'Shop 77, Armadale Shopping Centre, 224 Jull Street')
-Stockist.create(name:'Geegelup General Supplies',city: 'Bridgetown', country:'Australia',postcode:'6255',street_address:'130 Hampton Street')
-Stockist.create(name:'Tumut Pharmacy',city: 'Tumut', country:'Australia',postcode:'2720',street_address:'69 Wynyard St')
-Stockist.create(name:'Callaghans Campus Pharmacy',city: 'Callaghan', country:'Australia',postcode:'2308',street_address:'Shop 110b/ 130 University Drv')
-Stockist.create(name:'Terry White Chemist - Clifton Beach',city: 'Clifton Beach ', country:'Australia',postcode:'4879',street_address:'Shop 14 Captain Cook Hwy, Clifton Village S/Centre')
-Stockist.create(name:'Pharmasave Inverloch',city: 'Inverloch ', country:'Australia',postcode:'3996',street_address:'1/12 A\'Beckett St')
-Stockist.create(name:'North Fitzroy Pharmacy',city: 'Nth Fitzroy ', country:'Australia',postcode:'3068',street_address:'35 Best St')
-Stockist.create(name:'The Greater Discount Chemist',city: 'Sunshine ', country:'Australia',postcode:'3020',street_address:'Shop 12/254 Hampshire Rd')
-Stockist.create(name:'Leighton Beach Drive-In Pharmacy',city: 'North Fremantle ', country:'Australia',postcode:'6159',street_address:'108 Stirling Hwy')
-Stockist.create(name:'Subiaco 7 Day Pharmacy',city: 'Subiaco ', country:'Australia',postcode:'6008',street_address:'157-159 Rockeby Rd')
-Stockist.create(name:'Aitkenvale Discount Drugstore',city: 'Aitkenvale', country:'Australia',postcode:'4814',street_address:'268 Ross River Road')
-Stockist.create(name:'BJ\'s Pharmacy',city: 'Devonport', country:'Australia',postcode:'7310',street_address:'56-58 Rooke Street Mall')
-Stockist.create(name:'Style &amp; Grace',city: 'Mulgrave', country:'Australia',postcode:'3170',street_address:'46 Monash Drive')
-Stockist.create(name:'GMD Store',city: 'Maryland', country:'Australia',postcode:'2287',street_address:'7/161 Maryland Drive')
-Stockist.create(name:'Go Vita Ashfield',city: 'Ashfield', country:'Australia',postcode:'2131',street_address:'Shop 10, Ashfield Mall 260A Liverpool Rd')
-Stockist.create(name:'Go Vita Hornsby',city: 'Hornsby', country:'Australia',postcode:'2077',street_address:'Shop 10, 25-29 Hunter St')
-Stockist.create(name:'Go Vita Manly',city: 'Manly', country:'Australia',postcode:'2095',street_address:'Shop 11 The Corso')
-Stockist.create(name:'Lunatic Fringe ',city: 'Clayfield ', country:'Australia',postcode:'4011',street_address:'458 Sandgate Road')
-Stockist.create(name:'Ilona on Broadbent Hair Skin Body ',city: 'Parap', country:'Australia',postcode:'820',street_address:'36 Broadbent Street ')
-Stockist.create(name:'Hair by Amanda Hill',city: 'Tuncurry ', country:'Australia',postcode:'2421',street_address:'10 Rennie Street ')
-Stockist.create(name:'Go Vita Corinda',city: 'CORINDA', country:'Australia',postcode:'4075',street_address:'Shop 5/661 Oxley Road')
-Stockist.create(name:'Believe Hair &amp; Body',city: 'Gawler', country:'Australia',postcode:'5118',street_address:'1A Bridge Street')
-Stockist.create(name:'You Save Chemist Brookvale',city: 'Brookvale', country:'Australia',postcode:'2100',street_address:'Shop 422 Warringh Mall, Coles Dock ')
-Stockist.create(name:'Rhys Jones Pharmacy',city: 'Rosny Park', country:'Australia',postcode:'7018',street_address:'13 Bayfield Street')
-Stockist.create(name:'Coventry Pharmacy',city: 'Latrobe', country:'Australia',postcode:'7307',street_address:'45A Gilbert St')
-Stockist.create(name:'Commercial Rd Pharmacy',city: 'Prahran', country:'Australia',postcode:'3181',street_address:'Shop 1, 212 Commercial Rd')
-Stockist.create(name:'Victoria Parade Pharmacy',city: 'Fitzroy', country:'Australia',postcode:'3065',street_address:'55 Victoria Parade')
-Stockist.create(name:'Nova Collins Place Pharmacy',city: 'Melbourne', country:'Australia',postcode:'3000',street_address:'Shop 59-60 / 45 Collins Place')
-Stockist.create(name:'Plunkets Pharmacy - Port Macquarie',city: 'Port Macquarie', country:'Australia',postcode:'2444',street_address:'158 Gordon St')
-Stockist.create(name:'Kerrie Birch Styling',city: 'Moorabbin', country:'Australia',postcode:'3189',street_address:'38 Royena Rd')
-Stockist.create(name:'Chi Hair Skin Body - Glenelg',city: 'Glenelg ', country:'Australia',postcode:'5045',street_address:'Shop 3 Lights Landing Marina Pier - Chappel Drive')
-Stockist.create(name:'Organic Salon Dimentions Seaforth',city: 'Seaforth', country:'Australia',postcode:'2092',street_address:'6 Brook Road')
-Stockist.create(name:'Hairyard',city: 'Robina', country:'Australia',postcode:'4226',street_address:'7 Heatherton Street')
-Stockist.create(name:'Stylz 2 Go',city: 'Bethania ', country:'Australia',postcode:'4205',street_address:'Shop 3 Bethania Water Shopping Centre 78 Station Rd')
-Stockist.create(name:'Applebom Beauty, Hair &amp; Wellbeing',city: 'Rangeville ', country:'Australia',postcode:'4350',street_address:'22 James St')
-Stockist.create(name:'Terry White Lutwyche',city: 'Lutwyche', country:'Australia',postcode:'4030',street_address:'543 Lutwyche Road')
-Stockist.create(name:'Lush Cuts &amp; Beauty',city: 'Buderim ', country:'Australia',postcode:'4556',street_address:'39 Main St')
-Stockist.create(name:'Blooms- Giffith ',city: 'Griffith ', country:'Australia',postcode:'2680',street_address:'222 Banna Ave')
-Stockist.create(name:'Terry White - Lutwyche',city: 'Lutwyche ', country:'Australia',postcode:'4030',street_address:'16 Lutwyche City S/Centre, 543 Lutwyche Rd')
-Stockist.create(name:'Go Vita Ballina Central',city: 'Ballina ', country:'Australia',postcode:'2478',street_address:'10-44 Pacific Highway')
-Stockist.create(name:'Rivive Health Foods Margaret River',city: 'Margaret River', country:'Australia',postcode:'6285',street_address:'Shop 1, 120 Bussell Highway')
-Stockist.create(name:'Anubis Dermal Clinic',city: 'Thornlie', country:'Australia',postcode:'6108',street_address:'50 Forest Crescent')
-Stockist.create(name:'Miami Health Solutions Meadow Springs',city: 'Meadow Springs', country:'Australia',postcode:'6210',street_address:'Shop 4  Meadow Springs Shopping Centre')
-Stockist.create(name:'Go Vita Cherrybrook',city: 'Cherrybrook', country:'Australia',postcode:'2126',street_address:'Shop 31 Cherrybrook Village S/Centre Shepherds Drive')
-Stockist.create(name:'Ballarat Health Foods',city: 'Ballarat', country:'Australia',postcode:'3350',street_address:'405A Sturt St')
-Stockist.create(name:'Go Vita Shellharbour',city: 'Shellharbour', country:'Australia',postcode:'2529',street_address:'Unit 15/75 Cygnet Avenue, Cygnet Centre')
-Stockist.create(name:'Go Vita Revesby',city: 'REVESBY', country:'Australia',postcode:'2212',street_address:'34 Selems Parade')
-Stockist.create(name:'House of Wax and Beauty',city: 'Cessnock', country:'Australia',postcode:'2325',street_address:'7 Vincent Street')
-Stockist.create(name:'One Floor Cosmetics ',city: 'Mountain Creek ', country:'Australia',postcode:'4557',street_address:'Suite 4, Mountain Creek Medical Centre, Karawatha Drive ')
-Stockist.create(name:'Art Hair Studio',city: 'Beaumaris', country:'Australia',postcode:'3193',street_address:'353 Balcombe Road')
-Stockist.create(name:'Miami Health Solutions - Eskine',city: 'Eskine', country:'Australia',postcode:'6210',street_address:'Cnr Old Coast Rd &amp; Oakleigh Drive')
-Stockist.create(name:'Miami Health Solutions - Eskine',city: 'Eskine', country:'Australia',postcode:'6210',street_address:'Cnr Old Coast Rd &amp; Oakleigh Drive')
-Stockist.create(name:'Body Beautiful Jindera',city: 'Jindera', country:'Australia',postcode:'2642',street_address:'91 Urana Street')
-Stockist.create(name:'Go Vita Toormina',city: 'Toormina', country:'Australia',postcode:'2452',street_address:'3/11 Minorca place')
-Stockist.create(name:'Amcal Chempro Chemist Eagleby',city: 'Eagleby', country:'Australia',postcode:'4207',street_address:'Shop 14 Eagleby Plaza, Riverhills Rd')
-Stockist.create(name:'Malouf Pharmacy - Merthyr Village',city: 'New Farm ', country:'Australia',postcode:'4005',street_address:'Merthyr Village S/Centre, 95 Merthyr Rd')
-Stockist.create(name:'Burleigh Town Amcal',city: 'Burleigh', country:'Australia',postcode:'4220',street_address:'Shop 5 Stocklands S/Centre')
-Stockist.create(name:'Market Square Day &amp; Night Chemist',city: 'Sunnybank', country:'Australia',postcode:'4109',street_address:'Shop 5 Market Square S/Centre, cnr Harris Rd &amp; McCullough St')
-Stockist.create(name:'All Ceezens',city: 'Cardwell', country:'Australia',postcode:'4849',street_address:'Shop 5, Victoria Arcade')
-Stockist.create(name:'La Vita Hair &amp; Beauty',city: 'Centre Bankstown', country:'Australia',postcode:'2200',street_address:'shop 3, Appian Way Compass')
-Stockist.create(name:'Le Beauty Affair',city: 'No Address ', country:'Australia',postcode:'N/A',street_address:'www.lebeautyaffair.com.au ')
-Stockist.create(name:'Bambu Beauty Lash &amp; Brow Bar',city: 'Castle Hill', country:'Australia',postcode:'2154',street_address:'Shop 1A 7-13 Victoria Ave')
-Stockist.create(name:'In Home Indulgence',city: 'Melbourne ', country:'Australia',postcode:'N/A',street_address:'No Address - Mobile Business ')
-Stockist.create(name:'The Silken DragonFly',city: 'Rutherglen ', country:'Australia',postcode:'3685',street_address:'113 Main Street')
-Stockist.create(name:'Riana\'s Health &amp; Skin Care Clinic',city: 'Monash', country:'Australia',postcode:'2904',street_address:'111 Clive Steele Ave')
-Stockist.create(name:'Vanessa\'s Nail Spot',city: 'Singleton ', country:'Australia',postcode:'2330',street_address:'48 Castlereagh St')
-Stockist.create(name:'Lumieres De Paris',city: 'Belmore ', country:'Australia',postcode:'2192',street_address:'27 Waverley St')
-Stockist.create(name:'Nuyu',city: 'Wollongong', country:'Australia',postcode:'2500',street_address:'8 Mangerton Rd')
-Stockist.create(name:'Glow Beauty Therapy on Gilbert',city: 'Preston', country:'Australia',postcode:'3072',street_address:'19 Gilbert Road')
-Stockist.create(name:'Glow Dermal Therapy',city: 'Albury ', country:'Australia',postcode:'2641',street_address:'Dragonfly House, 529 Macauley Street')
-Stockist.create(name:'Go Vita Ocean Keys',city: 'Clarkson', country:'Australia',postcode:'6030',street_address:'Shope 171A Ocean Keys S/Ctr  36 Ocean Keys Boulevard')
-Stockist.create(name:'Goodlife Geraldton',city: 'Geraldton', country:'Australia',postcode:'6530',street_address:'Shop 8 Penny Lane')
-Stockist.create(name:'Genesis Beauty Clinic',city: 'Tapping', country:'Australia',postcode:'6065',street_address:'18 Terrigal Pass')
-Stockist.create(name:'Louise May Laser &amp; Skin Clinic',city: 'Glenside', country:'Australia',postcode:'5065',street_address:'300 Greenhill Road,')
-Stockist.create(name:'Cosmedic Fusion',city: 'Adelaide', country:'Australia',postcode:'5000',street_address:'148 Hutt Street')
-Stockist.create(name:'Beauty Savvy',city: 'Melbourne ', country:'Australia',postcode:'3000',street_address:'http://www.beautysavvy.com.au/')
-Stockist.create(name:'Cassie Turner Beauty &amp; Makeup',city: 'Shoalhaven Heads', country:'Australia',postcode:'2535',street_address:'113 Scott Street')
-Stockist.create(name:'Shuswap Health Foods',city: 'Salmon Arm', country:'Canada',postcode:'V1E-1T3',street_address:'Piccadilly Mall 115-1151 10th Ave SW')
-Stockist.create(name:'Vivian Essential Beauty',city: 'Lara', country:'Australia',postcode:'3212',street_address:'4 Kanowna Place')
-Stockist.create(name:'Eve Makeup Artistry',city: 'hello@evemakeup.com.au', country:'Australia',postcode:'3102',street_address:'http://www.evemakeup.com.au/')
-Stockist.create(name:'Glo Dermaclinical on Highett',city: 'Highett', country:'Australia',postcode:'3190',street_address:'Shop 2, 535 Highett Road')
-Stockist.create(name:'Broome Natural Wellness',city: 'BROOME ', country:'Australia',postcode:'6725',street_address:'Shop 20 Broome Boulevard 106 Frederick Street')
-Stockist.create(name:'Jieya Professional Beauty',city: 'Dandenong', country:'Australia',postcode:'3175',street_address:'76 Langhorne St')
-Stockist.create(name:'Jieya Professional Beauty',city: 'Dandenong', country:'Australia',postcode:'3175',street_address:'76 Langhorne St')
-Stockist.create(name:'Jieya Professional Beauty',city: 'Dandenong', country:'Australia',postcode:'3175',street_address:'76 Langhorne St')
-Stockist.create(name:'Pro Health',city: 'Eltham', country:'Australia',postcode:'3095',street_address:'Shop 21, Eltham Village Shopping Centre, Main Road')
-Stockist.create(name:'Skinique',city: 'Footscray', country:'Australia',postcode:'3011',street_address:'38-42 Byron St')
-Stockist.create(name:'Style on South',city: 'Wodonga', country:'Australia',postcode:'3690',street_address:'Shop 6 25 South Street')
-Stockist.create(name:'The House of Life Clinic',city: 'Armadale.', country:'Australia',postcode:'3143',street_address:'70 Armadale St')
-Stockist.create(name:'Ivanhoe Health Store',city: 'Ivanhoe', country:'Australia',postcode:'3079',street_address:'96 Upper Heidelberg Road')
-Stockist.create(name:'Kempsey Bulk Health Foods',city: 'Kempsey', country:'Australia',postcode:'2440',street_address:'30 Smith Street')
-Stockist.create(name:'The Crystal Temple',city: 'Bondi Junction', country:'Australia',postcode:'2022',street_address:'50 Spring Street')
-Stockist.create(name:'Sheshwarz Beauty',city: 'Roselands', country:'Australia',postcode:'2196',street_address:'Shop G3 level 2 Centro Roselands Roselands Dr')
-Stockist.create(name:'Naturally You',city: 'Wanniassa', country:'Australia',postcode:'2903',street_address:'Shop 2 Sangster Place')
-Stockist.create(name:'Green Horse',city: 'NorthCote ', country:'Australia',postcode:'3070',street_address:'255 High Street')
-Stockist.create(name:'Go Vita Raw Pantry',city: 'Upper Mt Gravatt', country:'Australia',postcode:'4122',street_address:'Shop 1350, Westfield Garden City, Logan Road')
-Stockist.create(name:'Varuka Salon',city: 'Tullermarine', country:'Australia',postcode:'3043',street_address:'191a  Melrose Drive')
-Stockist.create(name:'Atone Lifestyle Salon',city: 'North Melbourne', country:'Australia',postcode:'3051',street_address:'95 Errol Street')
-Stockist.create(name:'Flannerys North Lakes',city: 'North Lakes', country:'Australia',postcode:'4509',street_address:'Shop 5B, 4-8 Burke Crescent,')
-Stockist.create(name:'Manik The Hair Studio',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'Shop 3, Byrin Street')
-Stockist.create(name:'Soul Skin &amp; Body WA',city: 'Derby ', country:'Australia',postcode:'6728',street_address:'Unit 2, 9 Cassia Close')
-Stockist.create(name:'Laser and Lipstick',city: 'Singleton', country:'Australia',postcode:'2330',street_address:'Shop 3 1 Pitt Street')
-Stockist.create(name:'Egyptian Bazaar',city: 'Surfers Paradise', country:'Australia',postcode:'4217',street_address:'114 Paradise Centre')
-Stockist.create(name:'Livelife Pharmacy Noosa',city: 'Noosa Heads ', country:'Australia',postcode:'4567',street_address:'22 Sunshine Beach Rd, Noosa Junction ')
-Stockist.create(name:'Amcal Cannonvale',city: 'Cannonvale', country:'Australia',postcode:'4802',street_address:'Shop 15 Cantro S/Centre, 8 Galbraith Rd')
-Stockist.create(name:'Discount Drug Store Mareeba',city: 'Dimbula', country:'Australia',postcode:'4872',street_address:'10 Raeleigh St')
-Stockist.create(name:'Blooms The Chemist South West Rocks',city: 'South West Rocks', country:'Australia',postcode:'2431',street_address:'Shop 9-10 The Rocks Shopping Fair')
-Stockist.create(name:'Star Pharmacy',city: 'Kew', country:'Australia',postcode:'3101',street_address:'127 High St')
-Stockist.create(name:'Pharmacy on Church',city: 'Hawthorn', country:'Australia',postcode:'3122',street_address:'Suite 1a,  13-25 Church St')
-Stockist.create(name:'Marlin Coast Amcal Chemist',city: 'Smithfield', country:'Australia',postcode:'4878',street_address:'Shop 1/2 Campus Shopping Village')
-Stockist.create(name:'Castlemaine Health Food Store',city: 'Castlemaine', country:'Australia',postcode:'3450',street_address:'107 Mostyn St')
-Stockist.create(name:'Doll Face Makeup',city: 'Potts Point', country:'Australia',postcode:'2011',street_address:'Unit 4/16 St Neot Ave')
-Stockist.create(name:'The Glamour Bar',city: 'Carina Heights', country:'Australia',postcode:'4152',street_address:'2/107 Anzac Rd')
-Stockist.create(name:'Fundies Paddington',city: 'Paddington', country:'Australia',postcode:'4064',street_address:'219 Given Tce')
-Stockist.create(name:'Healthshop Morayfield',city: 'Morayfield', country:'Australia',postcode:'4506',street_address:'Shop 99 Moray Shopping Centre 171 Morayfield Road')
-Stockist.create(name:'Beauty Indulgence',city: 'Milton', country:'Australia',postcode:'2538',street_address:'94 Princess Hwy')
-Stockist.create(name:'Spa Eleven',city: 'Bendigo', country:'Australia',postcode:'3550',street_address:'11 Forest Street')
-Stockist.create(name:'Amcal Cannonvale ',city: 'Cannonvale', country:'Australia',postcode:'4802',street_address:'Shop 15 Cantro S/Centre, 8 Galbraith Rd')
-Stockist.create(name:'V Pharmacy Smithfield',city: 'Smithfield', country:'Australia',postcode:'4879',street_address:'Shop 121 Smithfield S/Centre, cnr Cook &amp; Kennedy Hwys')
-Stockist.create(name:'Discount Drug Store Atherton',city: 'Atherton', country:'Australia',postcode:'4883',street_address:'Shop 5A Silos S/Centre, Silos Rd')
-Stockist.create(name:'Babinda Pharmacy',city: 'Babinda', country:'Australia',postcode:'4861',street_address:'80 Munro St')
-Stockist.create(name:'Yeppoon Chemmart',city: 'Yeppoon ', country:'Australia',postcode:'4703',street_address:'4 James St')
-Stockist.create(name:'Torres Pharmacy',city: 'Innisfail', country:'Australia',postcode:'4860',street_address:'46 Edith St')
-Stockist.create(name:'Malouf Pharmacy - Rockhampton',city: 'Rockhampton', country:'Australia',postcode:'4701',street_address:'Northside Plaza S/Centre, 222-228 Musgrave St')
-Stockist.create(name:'Carrum Downs Pharmacy',city: 'Carrum Downs', country:'Australia',postcode:'3201',street_address:'Shop 2 The local Village, 1095 Frankston/Dandenong Rd')
-Stockist.create(name:'Auscare Yandina Pharmacy',city: 'Yandina', country:'Australia',postcode:'4561',street_address:'5/18 Farrell St')
-Stockist.create(name:'Swansea Pharmacy',city: 'Swansea', country:'Australia',postcode:'7190',street_address:'28 franklin street')
-Stockist.create(name:'Blooms - Woonona',city: 'Woonona', country:'Australia',postcode:'2517',street_address:'399-401 Princes Highway')
-Stockist.create(name:'Pharmasave - Moree',city: 'Moree', country:'Australia',postcode:'2400',street_address:'64 Balo St')
-Stockist.create(name:'Plevey\'s Pharmacy',city: 'Bega', country:'Australia',postcode:'2550',street_address:'154 Carp St')
-Stockist.create(name:'Terry White - Port Macquarie',city: 'Port Macquarie ', country:'Australia',postcode:'2444',street_address:'Shop 47 Port Central S/Centre')
-Stockist.create(name:'Blooms - Toormina',city: 'Toormina', country:'Australia',postcode:'2452',street_address:'Shop N52 Centro S/Centre, Toormina Rd')
-Stockist.create(name:'Narromine Pharmacy',city: 'Narromine', country:'Australia',postcode:'2821',street_address:'53 Dandaloo st')
-Stockist.create(name:'Health Focus Pharmacy Mudgee',city: 'Mudgee', country:'Australia',postcode:'2850',street_address:'Shop 2 84 Mortimer Street')
-Stockist.create(name:'scount Drug Store - Kings Langley',city: 'Kings Langley ', country:'Australia',postcode:'2147',street_address:'Shop 5/125 James Cook Drive')
-Stockist.create(name:'Blooms - Blacktown',city: 'Blacktown', country:'Australia',postcode:'2148',street_address:'Shop 1007 Ground Floor, Westpoint S/Centre')
-Stockist.create(name:'Blaxland Day &amp; Night Pharmacy',city: 'Blaxland', country:'Australia',postcode:'2774',street_address:'138A Great Western Hwy')
-Stockist.create(name:'Blooms Penrith - Nepean Square',city: 'Penrith', country:'Australia',postcode:'2750',street_address:'Shop 39 Centro Nepean, Station St')
-Stockist.create(name:'Best Buy Pharmacy',city: 'Orange', country:'Australia',postcode:'2800',street_address:'171 Lords Place')
-Stockist.create(name:'Blooms - Tamworth',city: 'Tamworth ', country:'Australia',postcode:'2340',street_address:'358 Peel St')
-Stockist.create(name:'Bowral Guardian Chemist',city: 'Bowral ', country:'Australia',postcode:'2576',street_address:'306 Bong Bong St')
-Stockist.create(name:'Blooms - Dubbo',city: 'Dubbo ', country:'Australia',postcode:'2830',street_address:'Shop 15/16A Dubbo Square, Macquarie St')
-Stockist.create(name:'Pokolbin Village Pharmacy',city: 'Pokolbin', country:'Australia',postcode:'2320',street_address:'Shop 13,  Hunter Valley Gardens Village,  2090 Broke Road')
-Stockist.create(name:'Erskineville Chemist',city: 'Erskineville', country:'Australia',postcode:'2043',street_address:'Shop 1,  83 Erskineville Road')
-Stockist.create(name:'Blooms - Orange',city: 'Orange', country:'Australia',postcode:'2800',street_address:'Shop 19 Metro Plaza, 237 Summer St')
-Stockist.create(name:'Amcal Max - Rutherford',city: 'Rutherford', country:'Australia',postcode:'2320',street_address:'Shop 6 East Mall Rutherford S/Centre')
-Stockist.create(name:'DELROY CHEMMART PHARMACY',city: 'Dubbo ', country:'Australia',postcode:'2830',street_address:'SHOP 15 WOOLWORTHS SHOPPING CENTRE')
-Stockist.create(name:'Wamberal Pharmacist Advice',city: 'Wamberal', country:'Australia',postcode:'2260',street_address:'658 The Entrance Rd')
-Stockist.create(name:'Blooms - Northbridge',city: 'Northbridge', country:'Australia',postcode:'2063',street_address:'Shop 13 Northbridge Plaza, Sailor Bay Rd')
-Stockist.create(name:'Blooms - Penrith (Westfield Plaza)',city: 'Penrith', country:'Australia',postcode:'2750',street_address:'Shop 110 Westfield Plaza')
-Stockist.create(name:'Blooms - Erina',city: 'Erina', country:'Australia',postcode:'2250',street_address:'Shop T74 Karalta Road Erina Fair')
-Stockist.create(name:'Terry White - Shoalhaven',city: 'Nowra ', country:'Australia',postcode:'2541',street_address:'Shop 12 Nowra Fair, East St')
-Stockist.create(name:'Priceline Pharmacy - Renmark',city: 'Renmark', country:'Australia',postcode:'5341',street_address:'10 Renmark Ave')
-Stockist.create(name:'Centro Mildura Amcal Pharmacy',city: 'Mildura', country:'Australia',postcode:'3500',street_address:'Shop MM1 Centro Mildura S/Centre, Deakin Ave')
-Stockist.create(name:'City Markets Chemist',city: 'Canberra', country:'Australia',postcode:'2600',street_address:'Shop EG01-02 Canberra Centre, Bunda St')
-Stockist.create(name:'Inform Pharmacy - Thornleigh',city: 'Thornleigh', country:'Australia',postcode:'2120',street_address:'57 Thornleigh Marketplace')
-Stockist.create(name:'Blooms - Bathurst',city: 'Bathurst', country:'Australia',postcode:'2795',street_address:'Shop 18 Stockland Mall, William St')
-Stockist.create(name:'Discount Day &amp; Night Pharmacy - Newtown',city: 'Newtown', country:'Australia',postcode:'2042',street_address:'293 King St')
-Stockist.create(name:'Blooms - Bathurst Shop 25 METRO',city: 'Bathurst ', country:'Australia',postcode:'2795',street_address:'Shop 26 Bathurst Central S/Centre')
-Stockist.create(name:'Healthpoint Pharmacy - Launceston',city: 'Launceston', country:'Australia',postcode:'7250',street_address:'86A - 88 Johns St')
-Stockist.create(name:'Blayney Pharmacy',city: 'Blayney', country:'Australia',postcode:'2799',street_address:'112 Adelaide St')
-Stockist.create(name:'Cremorne Town Centre Pharmacy',city: 'Cremorne', country:'Australia',postcode:'2090',street_address:'7 / 287 Military Rd,')
-Stockist.create(name:'Amcal Max - Dapto',city: 'Dapto ', country:'Australia',postcode:'2530',street_address:'G120-121 Dapto Mall')
-Stockist.create(name:'Blooms - Coogee',city: 'Coogee', country:'Australia',postcode:'2034',street_address:'202-204 coogee Bay Rd')
-Stockist.create(name:'The Molong Pharmacy',city: 'Molong', country:'Australia',postcode:'2866',street_address:'43-45 Bank ST')
-Stockist.create(name:'Parkes Pharmacy',city: 'Parkes ', country:'Australia',postcode:'2870',street_address:'Shop 6 Metro Plaza, 279-283 Clarinda St')
-Stockist.create(name:'Life Pharmacy - Forbes',city: 'Forbes ', country:'Australia',postcode:'2871',street_address:'Shop 3, 159-173 Lachlan St')
-Stockist.create(name:'West Gosford Pharmacy',city: 'West Gosford', country:'Australia',postcode:'2250',street_address:'Shop 17 West Gosford S/Centre')
-Stockist.create(name:'Darby Street Pharmacy',city: 'Cooks Hill', country:'Australia',postcode:'2300',street_address:'145 Darby Street')
-Stockist.create(name:'Charnwood Capital Chemist',city: 'Charnwood', country:'Australia',postcode:'2615',street_address:'7-8 The Small Mall')
-Stockist.create(name:'Blooms - Gordon',city: 'Gordon', country:'Australia',postcode:'2072',street_address:'765 Pacific Hwy')
-Stockist.create(name:'Soul Pattinson - Ermington',city: 'Ermington', country:'Australia',postcode:'2115',street_address:'Shop 4, Betty Cuthbert Ave')
-Stockist.create(name:'Amcal Max - Queanbeyan',city: 'Queanbeyan', country:'Australia',postcode:'2620',street_address:'23-25 Antill St')
-Stockist.create(name:'Murry T Martin Pharmacy',city: 'Mt Gambia', country:'Australia',postcode:'5290',street_address:'23-25 Commercial St West')
-Stockist.create(name:'McCarthy\'s Pharmacy - Orange',city: 'Orange ', country:'Australia',postcode:'2800',street_address:'236 Summer St')
-Stockist.create(name:'Terry White - Underwood',city: 'Underwood', country:'Australia',postcode:'4119',street_address:'Shop 18/3215 Logan Rd')
-Stockist.create(name:'Keperra Chemmart',city: 'Keperra', country:'Australia',postcode:'4054',street_address:'Shop B Great Western S/Centre, cnr Samford &amp; Settlement Rds')
-Stockist.create(name:'Family Pharmacy Granville',city: 'Granville', country:'Australia',postcode:'2142',street_address:'1/60 South St')
-Stockist.create(name:'Eddie\'s Pharmacy Ramgate',city: 'Ramsgate', country:'Australia',postcode:'2217',street_address:'211B Ramsgate Rd')
-Stockist.create(name:'Manning River Pharmacy - Taree',city: 'Taree', country:'Australia',postcode:'2430',street_address:'191 Victoria St')
-Stockist.create(name:'Birkenhead Amcal Chemist',city: 'Drummoyne', country:'Australia',postcode:'2047',street_address:'Shop 136 Birkenhead Point, Roseby St')
-Stockist.create(name:'Blooms - Lithgow',city: 'Lithgrow', country:'Australia',postcode:'2790',street_address:'Shop 44-46 Lithgow S/Centre')
-Stockist.create(name:'Urunga Amcal Pharmacy',city: 'Uranga', country:'Australia',postcode:'2455',street_address:'10 Bowra St')
-Stockist.create(name:'Discount Drug Store - Moree',city: 'Moree', country:'Australia',postcode:'2400',street_address:'Shop 2/215 Balo St')
-Stockist.create(name:'Bondi Pharmacy',city: 'Bondi ', country:'Australia',postcode:'2026',street_address:'81 Hall St')
-Stockist.create(name:'Pharmasave Eastgardens',city: 'Pagewood', country:'Australia',postcode:'2035',street_address:'Shop 157-159 Westfield, 152 Bunnerong Rd')
-Stockist.create(name:'Blooms - Figtree',city: 'Figtree', country:'Australia',postcode:'2525',street_address:'Shop 12-15 Westfield S/Town')
+#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }]},
+#   {name:'Store Name',city: 'District / City', country:'Country',postcode:'Postal / Zip Code',street_address:'Address'},
+stockists= [{name:'Eye of Horus Headquarters',city: 'Torquay', country:'Australia',postcode:'3228',street_address:'1-44 Puebla Street'},
+{name:'Ara Beauty and Day Spa',city: 'Potts Point', country:'Australia',postcode:'2011',street_address:'Diamant Hotel, Suite 8.10, 14 Kingscross Road'},
+{name:'Actual Wellness &amp; Beauty',city: 'Keilor Downs ', country:'Australia',postcode:'3038',street_address:'Sibyl Court'},
+{name:'Allure for Beauty',city: 'Caulfield North', country:'Australia',postcode:'3161',street_address:'213 Balaclava Road'},
+{name:'Allure Skin &amp; Body',city: 'Malvern', country:'Australia',postcode:'3144',street_address:'251 Glenferrie Road'},
+{name:'Areti Skin Therapy',city: 'Mt Waverley', country:'Australia',postcode:'3149',street_address:'Mt Waverley'},
+{name:'Aura Beauty',city: 'Swan Hill', country:'Australia',postcode:'3585',street_address:'Shop 10 Safeway Arcade'},
+{name:'Bayside Beauty Lounge',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'Shop5/216 Main Street'},
+{name:'Beauty Delphine ',city: 'Eltham', country:'Australia',postcode:'3095',street_address:'43 Floriston Grove'},
+{name:'The Beauty Studio',city: 'Lorne', country:'Australia',postcode:'3232',street_address:'146a Mountjoy Parade (off Brownes Lane},'},
+{name:'Beauty Works',city: 'Tatura', country:'Australia',postcode:'3616',street_address:'6 Flanagan Drive '},
+{name:'Body &amp; Soul Day Spa Beauty Therapy',city: 'Beaumaris', country:'Australia',postcode:'3193',street_address:'4 North Concourse Road'},
+{name:'Body &amp; Soul Day Spa Beauty Therapy',city: 'Brighton ', country:'Australia',postcode:'3186',street_address:'246 Bay Street'},
+{name:'Body Glow Beauty Therapy ',city: 'Wantirna South ', country:'Australia',postcode:'3152',street_address:'L 1, 452 Burwood Highway'},
+{name:'Body Works Organic Spa',city: 'Wangaratta ', country:'Australia',postcode:'3677',street_address:'Shop 3, 103 Murphy Street'},
+{name:'Calm Beauty Therapy',city: 'Berwick', country:'Australia',postcode:'3806',street_address:'4 Riverglen Road'},
+{name:'Calma Medispa Retreat',city: 'Armadale', country:'Australia',postcode:'3143',street_address:'1100 High Street '},
+{name:'Clay Skin &amp; Body Salon Spa',city: 'Wliiamstown', country:'Australia',postcode:'3016',street_address:'97 Douglas Parade'},
+{name:'Clover Beauty Skin &amp; Body ',city: 'Armadale', country:'Australia',postcode:'3143',street_address:'1 Kings Way'},
+{name:'Coburg Health Shop',city: 'Coburg', country:'Australia',postcode:'3058',street_address:'5/, Shop 5, 461-463 Sydney Road'},
+{name:'Dermal Aesthetics Laser Clinic',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'The Bays Hospital, Level 1/ 262 Main Street'},
+{name:'Dermal Resolution',city: 'Beaconsfield', country:'Australia',postcode:'3807',street_address:'56 Oneil Road'},
+{name:'Elita Cosmetic Medicine',city: 'Glenroy', country:'Australia',postcode:'3046',street_address:'4 Post Office Place '},
+{name:'Eyelash Inez',city: 'Mill Park ', country:'Australia',postcode:'3082',street_address:'43 Streeton Circuit'},
+{name:'Feeling Smooth',city: 'Port Melbourne ', country:'Australia',postcode:'3207',street_address:'120 Bridge Street '},
+{name:'Fiona Fairley',city: 'Kialla', country:'Australia',postcode:'3631',street_address:'615 Archer Road'},
+{name:'Flavour Beauty Therapists',city: 'Kew East ', country:'Australia',postcode:'3102',street_address:'666 High Street '},
+{name:'Fringe Benefits Organics',city: 'Parkdale', country:'Australia',postcode:'3194',street_address:'30 Mountview Avenue'},
+{name:'Giota Hairdresser',city: 'Bellfield/Ivanhoe area', country:'Australia',postcode:'3081',street_address:'Bellfield/Ivanhoe area '},
+{name:'Go Vita Doncaster',city: 'Doncaster', country:'Australia',postcode:'3108',street_address:'Shop G200 Westfield Shopping Centre, 619 Doncaster Road'},
+{name:'Go Vita Forest Hill',city: 'Forest Hill', country:'Australia',postcode:'3131',street_address:'Shop 13 Market Place, Forest Hill Chase, 270 Canterbury Road'},
+{name:'777 Whitfords City Pharmacy',city: 'Hillarys', country:'Australia',postcode:'6025',street_address:'Shop 42, Westfield Whitford City, Whitfords Avenue '},
+{name:'Aesthetica',city: 'Coorparoo', country:'Australia',postcode:'4161',street_address:'Shop 8, 377 Cavendish Road'},
+{name:'AFS Friendly Care Pharmacy',city: 'Mackay', country:'Australia',postcode:'4740',street_address:'4 Ways Plaza 135-137 Nebo Road'},
+{name:'Alfred Hospital',city: 'Melbourne', country:'Australia',postcode:'3004',street_address:'55 Commercial Road '},
+{name:'Amcal Max Doncaster ( Chandra Pharmacy },',city: 'Doncaster East ', country:'Australia',postcode:'3109',street_address:'274-276 Blackburn Road'},
+{name:' Wendouree Village Pharmacy ',city: 'Wendouree', country:'Australia',postcode:'3355',street_address:'Shop 73  Stocklands Wendouree Gillies Street, Wendouree Shopping Centre'},
+{name:' Mundaring Pharmacy ',city: 'Mundaring ', country:'Australia',postcode:'6073',street_address:'Shop 4/ 5 Nichol Street'},
+{name:'Inverell Amcal Pharmacy ',city: 'Inverell', country:'Australia',postcode:'2360',street_address:'132- 134 Byron Street'},
+{name:'Armidale Pharmacy ',city: 'Armidale ', country:'Australia',postcode:'2350',street_address:'114 Dangar Street'},
+{name:'Aroma Beauty Therapy Clinic',city: 'Runaway Bay', country:'Australia',postcode:'4216',street_address:'9/131 Morala Avenue'},
+{name:'Avenues Hair',city: 'Townsville', country:'Australia',postcode:'4817',street_address:'The Avenues Shopping Centre Corner Kern Brothers Drive &amp; Burnda Street'},
+{name:'AWB Holdings ',city: 'Currumbin Waters', country:'Australia',postcode:'4223',street_address:'9 Traders Way'},
+{name:'Chemplus Balhannah ',city: 'Balhannah', country:'Australia',postcode:'4721',street_address:'Shop 3/84 Main Road'},
+{name:'Barracks Pharmacy',city: 'Brisbane ', country:'Australia',postcode:'4000',street_address:'61 Petrie Terrace (top of Caxton Street},'},
+{name:'Bayswater North Pharmacy ',city: 'Bayswater ', country:'Australia',postcode:'3153',street_address:' 17-39 Canterbury Road'},
+{name:'Beauty Bizz',city: 'Bridgetown ', country:'Australia',postcode:'6255',street_address:'Shp2/ 84 Hampton Street'},
+{name:'Benowa Gardens Amcal Pharmacy ',city: 'Benowa', country:'Australia',postcode:'4217',street_address:'Gardens Shopping Centre Corner Ashmore &amp; Benowa Road'},
+{name:'Black Rock Amcal Pharmacy',city: 'Black Rock', country:'Australia',postcode:'3193',street_address:'6 Bluff Road'},
+{name:'Blooms The Chemist - Miranda',city: 'Miranda', country:'Australia',postcode:'2228',street_address:'Shop 2089 Westfield Miranda'},
+{name:'Blooms The Chemist - Shellharbour ',city: 'Shellharbour ', country:'Australia',postcode:'2529',street_address:'Shop 11-12 Stockland Shopping Centre'},
+{name:'Blooms The Chemist - Belmont Central ',city: 'Belmont ', country:'Australia',postcode:'2280',street_address:'Shop 24, Belmont Central Shopping Centre, Singleton Street'},
+{name:'Bode Hair Lounge',city: 'Unley Park', country:'Australia',postcode:'5061',street_address:'2/384 Unley Road'},
+{name:'Boulder Beauty Care ',city: 'Boulder ', country:'Australia',postcode:'6432',street_address:'22 Burt Street'},
+{name:'Bowen Healthcare pharmacy ',city: 'Bowen', country:'Australia',postcode:'4805',street_address:'16 Gregory Street'},
+{name:'Brands Pharmacy ',city: 'Lismore', country:'Australia',postcode:'2480',street_address:'136 Molesworth Street'},
+{name:'Butchers Pharmacy ',city: 'Kew North ', country:'Australia',postcode:'3101',street_address:'101 Willsmere Road'},
+{name:'Byron Bay Plaza Amcal Pharmacy ',city: 'Byron Bay ', country:'Australia',postcode:'2481',street_address:'Shop 4B/5-6 Byron Bay Plaza North Jonson Street'},
+{name:'Amcal Pharmacy ',city: 'Capalaba', country:'Australia',postcode:'4157',street_address:'Capalaba Park Shopping Centre, 7-45 Redland Bay Road'},
+{name:'Care Plus Pharmacy Sydenham',city: 'Sydenham ', country:'Australia',postcode:'3037',street_address:'523 Melton Highway'},
+{name:'Chelsea Central Soul Pattinson Pharmacy',city: 'Chelsea ', country:'Australia',postcode:'3196',street_address:'425 Nepean Highway'},
+{name:'Chemist Works, Glendale',city: 'Glendale ', country:'Australia',postcode:'2285',street_address:'Shop 22, Lake Road, Stockland Drive'},
+{name:'Brighton Chemmart Pharmacy ',city: 'Brighton ', country:'Australia',postcode:'5048',street_address:'479 Brighton Road'},
+{name:'Chemmart Pharmacy Superstore - Geraldton',city: 'Geraldton', country:'Australia',postcode:'6530',street_address:'113 Marine Terrace'},
+{name:'Waikerie Chemplus Pharmacy ',city: 'Waikerie ', country:'Australia',postcode:'5330',street_address:'1 White Street'},
+{name:'Chi Hair Skin and Body - Hallett Cove',city: 'Hallett Cove', country:'Australia',postcode:'5158',street_address:'Shop 54, Hallett Cove Shopping Centre'},
+{name:'Classic Beauty Therapy',city: 'East Toowoomba', country:'Australia',postcode:'4350',street_address:'Range Shopping Centre, James Street'},
+{name:'Clip Go the Shears',city: 'Greenock', country:'Australia',postcode:'5360',street_address:'13 Murray Street'},
+{name:'Creelman\'s Pharmacy',city: 'Melbourne ', country:'Australia',postcode:'3000',street_address:'Shop 20 Target City Centre 222 Bourke Street'},
+{name:'Amcal Max Dalby Pharmacy',city: 'Dalby', country:'Australia',postcode:'4405',street_address:'Shop 22, Dalby Shopping World Cunningham Street'},
+{name:'Day Night Chemist Crows Nest',city: 'Crows Nest ', country:'Australia',postcode:'2065',street_address:'9 Willoughby Road'},
+{name:'Direct Chemist Outlet Mt Waverley ',city: 'Mt Waverley', country:'Australia',postcode:'3149',street_address:' 33 Hamilton Place'},
+{name:'Debra\'s Beauty Shoppe',city: 'Kensington Gardens', country:'Australia',postcode:'5068',street_address:'365 Kensington Road '},
+{name:'Direct Chemist Outlet - Glenroy',city: 'Glenroy ', country:'Australia',postcode:'3046',street_address:'785 Pascoe Vale Road '},
+{name:'Discount Pharmacy Australia Ripponlea',city: 'Ripponlea', country:'Australia',postcode:'3185',street_address:'93 Glen Eira Rd'},
+{name:'Dupuy\'s Pharmacy',city: 'North Mackay', country:'Australia',postcode:'4740',street_address:'12-14 Grandview Drive'},
+{name:'Ebony Beauty Noosa',city: 'Noosaville', country:'Australia',postcode:'4566',street_address:'2, 11 Lake Weyba Drive'},
+{name:'Amcal Pharmacy - Euroa',city: 'Euroa', country:'Australia',postcode:'3666',street_address:'26 Binney Street'},
+{name:'Face Bar',city: 'Devonport', country:'Australia',postcode:'7310',street_address:'22 Stewart Street'},
+{name:'First Wave Hair Shoppe',city: 'Tugan', country:'Australia',postcode:'4224',street_address:'474 Golden Four Drive'},
+{name:'Forest Lakes Pharmacy',city: 'Thornlie', country:'Australia',postcode:'6108',street_address:'Shopping Centre, Corner Forest Lakes Drive &amp; Murdoch Road'},
+{name:'Forestway Pharmacy',city: 'Frenchs Forest', country:'Australia',postcode:'2086',street_address:'Shop 24 Forestway Cntr, 2-18 Forest Way'},
+{name:'Friendlies Chemists Subiaco',city: 'Subiaco ', country:'Australia',postcode:'6008',street_address:'136-142 Rokeby Road'},
+{name:'Friendlies Chemist Leederville',city: 'Leederville', country:'Australia',postcode:'6007',street_address:'143 Oxford Street'},
+{name:'Frost Pharmacy',city: 'Eltham ', country:'Australia',postcode:'3095',street_address:'Eltham Village Center Corner Main Road &amp; Arthur Street'},
+{name:'Fuze Hair &amp; Beauty',city: 'East Ipswich', country:'Australia',postcode:'4305',street_address:'5a Jacaranda St '},
+{name:'Gaia Song Natural Health',city: 'Busselton', country:'Australia',postcode:'6280',street_address:'Shop 14- 16 Fig Tree Lane'},
+{name:'Chemplus Pharmacy Gawler',city: 'Gawler', country:'Australia',postcode:'5118',street_address:'21 Adelaide Road'},
+{name:'Glam Nails ',city: 'Caloundra', country:'Australia',postcode:'4551',street_address:' Currimundi Junction, 5a, 710 Nicklin Way'},
+{name:'Go Vita Currambine',city: 'Currambine', country:'Australia',postcode:'6028',street_address:'T2 Currambine Central, Cnr Marmion &amp; Shenton Avenues'},
+{name:'Go Forest Hill',city: 'Forest Hill', country:'Australia',postcode:'3131',street_address:'Shop 13 Market Place, Forest Hill Chase, 270 Canterbury Road'},
+{name:'Go Vita Greensborough',city: 'Greensborough', country:'Australia',postcode:'3088',street_address:'Level 1 Shop 121A Greensborough Plaza, 25 Main Street'},
+{name:'Go Vita Greenwood',city: 'Greenwood', country:'Australia',postcode:'6024',street_address:'Shop 4 Greenwood Village Shopping Centre'},
+{name:'Go Vita Kalgoorlie',city: 'Kalgoorlie', country:'Australia',postcode:'6430',street_address:'279 Hannan Street'},
+{name:'Go Vita Knox City ',city: 'Knox City ', country:'Australia',postcode:'3152',street_address:'Shop 1063 Knox City Shopping Centre, 425 Burwood Highway'},
+{name:'Go Vita Rye ',city: 'Rye', country:'Australia',postcode:'3941',street_address:'Shop 4 Safeway Complex Point Nepean Road'},
+{name:'Go Vita Southland/Willetton',city: 'WILLETTON', country:'Australia',postcode:'6155',street_address:'Shop 31 Southlands Boulevard'},
+{name:'Go Vita Tanunda',city: 'Tanunda', country:'Australia',postcode:'5352',street_address:'98 Murray Street'},
+{name:'Go Vita Warrnambool',city: 'Warrnambool', country:'Australia',postcode:'3280',street_address:'155 Fairy Street'},
+{name:'Go Vita Woodvale',city: 'Woodvale', country:'Australia',postcode:'6026',street_address:'Shop 11 Woodvale Boulevarde Shopping Centre, Corner of Whitfords Avenue &amp; Trappers Drive'},
+{name:'Goddess Body Treatments',city: 'Montmorency', country:'Australia',postcode:'3094',street_address:'13 Were Street'},
+{name:'Goldfields Fullife Pharmacy',city: 'Gympie', country:'Australia',postcode:'4570',street_address:'Goldfields Plaza Monkland Street'},
+{name:'Gore &amp; Dickson Pharmacy',city: 'Port Melbourne ', country:'Australia',postcode:'3207',street_address:'243-247 Bay Street'},
+{name:'Grace and Style Professional Hair &amp; Make up ',city: 'The Gap ', country:'Australia',postcode:'4061',street_address:'1 Kadina Street'},
+{name:'MakeUp By Rory',city: 'Miami', country:'United States',postcode:'33137',street_address:'2001 Biscayne Blvd #117/77'},
+{name:'Zenyu Skin &amp; Body',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'8/234 Main St, Mornington VIC 3931'},
+{name:'Woods Pharmacy Royal Childrens Hospital',city: 'Parkville', country:'Australia',postcode:'3052',street_address:'50 Flemington Rd Parkville VIC 3052'},
+{name:'Williams &amp; Golby Boronia',city: 'Boronia', country:'Australia',postcode:'3155',street_address:'Boronia Mall Shopping Centre 47 Dorset Square  Boronia VIC 3155'},
+{name:'Wild for Beauty',city: 'Carlton', country:'Australia',postcode:'3054',street_address:'795 Rathdowne Street'},
+{name:'Whittlesea Amcal',city: 'Whittlesea', country:'Australia',postcode:'3757',street_address:'69 Church St  Whittlesea VIC 3757'},
+{name:'Whitsunday Pharmacy',city: 'Cannonvale', country:'Australia',postcode:'4802',street_address:'Sh 11 Whitsundays Shopping Centre Shute Harbour Rd. CANNONVALE. QLD 4802'},
+{name:'Whitebridge Phamacy',city: 'Whitebridge', country:'Australia',postcode:'2290',street_address:'136 Dudley Rd, Whitebridge NSW 2290'},
+{name:'West Street Hideaway',city: 'Toowoomba', country:'Australia',postcode:'4350',street_address:'196 West St SOUTH TOOWOOMBA, QLD, 4350'},
+{name:'Watsonia Pharmacy',city: 'Watsonia', country:'Australia',postcode:'3087',street_address:'45 Watsonia Rd, Watsonia, VIC 3087'},
+{name:'Wangara Pharmacy',city: 'Wangara', country:'Australia',postcode:'6065',street_address:'9/2 Prindiville Dr  Wangara WA 6065'},
+{name:'Wallis C &amp; Son',city: 'Toorak', country:'Australia',postcode:'3142',street_address:'426 Toorak Rd  Toorak VIC 3142'},
+{name:'Vital Beauty ',city: 'Carina', country:'Australia',postcode:'4152',street_address:'Shop 7/3 Mayfield Rd Carina, QLD, 4152'},
+{name:'Verve Beauty Therapy',city: 'Kew', country:'Australia',postcode:'3101',street_address:'4/4-14 Walpole St  Kew VIC 3101'},
+{name:'Versailles Beauty',city: ' Redbank Plains ', country:'Australia',postcode:'4301',street_address:'1 / 4 Jirra Street  '},
+{name:'UpBeet Health and Wholefoods Wonthaggi',city: 'Wonthaggi', country:'Australia',postcode:'3995',street_address:'125 Graham St, Wonthaggi VIC 3995'},
+{name:'Ultra Essence Skin &amp; Body',city: 'Blacks Beach', country:'Australia',postcode:'4740',street_address:'15 Blacks Beach Rd  Blacks Beach QLD 4740'},
+{name:'Ultimate Indulgence Beauty Therapy',city: 'Garfield', country:'Australia',postcode:'3814',street_address:'Shop 1, 91 Main Street, Garfield, VIC 3814'},
+{name:'A Glamorous Touch',city: 'Thornton', country:'Australia',postcode:'2322',street_address:'5 Avard Close'},
+{name:'A Kur Day Spa',city: 'Gymea Bay', country:'Australia',postcode:'2227',street_address:'17 Casuarina Rd'},
+{name:'Allura Hairdressing Boutique',city: 'Berwick', country:'Australia',postcode:'3806',street_address:'10 Wheeler Street'},
+{name:'Ann Hassarati Makeup',city: 'Baulkham Hills', country:'Australia',postcode:'2153',street_address:'36 Rockley Avenue'},
+{name:'Ara Beauty',city: 'Potts Point', country:'Australia',postcode:'2011',street_address:'Se 810 2-14 Kings Cross Rd'},
+{name:'B\'Gorgeous',city: 'Basin View', country:'Australia',postcode:'2540',street_address:'Shop 3 / 1 Tallyan Point Rd'},
+{name:'Beauty By Georgie Cullen',city: 'Berwick', country:'Australia',postcode:'3806',street_address:'36 Coolong Ave'},
+{name:'Beauty Presence',city: 'North Lyneham', country:'Australia',postcode:'2602',street_address:'Unit 4/2 Montford ST,'},
+{name:'Beauty with Michele',city: 'Clovelly', country:'Australia',postcode:'2031',street_address:'170 Clovelly Road'},
+{name:'Beautyfull',city: 'Drummoyne', country:'Australia',postcode:'2047',street_address:'lv 1 20B 30-50 Lyons Rd'},
+{name:'Bella Vera True Beauty',city: '33 Golden Grove', country:'Australia',postcode:'2100',street_address:'33 Golden Grove'},
+{name:'Bellabox',city: 'Cremorne', country:'Australia',postcode:'3121',street_address:'Unit 6, 83-87 Dover Street'},
+{name:'Berry Beauty Escape',city: 'Berry', country:'Australia',postcode:'2535',street_address:'65 Queens Street'},
+{name:'Blush Cosmetics',city: 'Sydney', country:'Australia',postcode:'2000',street_address:'Shop 909B World Square Shopping Centre'},
+{name:'Brow &amp; Beauty',city: 'Eastlakes', country:'Australia',postcode:'2018',street_address:'Shop 1 62 Maloney St'},
+{name:'Catwalk Hair &amp; Beauty',city: 'Gladesville', country:'Australia',postcode:'2111',street_address:'230 Victoria Rd'},
+{name:'Classique Hair Design',city: 'Queanbeyan', country:'Australia',postcode:'2620',street_address:'180 Crawford street'},
+{name:'Clay Organic Beauty',city: 'Mullumbimby', country:'Australia',postcode:'2482',street_address:'97 Dalley Street'},
+{name:'Cosmetic Laser Clinic',city: 'Phillip', country:'Australia',postcode:'2606',street_address:'Se 4 36-38 Corinna St'},
+{name:'Creative Beaute',city: 'Mudgee', country:'Australia',postcode:'2850',street_address:'17 Perry Street,'},
+{name:'Crystal Essenic',city: 'Wyong', country:'Australia',postcode:'2259',street_address:'Po Box 592'},
+{name:'Dr Earth',city: 'NEWTOWN', country:'Australia',postcode:'2042',street_address:'287 - 289 King Street'},
+{name:'Elegance Beauty',city: 'Canberra', country:'Australia',postcode:'2601',street_address:'Shop 19, Centre Point Plaza Petrie Plaza'},
+{name:'Elume Beauty Salon',city: 'West Kempsey', country:'Australia',postcode:'2440',street_address:'13 Tozer Street'},
+{name:'Emmadean',city: 'Rozelle ', country:'Australia',postcode:'2039',street_address:'Shop 2, 654 Darling Street '},
+{name:'Empress Beauty Salon &amp; Day Spa',city: 'Lithgow', country:'Australia',postcode:'2790',street_address:'62 Main St'},
+{name:'EnhanSe Natural Wellbeing',city: 'Brandy Hill', country:'Australia',postcode:'2324',street_address:'17 Bangalay Close'},
+{name:'Essence of Eve',city: 'Mollymook', country:'Australia',postcode:'2539',street_address:'13 Buckland St'},
+{name:'FACIAL CO',city: 'Keperra', country:'Australia',postcode:'4054',street_address:'65 Gilston Street'},
+{name:'Fancy Dish',city: 'Orange', country:'Australia',postcode:'2800',street_address:'109 Moulder Street'},
+{name:'Flannerys Benowa',city: 'Benowa', country:'Australia',postcode:'4217',street_address:'Bronberg Plaza, Slatyer Avenue'},
+{name:'Flannerys Chermside',city: 'Chermside', country:'Australia',postcode:'4032',street_address:'Corner Rode &amp; Webster Roads,'},
+{name:'Flannerys Loganholme',city: 'Loganholme', country:'Australia',postcode:'4129',street_address:'Shop 5/1 Bryants Rd'},
+{name:'Flannerys Maroochydore',city: 'Maroochydore', country:'Australia',postcode:'4558',street_address:'Central One, 45 Plaza Pde'},
+{name:'Flannerys Miami',city: 'Miami', country:'Australia',postcode:'4220',street_address:'2184 Gold Coast Highway'},
+{name:'Flannerys Paradise Point',city: 'Paradise Point ', country:'Australia',postcode:'4216',street_address:'Shop 1A, 17 Grice Avenue'},
+{name:'Flannerys Robina',city: 'Robina', country:'Australia',postcode:'4218',street_address:'Shop 7 Easy T Centre Cnr Scottsdale Drive &amp; Christine Avenue'},
+{name:'Flannerys Taringa',city: 'Taringa', country:'Australia',postcode:'4068',street_address:'191 Moggill Road'},
+{name:'Fundies Wholefood Market Lismore',city: 'Lismore', country:'Australia',postcode:'2480',street_address:'140 Keen Street'},
+{name:'The Green Dispensary ',city: 'Stirling', country:'Australia',postcode:'5152',street_address:'28 Mount Barker Road'},
+{name:'Greenbank Pharmacy ',city: 'Greenbank ', country:'Australia',postcode:'4124',street_address:'Corner Pub Lane, Teviot Road'},
+{name:'Hagley &amp; Osmond Pharmacy',city: 'Gunnedah', country:'Australia',postcode:'2380',street_address:'204 Conadilly Street'},
+{name:'Halka B Organics',city: 'Fremantle', country:'Australia',postcode:'6160',street_address:'Shop 8, The Piazza, (Off South Terrace},'},
+{name:'Harpers Pharmacy Earlwood',city: 'Earlwood ', country:'Australia',postcode:'2206',street_address:'6 Clarke Street'},
+{name:'Health &amp; Savings Harrington Park Pharmacy',city: 'Harrington Park ', country:'Australia',postcode:'2576',street_address:'Shop 4-5 Fairwater Drive, Harrington Park Plaza,'},
+{name:'Hastings Health Food &amp; Clinic ',city: 'Hastings ', country:'Australia',postcode:'3915',street_address:'46 High street '},
+{name:'Hawthorn Road Nova Pharmacy ',city: 'Forest Hill', country:'Australia',postcode:'3131',street_address:'490 Springvale Road'},
+{name:'Health Information Pharmacy  ',city: 'Deer Park ', country:'Australia',postcode:'3023',street_address:'74 Neale Road'},
+{name:'Health Life ',city: 'Karrinyup', country:'Australia',postcode:'6018',street_address:' Karrinyup Shopping Centre, Karrinyup Road'},
+{name:'Healthpoint Chemist Helensvale ',city: 'Helensvale', country:'Australia',postcode:'4212',street_address:'Shop 1037/38 Westfield Shopping Centre/1-29 Millaroo Drive '},
+{name:'HealthSmart Pharmacy Melbourne',city: 'Parkville', country:'Australia',postcode:'3052',street_address:'Shop, 5 Grattan Street '},
+{name:'Healthpoint Day &amp; Night',city: 'Mackay', country:'Australia',postcode:'4740',street_address:' 65 Sydney Street'},
+{name:'Heavens Beauty Salon',city: 'Mt Pleasant', country:'Australia',postcode:'6153',street_address:'2/38 Moolyeen Road'},
+{name:'Hibiscus Beauty',city: 'Park Orchards', country:'Australia',postcode:'3114',street_address:'Shop 1 &amp; 2 1 Hopetoun Rd'},
+{name:'Hip Pharmacy Brimbank ',city: 'Deer Park ', country:'Australia',postcode:'3023',street_address:'28 Neale Road'},
+{name:'Hollywood Pharmacy',city: 'Nedlands', country:'Australia',postcode:'6009',street_address:'29 Hampden Road'},
+{name:'Hope Island Amcal Chempro Chemist',city: 'Hope Island', country:'Australia',postcode:'4212',street_address:'Santa Barbara Road, Shop 9-11 Hope Island Shopping Centre'},
+{name:'Elite Body Treatments',city: 'Ivanhoe East', country:'Australia',postcode:'3079',street_address:'2/242 Lower Heidelberg Road'},
+{name:'iBeauty Skin &amp; Nail Care',city: 'Greensborough', country:'Australia',postcode:'3088',street_address:'69 Grimshaw Street'},
+{name:'Impressions In Highton',city: 'Highton ', country:'Australia',postcode:'3216',street_address:'4 Bellevue Ave'},
+{name:'Hair &amp; Beauty by Irene Evans',city: 'Rosebud West', country:'Australia',postcode:'3940',street_address:'3/52 Grenville Grove'},
+{name:'Ishtar Beauty',city: 'Bell Park', country:'Australia',postcode:'3215',street_address:' 27 Milton Street'},
+{name:'J\'adore Lashes ',city: 'Berwick ', country:'Australia',postcode:'3806',street_address:'5 Kruger Street'},
+{name:'JC Unique Health &amp; Beauty',city: 'Nunawading', country:'Australia',postcode:'3131',street_address:'295 Springfield Road'},
+{name:'Jieya',city: 'Dandenong ', country:'Australia',postcode:'3175',street_address:'76 Langhorne Street'},
+{name:'Jon Ravech\'s Prescription Shoppe',city: 'Coburg North', country:'Australia',postcode:'3058',street_address:'11-17 Orvieto Street'},
+{name:'Karen Carter Chemist',city: 'Gunnedah', country:'Australia',postcode:'2380',street_address:'270/274 Conadilly Street'},
+{name:'Khodary\'s Pharmacy',city: ' Coonabarabran', country:'Australia',postcode:'2357',street_address:'77 John Street '},
+{name:'La Tua Bellezza ',city: 'Doncaster East', country:'Australia',postcode:'3109',street_address:' 28 Meryl Street'},
+{name:'Le\'Dee Makeover',city: 'Shepparton ', country:'Australia',postcode:'3630',street_address:'14B Tower Arcade 222 Maude Street'},
+{name:'Makeup and Glow ',city: 'Paddington ', country:'Australia',postcode:'4064',street_address:'Suite 13/261 Given Terrace'},
+{name:'Makeup For You ',city: 'Newstead', country:'Australia',postcode:'7250',street_address:'6 David Street'},
+{name:'McKenzies Chemist',city: 'Mt Lawley', country:'Australia',postcode:'6050',street_address:'689 Beaufort Street'},
+{name:'Mega Health Mitcham',city: 'Mitcham', country:'Australia',postcode:'5062',street_address:'Shop 48, Mitcham Sq Shopping Centre'},
+{name:'Mega Save Chemist',city: 'Erina', country:'Australia',postcode:'2250',street_address:'620-658 Terrigal Drive'},
+{name:'Mega Save Pharmacy',city: 'Charlestown', country:'Australia',postcode:'2290',street_address:'Charlestown Square, Pearson Street '},
+{name:'Melton Pharmacy',city: 'Melton', country:'Australia',postcode:'3337',street_address:'2/211 Barries Road'},
+{name:'Mermaids',city: 'Ocean Grove', country:'Australia',postcode:'3226',street_address:' 3/85 The Parade'},
+{name:'Meticulous Beauty',city: 'Prahran', country:'Australia',postcode:'3181',street_address:'1/182 Commercial Road'},
+{name:'Midland Gate Shopping Centre',city: 'Midland', country:'Australia',postcode:'6056',street_address:'274 Great Eastern Highway'},
+{name:'Millewa Spa Retreat',city: 'Echuca', country:'Australia',postcode:'3564',street_address:'509-511 High Street'},
+{name:'Miss Eyelash',city: 'Mount Eliza', country:'Australia',postcode:'3930',street_address:'25 Ranelagh Drive'},
+{name:'Miss Eyelash',city: 'Elwood', country:'Australia',postcode:'3184',street_address:'Upstairs 1 Ormond Road'},
+{name:'Glamazon Hair Studio',city: 'Coolalinga', country:'Australia',postcode:'835',street_address:'Shop 6 452 Stuart Hwy Coolalinga Village'},
+{name:'Glow Beauty Therapy',city: 'Taree', country:'Australia',postcode:'2430',street_address:'Cnr Of Albert St And Pulteney St'},
+{name:'Go Vita  Ballina Fair',city: 'Ballina', country:'Australia',postcode:'2478',street_address:'Shop 65 Ballina Fair Kerr Street'},
+{name:'Go Vita Byron Bay',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'Shop 2 / 69 Jonson Street'},
+{name:'Go Vita Cairns City',city: 'Cairns City', country:'Australia',postcode:'4870',street_address:'48 Aplin street'},
+{name:'Go Vita Cessnock',city: 'Cessnock', country:'Australia',postcode:'2325',street_address:'Shop 18 Cessnock Plaza, Keene &amp; Cooper Streets'},
+{name:'Go Vita Chermside',city: 'Chermside', country:'Australia',postcode:'4032',street_address:'Shop 126 Westfield Chermside, Gympie Road'},
+{name:'Go Vita Coffs Central',city: 'Coff Harbour', country:'Australia',postcode:'2450',street_address:'Ground Floor Coffs Central  Harbour Drive'},
+{name:'Go Vita Earlvillie',city: 'Earlville', country:'Australia',postcode:'4870',street_address:'Shop 126 Stockland Earlville Mulgrave Road'},
+{name:'Go Vita Edgecliff',city: 'Edgecliff', country:'Australia',postcode:'2027',street_address:'Shop 6 East Point Food Fair'},
+{name:'Go Vita Hervey Bay',city: 'Hervey Bay', country:'Australia',postcode:'4655',street_address:'Shop 7 Urangan Central Shopping Centre'},
+{name:'Go Vita Katoomba',city: 'Katoomba', country:'Australia',postcode:'2780',street_address:'Shop 3B Katoomba Fair Parke Street'},
+{name:'Go Vita Kurrajong',city: ' Kurrajong', country:'Australia',postcode:'2758',street_address:'Shop 1147 Grosevale rd'},
+{name:'Go Vita Lane Cove',city: 'Lane Cove', country:'Australia',postcode:'2066',street_address:'15A Burns Bay Road'},
+{name:'Go Vita Loganholme',city: 'Loganholme', country:'Australia',postcode:'4129',street_address:'Shop 64B Hyperdome Shopping Centre'},
+{name:'Go Vita Narellan',city: 'Narellan', country:'Australia',postcode:'2567',street_address:' 326 Camden Valley Way'},
+{name:'Go Vita Newport Beach',city: 'Newport Beach', country:'Australia',postcode:'2106',street_address:'2/355 Barrenjoey Road'},
+{name:'Go Vita Nowra',city: 'Nowra', country:'Australia',postcode:'2541',street_address:'27 Kinghorn Street'},
+{name:'Go Vita Salamander Bay',city: 'Salamander Bay', country:'Australia',postcode:'2317',street_address:'Shop 11 Salamander Bay Shopping Centre'},
+{name:'Go Vita The Junction',city: 'The Junction', country:'Australia',postcode:'2291',street_address:'179 Union Street'},
+{name:'Go Vita Toowoomba',city: 'Toowoomba', country:'Australia',postcode:'4350',street_address:'139 Herries Street'},
+{name:'Go Vita Tweed City',city: 'Tweed City', country:'Australia',postcode:'2486',street_address:'Shop 100 Tweed City Shopping Centre Minjungbal Street'},
+{name:'Go Vita West End',city: 'West End', country:'Australia',postcode:'4101',street_address:'Shop 14 West End Markets 69/79 Boundary Street'},
+{name:'Hair and Beauty on Goonoo Goonoo Tania',city: 'Tamworth', country:'Australia',postcode:'2340',street_address:'229 Goonoo Goonoo Rd,'},
+{name:'Hanna\'s Beauty',city: 'Nowra', country:'Australia',postcode:'2541',street_address:'10 Coral Sea Drive'},
+{name:'Happy Herb Shop',city: 'Newcastle', country:'Australia',postcode:'2300',street_address:'97 Hunter Street'},
+{name:'Healthy Life Buderim',city: 'Buderim', country:'Australia',postcode:'4556',street_address:'Shop 1 56 Burnett Street'},
+{name:'Healthy Life Cardiff',city: 'Cardiff', country:'Australia',postcode:'2285',street_address:'Shop T9 Woolworths Cardiff Crn Macquarie &amp; Mains Rd'},
+{name:'Healthy Life Dubbo',city: 'Dubbo', country:'Australia',postcode:'2830',street_address:'269 Darling Street'},
+{name:'Huxley School of Make up',city: 'Burleigh Heads', country:'Australia',postcode:'4220',street_address:'1/91 West Burleigh Rd'},
+{name:'Indulgence at Kurmond',city: 'Kurmond', country:'Australia',postcode:'2757',street_address:'Shop 3, 519 Bells Line of Road'},
+{name:'Ingenue  skin &amp; Massage',city: 'Milton', country:'Australia',postcode:'2538',street_address:'3/97 Princes HWY'},
+{name:'Isis Day Spa',city: 'Burrill Lake', country:'Australia',postcode:'2539',street_address:'1 Commonwealth Avenue'},
+{name:'Jess\'s Hair and Makeup',city: 'Blacktown', country:'Australia',postcode:'2148',street_address:'83 Stephen St'},
+{name:'Jessica Jane - Paramedical &amp; Natural Beauty Therapy',city: 'Dubbo', country:'Australia',postcode:'2830',street_address:'Suite 3/88-90 Macquarie Street'},
+{name:'Pure Beauty by Angie Beauty and Hair ',city: 'Fig Tree', country:'Australia',postcode:'2525',street_address:'Westfield Shoppingtown Shop 45 Princes Hwy'},
+{name:'Le Body Beaute',city: 'Brighton le Sand', country:'Australia',postcode:'2216',street_address:'Shop 2, 251-269 Bay Street'},
+{name:'LIPSTICK REPUBLIC',city: 'Aspendale', country:'Australia',postcode:'3195',street_address:'PO BOX 7011'},
+{name:'LYNS SKIN CLINIC',city: 'Dapto', country:'Australia',postcode:'2530',street_address:'36 Baan Baan Street'},
+{name:'Madame Butterfly',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'Shop 11 Feros Arcade'},
+{name:'Magic Mountain Health Foods',city: 'Murwillumbah', country:'Australia',postcode:'2484',street_address:'Shop 4 10-16 Brisbane Street'},
+{name:'Mink Hair &amp; Beauty',city: 'Wagga Wagga', country:'Australia',postcode:'2650',street_address:'69 Coleman Steet'},
+{name:'Mr Vitamin Go Vita',city: 'Chatswood', country:'Australia',postcode:'2067',street_address:'324 Victoria Ave'},
+{name:'Muswellbrook Nail And Beauty',city: 'Sandy Hollow', country:'Australia',postcode:'2333',street_address:'1460 Giants Creek Road'},
+{name:'Natural Beauty Skin Clinic',city: 'Lavington', country:'Australia',postcode:'2641',street_address:'Suite 2-334 Griffith Road'},
+{name:'Natural Body Image',city: 'Queanbeyan', country:'Australia',postcode:'2620',street_address:'Shop16 Karabar Shopping Centre'},
+{name:'Natural Food Store',city: 'Forest Glen', country:'Australia',postcode:'4556',street_address:'330 Mons Rd'},
+{name:'Naturally Radiant',city: 'Tugun', country:'Australia',postcode:'4224',street_address:'PO box 238'},
+{name:'Pharmacy Express Mt Annan',city: 'Mt Annan ', country:'Australia',postcode:'2567',street_address:'1 Main Street'},
+{name:'Meadow Heights Pharmacy',city: 'Meadow Heights', country:'Australia',postcode:'3048',street_address:'Shop 5 Meadow Heights Shopping Centre Paringa Boulevard'},
+{name:'Highlands Pharmacy Select',city: 'Craigieburn', country:'Australia',postcode:'3064',street_address:'Shop 9, Stockland Highlands 300 Grand Boulevard'},
+{name:'Pharmacy Select',city: 'Mill Park ', country:'Australia',postcode:'3082',street_address:'G 65, 415 McDonalds Road'},
+{name:'Lyndarum Pharmacy Select',city: 'Epping North', country:'Australia',postcode:'3076',street_address:'Shop T-7 Epping North Shopping Centre 2 Lyndarum Drive'},
+{name:'Pharmacy World Fawkner',city: 'Fawkner', country:'Australia',postcode:'3060',street_address:'63/65 Bonwick Street'},
+{name:'Berwick Pharmacy',city: 'Berwick ', country:'Australia',postcode:'3806',street_address:'51 High Street'},
+{name:'PharmaSave Pharmacy - Brentford',city: 'Forest Hill ', country:'Australia',postcode:'3131',street_address:'4-6 Brentford Square '},
+{name:'Pharmasave Charman Road Pharmacy',city: 'Cheltenham', country:'Australia',postcode:'3192',street_address:'322 Charman Road'},
+{name:'Pharmasave Mountain Gate Pharmacy',city: 'Ferntree Gully', country:'Australia',postcode:'3156',street_address:'29 Mountain Gate Shopping Centre'},
+{name:'Pharmasave Pharmacy Northcote',city: '3070', country:'Australia',postcode:'3070',street_address:'Shop 5, 3 Separation Street'},
+{name:'Plaza Pharmacy Bass Hill',city: 'Bass Hill', country:'Australia',postcode:'2197',street_address:'753 Hume Highway '},
+{name:'Pro-health',city: 'Eltham ', country:'Australia',postcode:'3095',street_address:'Shop 21, 906 Main Road'},
+{name:'Amcal Pharmacy Waurn Ponds',city: 'Waurn Ponds', country:'Australia',postcode:'3216',street_address:'1d/173-199 Pioneer Road'},
+{name:'Pulse Pharmacy',city: 'Wantirna South', country:'Australia',postcode:'3152',street_address:'Shop 1060, Knox Shopping Centre. Corner Stud Road &amp; Burwood Highway'},
+{name:'Ramai Skin and Body Care',city: 'Woodend', country:'Australia',postcode:'3442',street_address:'6 Corinella Road'},
+{name:'Raymond\'s Pharmacy Kempsey',city: 'Kempsey', country:'Australia',postcode:'2440',street_address:'24 Smith Street'},
+{name:'Restore Beauty &amp; Skin Clinic',city: 'Ashburton', country:'Australia',postcode:'3147',street_address:'287 High Street'},
+{name:'Rita Abi Khalil - Lebanese Belly Dancer',city: 'Reservoir', country:'Australia',postcode:'3073',street_address:' rita.a.khalil@gmail.com'},
+{name:'Soul Pattinson Chemist',city: 'Robina ', country:'Australia',postcode:'4230',street_address:' Robina Town Centre, Arbour Lane'},
+{name:'Romeo\'s Organic Wholefoods',city: 'North Adelaide', country:'Australia',postcode:'5006',street_address:'71-79 O\'Connell Street'},
+{name:'Ron Davis Pharmacy',city: 'Melton', country:'Australia',postcode:'3337',street_address:' 308-312 High Street'},
+{name:'Rowville Lakes Pharmacy',city: 'Rowville', country:'Australia',postcode:'3178',street_address:' 2/150 Kelletts Road'},
+{name:'Sadleirs Pharmacy',city: 'Ingham', country:'Australia',postcode:'4850',street_address:'1 Lannercost Street'},
+{name:'Salamander Amcal Pharmacy',city: 'Salamander Bay', country:'Australia',postcode:'2317',street_address:' Salamander Shopng Centre'},
+{name:'SCHMINK Beauty House',city: 'Altona', country:'Australia',postcode:'3018',street_address:'90 Railway Street'},
+{name:'Scone Chemist',city: 'Scone', country:'Australia',postcode:'2337',street_address:'153 Kelly Street'},
+{name:'Naturally Safe',city: 'Clayton', country:'Australia',postcode:'3168',street_address:'71 Manton Road'},
+{name:'Scott-Dibben Chemist',city: 'Kotara ', country:'Australia',postcode:'2289',street_address:'Shop 1060 Westfield'},
+{name:'Chemmart Pharmacy',city: 'Seaford', country:'Australia',postcode:'3198',street_address:'115A Nepean Highway'},
+{name:'Nerinasbellezza Face and Body Studio',city: 'Seaforth', country:'Australia',postcode:'2092',street_address:'Shop 18 567 Sydney Rd'},
+{name:'Shades Hair Studio',city: 'Glenorchy', country:'Australia',postcode:'7010',street_address:'285 Main Road'},
+{name:'Sharkra Health &amp; Beauty',city: 'Hobart', country:'Australia',postcode:'7000',street_address:'110 Collins Street'},
+{name:'Nimbin Emporium',city: 'Nimbin', country:'Australia',postcode:'2480',street_address:'58 Cullen St'},
+{name:'Noreen\'s Beauty Studio',city: 'Dubbo', country:'Australia',postcode:'2830',street_address:'Shop 1, 46 Victoria St'},
+{name:'Shop Neutral',city: 'South Yarra', country:'Australia',postcode:'3181',street_address:'Shop 6 Prahran Market 163 Commercial Road'},
+{name:'North Nowra Beauty',city: 'North Nowra', country:'Australia',postcode:'2541',street_address:'Shop 15 North Nowra Shopping Centre'},
+{name:'Skinfit Body &amp; Beauty',city: 'Warrnambool', country:'Australia',postcode:'3280',street_address:'150 Timor Street'},
+{name:'Scynergy Medispa',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'16b/50 Marri Road'},
+{name:'Soler Nails ',city: 'Ascot Vale ', country:'Australia',postcode:'3032',street_address:'41 Fisher Parade'},
+{name:'One Room Salon',city: 'Bronte', country:'Australia',postcode:'2024',street_address:'Shop1 414 Bronte Road '},
+{name:'Solley Lew\'s Pharmacy',city: 'St Kilda ', country:'Australia',postcode:'3182',street_address:'39-41 Fitzroy Street'},
+{name:'Organic Bliss Meleny',city: 'Meleny', country:'Australia',postcode:'4552',street_address:'11 Coral St'},
+{name:'Raw Organic Australia, Brisbane  -',city: 'Sundays at Redcliffe Jetty Markets', country:'Australia',postcode:'4020',street_address:'realfoodraw@live.com.au'},
+{name:'Soul Pattinson Chemist',city: 'Mount Druitt', country:'Australia',postcode:'2770',street_address:' Westfield Mt Druitt, 21 Luxford Road'},
+{name:'Pure Bliss',city: 'Cowra', country:'Australia',postcode:'2794',street_address:'83 Kendal Street'},
+{name:'Spoilt Beauty Boutique',city: 'Montmorency', country:'Australia',postcode:'3094',street_address:' 26 Were Street'},
+{name:'Rafael At Cosmo',city: 'Double Bay', country:'Australia',postcode:'2028',street_address:'G11 2/22 Knox Street'},
+{name:'Spraytan Queen',city: 'Doncaster ', country:'Australia',postcode:'3108',street_address:'134 Ayr Street'},
+{name:'St Helena Amcal Pharmacy',city: 'Diamond Creek', country:'Australia',postcode:'3089',street_address:'Shop 3, St Helena Market Place, Aqueduct Road'},
+{name:'Star Skin Body Beauty',city: 'Nobby Beach', country:'Australia',postcode:'4218',street_address:'Level 2, 17 Lavarack Road'},
+{name:'Stud Park Amcal ',city: 'Rowville', country:'Australia',postcode:'3178',street_address:'Shop 36 Stud Park Shopping Centre'},
+{name:'Revive with Jo',city: 'Gerringong', country:'Australia',postcode:'2534',street_address:'29 Saxonia Road'},
+{name:'Rouche Boutique',city: 'Moorebank', country:'Australia',postcode:'2170',street_address:'9/153-155 Nuwarra Rd'},
+{name:'Studio Village Pharmacy',city: 'Oxenford', country:'Australia',postcode:'4210',street_address:'Studio Drive'},
+{name:'Styles On South',city: 'Wodonga ', country:'Australia',postcode:'3690',street_address:'25 South Street'},
+{name:'Sally Richardson Make Up',city: 'South Melbourne ', country:'Australia',postcode:'3205',street_address:'337 Clarendon St'},
+{name:'Salus Spa &amp; Beauty',city: 'Manly', country:'Australia',postcode:'2095',street_address:'Suite 18, 74-78 The Corso'},
+{name:'Caxton Lane Amcal Pharmacy',city: 'Petrie Terrace', country:'Australia',postcode:'4000',street_address:'Shop 16 61 Petrie Terrace'},
+{name:'Sasha\'s Hair',city: 'Bondi', country:'Australia',postcode:'2026',street_address:'215 Bondi Rd'},
+{name:'Express Discount Pharmacy Logan Hyperdome',city: 'Brisbane ', country:'Australia',postcode:'4129',street_address:'Shop 1-2 Logan Hyperdome, Corner Pacific Highway &amp; Bryants Road'},
+{name:'Friendlies Chemists Subiaco',city: 'Subiaco', country:'Australia',postcode:'6008',street_address:'136-142 Rokeby Road'},
+{name:'Scruples Hair &amp; Beauty',city: 'NOWRA', country:'Australia',postcode:'2541',street_address:'SHOP 8A 45-53 KINGHORNE STREET'},
+{name:'Skin Essence',city: 'LYNEHAM', country:'Australia',postcode:'2602',street_address:'33/193 Mouat Street'},
+{name:'Good Life Health Stores',city: 'Ellenbrook', country:'Australia',postcode:'6069',street_address:'Shop T8 The shops'},
+{name:'Skin Perfection Boutique',city: 'Carlingford', country:'Australia',postcode:'2118',street_address:'Shop 3, 14-20 Carmen Drive'},
+{name:'Skin Plus',city: 'Pymble', country:'Australia',postcode:'2073',street_address:'95 Grandview Street,'},
+{name:'St George Pharmacy',city: 'St George', country:'Australia',postcode:'4487',street_address:'103 Victoria Street'},
+{name:'Skinwear Pty Ltd trading as Beauty Me',city: 'Galston', country:'Australia',postcode:'2159',street_address:'PO Box 404'},
+{name:'Smithfield Go-Vita',city: 'Smithfield', country:'Australia',postcode:'4878',street_address:'Shop 151 Smithfield Centre Captain Cook Hwy '},
+{name:'Spa Veda',city: 'Lennox head', country:'Australia',postcode:'2478',street_address:'66 Ballina st'},
+{name:'Stacey\'s Secret Beauty Salon',city: 'Collaroy Plateau', country:'Australia',postcode:'2097',street_address:'Shop 4D 65 Veterans Parade'},
+{name:'Superstyle',city: 'Mawson', country:'Australia',postcode:'2607',street_address:'Shop 2 South Lands Shopping Centre 2/ 22 Mawson Pl, '},
+{name:'The Beauty Bar',city: 'Brunswick Heads', country:'Australia',postcode:'2483',street_address:'3/32 Mullumbimbi St'},
+{name:'Tina Kays Beauty',city: 'Maitland', country:'Australia',postcode:'2320',street_address:'52 Sempill Street'},
+{name:'Total Bliss Body Spa',city: 'Wollongong', country:'Australia',postcode:'2500',street_address:'114 Kembla Street'},
+{name:'Totally Fab',city: 'Cardiff', country:'Australia',postcode:'2285',street_address:'191B Main Rd'},
+{name:'Wellbeing Women',city: 'Springwood', country:'Australia',postcode:'2777',street_address:'95 Burns Rd'},
+{name:'Wild Rose Organics',city: 'BUNGENDORE', country:'Australia',postcode:'2621',street_address:'2/38 ELLENDON ST,'},
+{name:'xternalbeauty',city: 'Arana Hills', country:'Australia',postcode:'4054',street_address:'4 Chatswood Crt'},
+{name:'Brallis AB',city: 'Vasterbotten', country:'Sweden',postcode:'SE904 22',street_address:'Norre Obbola Vagen 89'},
+{name:'Cocktail Cosmetics Ltd',city: 'West Midlands', country:'United Kingdom',postcode:'B75',street_address:'Vision Point - Suite 21A, Vaughan Trading Estate Sedgley Rd East'},
+{name:'Crave Beauty',city: 'Grand Blanc', country:'United States',postcode:'48439',street_address:'9186 Meadowland Drive'},
+{name:'Eyecon Bahamas',city: 'Reston VA', country:'United States',postcode:'20191',street_address:'11961 Barrel Cooper Ct'},
+{name:'Glamourbox',city: 'Mr. Manolo Ona Valle Verde  Pasig City', country:'Philippines',postcode:'1600',street_address:'16 Malipajo St.'},
+{name:'Inside Out Beauty Bar',city: 'Bellmore N.Y', country:'United States',postcode:'11710',street_address:'2789 Merrick Road'},
+{name:'Make up by Rory',city: 'Miami', country:'United States',postcode:'33137',street_address:'2001 Biscayne Blvd 117/77'},
+{name:'ROOTS the Beauty Underground',city: 'Laguna Beach', country:'United States',postcode:'92651',street_address:'384 Forest Ave. #9'},
+{name:'Soul Patterson Hoppers Crossing',city: 'Hoppers Crossing', country:'Australia',postcode:'3029',street_address:'Shop 3, 24-48 Old Geelong Rd'},
+{name:'Pharmacy Select Roxburgh',city: 'Roxburgh Park', country:'Australia',postcode:'3064',street_address:'Shop 2 Roxburgh Park Shopping Centre Cnr David Munroe Drive &amp; Somerton Road'},
+{name:'Terry White Annandale',city: 'Annandale', country:'Australia',postcode:'4814',street_address:'Shop 1 Annandale Central Shopng Cntr, Cnr University Rd &amp; MacArthur Drive'},
+{name:'Ralphs Pharmacy',city: 'Campbelltown', country:'Australia',postcode:'2560',street_address:'246 Queen St'},
+{name:'Vaucluse Pharmacy',city: 'Vaucluse', country:'Australia',postcode:'2030',street_address:'93 New South Head Rd  '},
+{name:'Pharmacy Select Wyndham',city: 'Tarneit', country:'Australia',postcode:'3029',street_address:'Shp 5, Wyndham Village Shpg Cntr Cnr Sayers &amp; Morris Rds '},
+{name:'Optimal Pharmacy Plus Carine',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'5/ 485 Beach Rd'},
+{name:'Stay Healthy',city: 'Morley', country:'Australia',postcode:'6062',street_address:'Shop 41 Galleria Morley, Russell St'},
+{name:'Ocean Reef Pharmacy',city: 'Ocean Reef', country:'Australia',postcode:'6027',street_address:'Cnr Marina Blvd &amp; Venturi Drv '},
+{name:'Go Vita Southern Cross',city: ' Melbourne', country:'Australia',postcode:'3008',street_address:'Level 1, CS 11 Southern Cross Station  99 Spencer St '},
+{name:'Derwent Park Pharmacy',city: 'Derwent Park', country:'Australia',postcode:'7009',street_address:'254 Main Rd'},
+{name:'Terry White Yarrawonga',city: 'Yarrawonga', country:'Australia',postcode:'3730',street_address:'54 Belmore St'},
+{name:'Terry White  Cairns Central',city: 'Cairns', country:'Australia',postcode:'4870',street_address:'Cairns Central 1 - 21 McLeod St, '},
+{name:'Chemplus Newton',city: 'Newton', country:'Australia',postcode:'5074',street_address:'Shop 6&amp;7 Central Shopping Centre ,CNR Gorge &amp; Newton Rds'},
+{name:'Beaufort St 24 Hour Chemist',city: 'Mt Lawley', country:'Australia',postcode:'6050',street_address:'647 Beaufort St'},
+{name:'Go Vita Ballarat',city: 'Ballarat', country:'Australia',postcode:'3350',street_address:'7 Sturt St'},
+{name:'Stay Healthy Subiaco',city: 'Subiaco', country:'Australia',postcode:'6008',street_address:'Shop 26 Crossways Shopping Centre Rokeby Rd'},
+{name:'My Healthy Place Floreat',city: 'Floreat', country:'Australia',postcode:'6014',street_address:'Shop 71a Howtree Way'},
+{name:'Denmark Pharmacy',city: 'Denmark', country:'Australia',postcode:'6333',street_address:'20 Strickland St'},
+{name:'Curtis Adams Chemmart',city: 'Wangaratta', country:'Australia',postcode:'3572',street_address:'46 Reid St'},
+{name:'Go Vita Mt Barker',city: 'Mt Barker', country:'Australia',postcode:'5251',street_address:'Cental Mall Shop 9, McLaren St '},
+{name:'Prahran Health Food',city: 'Prahran', country:'Australia',postcode:'3181',street_address:'201 Commercial Road'},
+{name:'Ibuki Health',city: 'Noosa Heads', country:'Australia',postcode:'4567',street_address:'71/6 Quamby Place'},
+{name:'De La Rue',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'Shop 13 90 Main St'},
+{name:'Healthy Life Kawana',city: 'Budina', country:'Australia',postcode:'4575',street_address:'Shop 348 Kawana Shopping World Nicklin Way'},
+{name:'Beauty by Danielle',city: 'Wollongong', country:'Australia',postcode:'2500',street_address:'34 Atchison Street'},
+{name:'Burnside Village Chemmart',city: 'Glenside', country:'Australia',postcode:'5065',street_address:'Shop 111, 447 Portrush Rd'},
+{name:'Beaconsfield Community Phy',city: 'Beaconsfield', country:'Australia',postcode:'6163',street_address:'Shop 15 Winterfold S/C 115 Lefroy Rd'},
+{name:'Brows &amp; Lash Corner',city: 'South Yarra', country:'Australia',postcode:'3141',street_address:'Shop 4, 430-436 Chapel St'},
+{name:'Go Vita Fairview Park',city: 'Fairview Park', country:'Australia',postcode:'5126',street_address:'Shop 8, 325 Hancock Rd'},
+{name:'Health Kick Whitfords',city: 'Hillarys', country:'Australia',postcode:'6025',street_address:'Shop 234 Whitford City S/C Whitfords Ave'},
+{name:'Chemcoast Airlie Beach D&amp;N Phyarmacy',city: 'Airlie Beach', country:'Australia',postcode:'4802',street_address:'366 Shute Harbour Rd'},
+{name:'Discount Drug Store - Aitkenvale',city: 'Aitkenvale', country:'Australia',postcode:'4814',street_address:'268 Ross River Rd'},
+{name:'Victoria Melissas Pharmacy',city: 'Clayton', country:'Australia',postcode:'3168',street_address:'Shop 1/1310 Centre Rd'},
+{name:'Fountain of Youth ',city: 'Alderley', country:'Australia',postcode:'4051',street_address:'126 Banks Street'},
+{name:'Reflections Day Spa  ',city: 'Williamstown', country:'Australia',postcode:'3016',street_address:'143 Railway Place'},
+{name:'Kingscliffe Beauty &amp; Massage',city: 'Kingscliff', country:'Australia',postcode:'2487',street_address:'11/60 Marine Parade'},
+{name:'Red Rose Beauty',city: 'West Hoxton', country:'Australia',postcode:'2171',street_address:'117 Carmichael Drive'},
+{name:'Go Vita Maryborough',city: 'Maryborough', country:'Australia',postcode:'4650',street_address:'Shop 2, 239 Adelaide Street'},
+{name:'Heavenlee',city: 'Highland Park', country:'Australia',postcode:'4211',street_address:'45 Renfrew Drive'},
+{name:'Beauty Worx',city: 'Wagga Wagga', country:'Australia',postcode:'2650',street_address:'4/56 Forsyth Street '},
+{name:'At Home Beauty Therapy',city: 'Balmoral', country:'Australia',postcode:'4171',street_address:'7/77 Bilyana Street'},
+{name:'Indulge Beauty Bar',city: 'Kambah', country:'Australia',postcode:'2902',street_address:'Shop 2-3 Carleton Street'},
+{name:'Renew Skin &amp; Body Clinic',city: 'Picton', country:'Australia',postcode:'2571',street_address:'161a Argyle Street'},
+{name:'Bresilienne Wax Lounge',city: 'Albury ', country:'Australia',postcode:'2640',street_address:'Shop 8, 586 Dean Street'},
+{name:'Belle Femme',city: 'Narraweena', country:'Australia',postcode:'2099',street_address:'42 Nimbey Avenue'},
+{name:'Capalaba Park Amcal Max',city: 'Capalaba', country:'Australia',postcode:'4157',street_address:'64-45 Redland Bay Rd'},
+{name:'Deep Cleanse',city: 'Torquay', country:'Australia',postcode:'3228',street_address:'Shop 5, 15 Bell St,'},
+{name:'Euroa Pharmacy',city: 'Euroa', country:'Australia',postcode:'3666',street_address:'26 Binney St'},
+{name:'IMAGE ONE BEAUTY',city: 'Roley Stone', country:'Australia',postcode:'6111',street_address:'33 Buchanan Road'},
+{name:'Karen Martiensen',city: 'Nobby Beach', country:'Afghanistan',postcode:'4218',street_address:'24 Petrel Ave,'},
+{name:'Manly West Chammart Pharmacy',city: 'Manly', country:'Australia',postcode:'4179',street_address:'S10 Crn Manly &amp; Hargreaves Roads'},
+{name:'Mornington Amcal',city: 'Mornington', country:'Australia',postcode:'3931',street_address:'113 Main St'},
+{name:'Mosman Drive in Chemist',city: 'Mosman Park ', country:'Australia',postcode:'6012',street_address:'590 Stirling Hwy, '},
+{name:'Mount Evelyn Pharmacy',city: 'Mt Evelyn', country:'Australia',postcode:'3796',street_address:'35 Wray Crescent'},
+{name:'Mt Barker Pharmacy',city: 'Mt Barker', country:'Australia',postcode:'6324',street_address:'23 Lowood Road'},
+{name:'Mt Isa Pharmacy',city: 'Mt Isa', country:'Australia',postcode:'4825',street_address:'Shop 1/80 Camooweal Street'},
+{name:'Myrtleford Pharmacy',city: 'Myrtleford', country:'Australia',postcode:'3737',street_address:'43 Clyde St'},
+{name:'Narrabri Pharmacy',city: 'Narrabri', country:'Australia',postcode:'2390',street_address:'127 Maitland St'},
+{name:'Natasha Skin &amp; Body',city: 'South Bank ', country:'Australia',postcode:'3006',street_address:'Shop 14 89 City Road '},
+{name:'Neutral Bay Pharmacy',city: 'Neutral Bay ', country:'Australia',postcode:'2089',street_address:'177 Military Rd '},
+{name:'Nicole\'s Angelic Beauty Therapy',city: 'Shepparton ', country:'Australia',postcode:'3630',street_address:'13 Chevrolet Ave '},
+{name:'Nightingales Pharmacy Erskine ',city: 'Mandurah', country:'Australia',postcode:'6210',street_address:'Shop 4 / Erskine Central Shopping Centre, Old Coast Road, '},
+{name:'Nightingales Pharmacy Kalamanda ',city: 'Kalamanda ', country:'Australia',postcode:'6076',street_address:'123 canning Rd, '},
+{name:'Noosa holistic Health',city: 'Noosaville ', country:'Australia',postcode:'4566',street_address:'35 Mary Street '},
+{name:'North Brighton Pharmacy ',city: 'Brighton ', country:'Australia',postcode:'3186',street_address:'326 Bay Street '},
+{name:'Ogg\'s Pharmacy',city: 'South Yarra ', country:'Australia',postcode:'3141',street_address:'189 Toorak Road'},
+{name:'Olga Hardy Beauty Therapy',city: 'Pascoe Vale ', country:'Australia',postcode:'3044',street_address:'3 Elgin Street'},
+{name:'Om Day Spa',city: 'Yallingup', country:'Australia',postcode:'6282',street_address:'3/40 Hemsley Road'},
+{name:'Organic Salon Dimentions',city: 'Terry Hills ', country:'Australia',postcode:'2084',street_address:'6/19 Yulong Avenue '},
+{name:'Oria Massa Holistic Centre',city: 'Northcote ', country:'Australia',postcode:'3070',street_address:'579 High Street '},
+{name:'Our Corner Pharmacy',city: 'Belmont', country:'Australia',postcode:'3216',street_address:'145 High St '},
+{name:'Outshine',city: 'Fortitude Valley ', country:'Australia',postcode:'4006',street_address:'Shop 3 Centro on James 39 James St '},
+{name:'Paloma ',city: 'Bendigo ', country:'Australia',postcode:'3550',street_address:'461 Hargreaves st '},
+{name:'Pamper Clinic',city: 'Newtown ', country:'Australia',postcode:'3220',street_address:'313 Packington St '},
+{name:'Paradise Point Pharmacy',city: 'Paradise Point ', country:'Australia',postcode:'4216',street_address:'30 The Esplanade '},
+{name:'Pardeys Belmont Village Pharmacies',city: 'Belmont', country:'Australia',postcode:'3216',street_address:'10/ 65 High St'},
+{name:'Perry Moshidis Pharmacy',city: 'Richmond  ', country:'Australia',postcode:'3121',street_address:'22/246 Church St, '},
+{name:'Pharmacy360 Stotts Corner',city: 'Hawthorn  ', country:'Australia',postcode:'3122',street_address:'Cnr Riversdale &amp; Glenferrie Roads'},
+{name:'Quality Pharmacy Knox',city: 'Wantirna South ', country:'Australia',postcode:'3152',street_address:'Shop 1060, Knox S/C. Cnr Stud Rd &amp; Burwood Hwy, '},
+{name:'Seaford Pharmacy',city: 'Seaford ', country:'Australia',postcode:'3198',street_address:'115 Nepean Hwy '},
+{name:'Seeds of Wellness',city: 'Griffith ', country:'Australia',postcode:'2680',street_address:'Shop16, Griffin Plaza, Corner Crossing &amp; Yambil Sts'},
+{name:'Karisma Hair Studio',city: 'Torrensville ', country:'Australia',postcode:'5031',street_address:'Shop 2 158 Henley Beach Rd '},
+{name:'Style with Cindy',city: 'Chadstone ', country:'Australia',postcode:'3148',street_address:'Suite 1,Level 2 Boarder Tower'},
+{name:'Sunshine Plaza Pharmacy',city: 'Sunshine', country:'Australia',postcode:'3020',street_address:'Sunshine Plaza S/C, Shop 38-39 Hampshire Rd, '},
+{name:'Super Saver Sunshine',city: 'Sunshine ', country:'Australia',postcode:'3020',street_address:'Shop 45 Sunshine Market Place '},
+{name:'Surfers Paradise Midnight',city: 'Surfers Paradise', country:'Australia',postcode:'4217',street_address:'Shop 36, 3221 Surfers Paradise Boulevard '},
+{name:'Swan Hill Beauty Salon',city: 'Swan Hill ', country:'Australia',postcode:'3585',street_address:'261 Campbell Street '},
+{name:'Swansea Guardian',city: 'Swansea ', country:'Australia',postcode:'2281',street_address:'148 Pacific Hwy 	'},
+{name:'Terry White Mermaid Waters',city: 'Mermaid Waters ', country:'Australia',postcode:'4218',street_address:'Shop C28, Q Super Centre, Cnr Bermuda &amp; Markeri Streets '},
+{name:'Terry White Albury',city: 'Albury ', country:'Australia',postcode:'2640',street_address:'543 Dean St '},
+{name:'Terry White Clifford Gardens Toowoomba',city: 'Toowoomba', country:'Australia',postcode:'4350',street_address:'S47 Clifford Gardens S/C  cnr James St &amp; Anzac Ave'},
+{name:'Terry White Hamilton',city: 'Hamilton', country:'Australia',postcode:'2292',street_address:'119-125 Beaumont St '},
+{name:'Terry White Mitchelton',city: 'Mitchelton ', country:'Australia',postcode:'4053',street_address:'Shop 86 Brookside S/centre, 159 Osborne Rd,'},
+{name:'Terry White Myer Centre',city: 'Brisbane ', country:'Australia',postcode:'4000',street_address:'Shop 103, Myer Centre Level E, 91 Queen St '},
+{name:'Terry White Pharmacy Gladstone Park ',city: 'Gladstone Park', country:'Australia',postcode:'3043',street_address:'Shop 104, Gladstone Park Shopping Centre/Gladstone Park Dr, '},
+{name:'Terry White Pharmacy Sunbury',city: 'Sunbury ', country:'Australia',postcode:'3429',street_address:' 83/85 Evans Arcade, '},
+{name:'Terry White Wodonga',city: 'Wodonga ', country:'Australia',postcode:'3690',street_address:'127 High St, '},
+{name:'Terry White Chemists Carindale Upper',city: 'Carindale', country:'Australia',postcode:'4152',street_address:'Shop 2069 Westfield S/centre,  Cnr Creek &amp; Old Cleveland Roads'},
+{name:'Terry White Garden City',city: 'UPPER MT GRAVATT ', country:'Australia',postcode:'4122',street_address:' Shop 2084. Garden City Shopping Centre, Cnr Kessels &amp; Logan Roads '},
+{name:'Terry White Taigum',city: 'Taigum ', country:'Australia',postcode:'4018',street_address:'Cnr Church &amp; Beams Road '},
+{name:'The Berry Pharmacy',city: 'Berry ', country:'Australia',postcode:'2535',street_address:'113 Queen St'},
+{name:'Chai Color Me Hairdressing',city: 'Essendon  ', country:'Australia',postcode:'3041',street_address:'295 Buckley Street'},
+{name:'The Essence Of A Woman',city: 'Kew ', country:'Australia',postcode:'3101',street_address:'323 High Street '},
+{name:'The Greater Discount',city: 'Broadmeadows ', country:'Australia',postcode:'3047',street_address:'1/11-17 Pearcedale Parade '},
+{name:'The Green Disp Blackwood',city: 'Blackwood ', country:'Australia',postcode:'5051',street_address:'202 Main Rd '},
+{name:'The Green Disp Erindale',city: 'Kensington Gardens ', country:'Australia',postcode:'5068',street_address:'361A Kensington Rd '},
+{name:'The Hair Lounge',city: 'Launceston ', country:'Australia',postcode:'7250',street_address:'Level 1 125A Brisbane Street '},
+{name:'The Whole Body',city: 'Warragul ', country:'Australia',postcode:'3820',street_address:'Shop 1 /126 Albert rd '},
+{name:'Thomas &amp; Chong',city: 'Castlemaine ', country:'Australia',postcode:'3450',street_address:'2 FREDERICK STREET'},
+{name:'Tropical Beauty',city: 'Brinsmead ', country:'Australia',postcode:'4870',street_address:'19 Brady Close '},
+{name:'Tuncurry',city: 'Tuncurry ', country:'Australia',postcode:'2428',street_address:'70 Manning St, '},
+{name:'You Save Chemist Avalon',city: 'AVALON ', country:'Australia',postcode:'2107',street_address:'60 Old Barrenjoey Rd '},
+{name:'Sabastian Salons ',city: 'Sydney ', country:'Australia',postcode:'2000',street_address:'Lv 9 117 Macquarie Street '},
+{name:'Catwalk Hair &amp; Beauty Paramatta ',city: 'Parramatta ', country:'Australia',postcode:'2150',street_address:'Shop 5048 Westfield Shopping Centre, Level 5. 159-175 Church Street '},
+{name:'Surfcoast Wholefoods',city: 'Torquay', country:'Australia',postcode:'3228',street_address:'Shop 104, 41 Bristol Road'},
+{name:'Aunt Maggies Balaclava',city: 'Balaclava', country:'Australia',postcode:'3183',street_address:'270 Carlise Street'},
+{name:'Aunt Maggies Malvern',city: 'Malvern', country:'Australia',postcode:'3144',street_address:'72 Glenferrie Road'},
+{name:'Flannerys Wynnum',city: 'Wynnum ', country:'Australia',postcode:'4178',street_address:'Shop B1 &amp; B2, 20-21 Wynnum Road, Wynnum Plaza'},
+{name:'Makeup by Angela Paris',city: 'West Richmond', country:'Australia',postcode:'5033',street_address:'8 Dover Street'},
+{name:'Edgewater Town Mall',city: 'Edgeworth', country:'Australia',postcode:'2285',street_address:'Shop 5, 720 Main Rd'},
+{name:'Priceline Firle',city: 'Firle', country:'Australia',postcode:'5070',street_address:'Shop 4 Glynburn Plaza 151 Glynburn Rd'},
+{name:'Pacific Pines Amcal Chempro',city: 'Oxenford   ', country:'Australia',postcode:'4210',street_address:'Shop 2, 14 Studio Drive'},
+{name:'Aphrodites on the Lake',city: 'Valentine', country:'Australia',postcode:'2280',street_address:'Shop 4/28 Allambee Place'},
+{name:'Beauty By Tasha',city: 'East Albury', country:'Australia',postcode:'2640',street_address:'108 Rivergum Drive'},
+{name:'Livelife Pharmacy  ',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'31 Jonson Street'},
+{name:'My Healthy Place Karrinyup',city: 'Karrinyup', country:'Australia',postcode:'6018',street_address:'Shop F36 Karrinyup Shopping Centre Karrinyup Rd'},
+{name:'Skynergy',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'16b/50 Marri Road'},
+{name:'Goodlife Ellenbrooke',city: 'Ellenbrook', country:'Australia',postcode:'6069',street_address:'Shop T42 ‰ÛÏThe Shops‰Û Main st,'},
+{name:'777 Whitford‰Ûªs City Pharmacy',city: 'Hillarys', country:'Australia',postcode:'6025',street_address:'Shop 42, Westfield Whitford City, Whitfords Avenue'},
+{name:'Chemmart Fountains Pharmacy ',city: 'Geralton', country:'Australia',postcode:'6530',street_address:'113 Marine Terrace'},
+{name:'Optimal Carine Pharmacy Plus',city: 'Duncraig', country:'Australia',postcode:'6023',street_address:'S5/473 Beach Road'},
+{name:'Forestlakes Pharmacy',city: 'Thornlie', country:'Australia',postcode:'6108',street_address:'Shopping Centre, Corner Forest Lakes Drive &amp; Murdoch Road'},
+{name:'Thomsons Lake Pharmacy',city: 'Jandakot', country:'Australia',postcode:'6164',street_address:'1/850 North Lake Road'},
+{name:'Blossoms Health Food Store',city: 'Treendale, Australind', country:'Australia',postcode:'6233',street_address:'Shop 24 Treendale Shopping Centre, The Promendade'},
+{name:'Miami Health Solutions',city: 'Erskine', country:'Australia',postcode:'6210',street_address:'Shop 2 Erskine Shopping Centre, Cnr Old Coast Rd &amp; Oakleigh Dr'},
+{name:'Terry White Coorparoo ',city: 'Coorparoo ', country:'Australia',postcode:'4151',street_address:'332 Old Cleveland Road '},
+{name:'Logan Central Plaza Pharmacy ',city: 'Logan Central ', country:'Australia',postcode:'4114',street_address:'Logan Central Shopping Plaza (K-mart Plaza}, 38-74 Wembley Road '},
+{name:'Natures Emporium',city: 'Bundaberg', country:'Australia',postcode:'4670',street_address:'55 Bourbong Street'},
+{name:'Hibiscus Health Market',city: 'Nambucca Heads ', country:'Australia',postcode:'2448',street_address:'Shop 7 Nambucca Plaza A1, '},
+{name:'Terry White - Indooroopilly',city: 'Indooroopilly ', country:'Australia',postcode:'4068',street_address:'Shop 1019, 322 Moggill Road'},
+{name:'Healthpoint Chemist The Pines',city: 'Elanora', country:'Australia',postcode:'4221',street_address:'Shop 22, Pines Shopping Centre'},
+{name:'Healthpoint Chemist - Tweed Heads',city: 'Tweed Heads South', country:'Australia',postcode:'2486',street_address:'Shop 115, Tweed City S/Centre , Minjumgbal Street'},
+{name:'Sadleirs Pharmacy - Ingham',city: 'Ingham', country:'Australia',postcode:'4850',street_address:'1 Lannercost Street'},
+{name:'Terry White - Mermaid Waters',city: 'Mermaid Waters', country:'Australia',postcode:'4218',street_address:'Shop C28, Q Super Centre - Cnr Bermuda &amp; Markeri Sts'},
+{name:'Pardeys Eastbrooke Medical Centre Pharmacy',city: 'Belmont ', country:'Australia',postcode:'3216',street_address:' 75 -77 Roslyn Rd'},
+{name:'Terry White - Rockhampton',city: 'Rockhampton', country:'Australia',postcode:'4701',street_address:'Shop 91B, Stockland S/C, Cnr Yamba Rd &amp; Bruce Hwy'},
+{name:'Go Vita Boronia Park',city: 'HUNTERS HILL', country:'Australia',postcode:'2111',street_address:'99 Pittwater Road'},
+{name:'Maple Street Co-Op',city: 'Maleny', country:'Australia',postcode:'4552',street_address:'37 Maple St'},
+{name:'Rustic Hair Room',city: 'Geelong West', country:'Australia',postcode:'3218',street_address:'Shop 3,226 Pakington Street'},
+{name:'The Goddess Beauty',city: 'Wahroonga', country:'Australia',postcode:'2076',street_address:'Se 2 5 Redleaf Ave'},
+{name:'The Nail Depot',city: 'Subiaco', country:'Australia',postcode:'6008',street_address:'Village Close Shop 9, 1 Forrest St'},
+{name:'Ooh La Lana',city: 'Somerset', country:'Australia',postcode:'7322',street_address:'63 Simpson Street'},
+{name:'Advanced Aesthethics Australia',city: 'Caroline Springs', country:'Australia',postcode:'3023',street_address:'9/242-244 Caroline Springs Bvd'},
+{name:'Nails Talk &amp; Beauty',city: 'Cheltenham', country:'Australia',postcode:'3192',street_address:'Unit 1 4 Coleman Crt'},
+{name:'Lila Hair Design',city: 'Kingsville', country:'Australia',postcode:'3012',street_address:'273 Geelong Rd'},
+{name:'Egolista',city: 'Grenfell', country:'Australia',postcode:'2810',street_address:'40 Main Street'},
+{name:'ARGUS',city: 'HONG KONG', country:'Hong Kong SAR China',postcode:'HONG KONG',street_address:'HONG KONG'},
+{name:'Glamour and Beauty',city: 'Glenroy', country:'Australia',postcode:'3046',street_address:'101 Wheatsheaf Rd'},
+{name:'Aunt Maggies Fitzroy ',city: 'Fitzroy', country:'Australia',postcode:'3065',street_address:'188-196 Gertrude Street'},
+{name:'Arundel Amcal Pharmacy - Chempro',city: 'Arundel', country:'Australia',postcode:'4214',street_address:'Shop 6, Arundel Plaza, 230-232 Napper Road'},
+{name:'Barcaldine Pharmacy ',city: 'Barcaldine', country:'Australia',postcode:'4725',street_address:'91 Oak Street'},
+{name:'Beerwah Soul Pattinson Chemist',city: 'Beerwah', country:'Australia',postcode:'4519',street_address:'Shop 8, Beerwah Market Place, 54 Simpson Street'},
+{name:'Broadbeach Amcal Chempro Chemist',city: 'Broadbeach ', country:'Australia',postcode:'4218',street_address:'Oracle Building, Shop 1E / 13 Charles Avenue'},
+{name:'Chemcoast - Airlie Beach Day &amp; Night Pharmacy',city: 'Airlie Beach ', country:'Australia',postcode:'4802',street_address:'366 Shute Harbour Road'},
+{name:'Chemist Outlet - Townsville',city: 'Townsville', country:'Australia',postcode:'4814',street_address:'Domain Central, 5 / 143 Duckworth Street'},
+{name:'Dicky Beach Pharmacy',city: 'Dicky Beach ', country:'Australia',postcode:'4551',street_address:'Shop 5-6 Beerburrum Street'},
+{name:'Discount Drug Store - Pease St',city: 'Manoora', country:'Australia',postcode:'4870',street_address:'Shop 22, 159 - 161 Pease St, Piccone\'s S/Village'},
+{name:'Discount Drug Store - Newmarket',city: 'Newmarket', country:'Australia',postcode:'4051',street_address:'Shop 106/107, Reading Newmarket, 400 Newmarket Road'},
+{name:'Duggans Amcal Pharmacy',city: 'Warwick', country:'Australia',postcode:'4370',street_address:'Shop 10, Rose City S/World, Palmerin Street'},
+{name:'Dupuys Amcal - North Mackay',city: 'Mackay', country:'Australia',postcode:'4740',street_address:'12-14 Grandview Drive, Greenfields'},
+{name:'Infinity Beauty Spa',city: 'Kyabram', country:'Australia',postcode:'3620',street_address:'32 Unitt street'},
+{name:'LiveLife Pharmacy - Byron Bay Plaza',city: 'Byron Bay ', country:'Australia',postcode:'2481',street_address:'Shop 4B, 5&amp;6, Byron Bay Plaza North, Jonson Street'},
+{name:'Logan Central Plaza Pharmacy',city: 'Logan Central', country:'Australia',postcode:'4114',street_address:'Logan Central S/Plaza (Kmart Plaza},, 38 - 74 Wembley Rd'},
+{name:'Lucy Walker Chemmart Pharmacy',city: 'Goondiwindi', country:'Australia',postcode:'4390',street_address:'95 Marshall Street'},
+{name:'Mt. Isa Pharmacy First',city: 'Mt Isa ', country:'Australia',postcode:'4825',street_address:'Shop 1, 80 Camooweal Street'},
+{name:'Range Pharmacy',city: 'Toowoomba ', country:'Australia',postcode:'4350',street_address:'11A James Street'},
+{name:'Robina Easy-T Centre Amcal Pharmacy',city: 'Robina', country:'Australia',postcode:'4226',street_address:'Shop 15, Robina Easy-T Centre, Cnr Scottsdale Rd &amp; Christine Ave'},
+{name:'Robina Soul Pattinson Chemist',city: 'Robina', country:'Australia',postcode:'4226',street_address:'Shop AD.4 58 / 56 Robina Town Centre'},
+{name:'Sadleirs Pharmacy - Ingham',city: 'Ingham ', country:'Australia',postcode:'4850',street_address:'1 Lannercost Street'},
+{name:'Springfield Day &amp; Night Amcal Chemist',city: 'Springfield', country:'Australia',postcode:'4300',street_address:'Springfield Fair S/C, Cnr Springfield Parkway &amp; Topaz Rd'},
+{name:'Surfers Paradise Midnight Amcal Chemist',city: 'Surfers Paradise ', country:'Australia',postcode:'4217',street_address:'Shop 36, 3221 Surfers Paradise Boulevard'},
+{name:'Terry White - Annandale',city: 'Annandale ', country:'Australia',postcode:'4814',street_address:'Shop 1, Annandale S/C, Cnr University Rd &amp; McArthur Dr'},
+{name:'Terry White - Brookside Centre',city: 'Mitchelton', country:'Australia',postcode:'4053',street_address:'Shop 86 ,Brookside Shopping Centre, 159 Osborne Road'},
+{name:'Terry White - Cairns Central',city: 'Cairns', country:'Australia',postcode:'4870',street_address:'Shop 112, Cairns Central S/Ctr,  Cnr Aplin &amp; McLeod Sts'},
+{name:'Terry White - Carindale Upper',city: 'Carindale ', country:'Australia',postcode:'4152',street_address:'Shop 2069, Westfield S/Town, Cnr Creek &amp; Old Cleveland'},
+{name:'Terry White - Carindale Lower',city: 'Carindale', country:'Australia',postcode:'4152',street_address:'Shop 1112, Westfield S/Town, Creek &amp; Old Cleveland'},
+{name:'Terry White - Chermside',city: 'Chermside', country:'Australia',postcode:'4032',street_address:'Shop 334/36 Westfield Chermside, Corner Gympie &amp; Hamilton Roads'},
+{name:'Terry White - Clifford Gardens Toowoomba',city: 'Toowoomba ', country:'Australia',postcode:'4350',street_address:'Shop 47, Clifford Gardens S/C, Cnr James St &amp; Anzac Ave'},
+{name:'Terry White - Clifton Beach',city: 'Clifton Beach ', country:'Australia',postcode:'4879',street_address:'Shop 14, Captain Cook Hwy, Clifton Village S/Centre'},
+{name:'Terry White - Garden City',city: 'Mt Gravatt', country:'Australia',postcode:'4122',street_address:'Shop 2084, Garden City S/C, Cnr Logan &amp; Kessels Rd'},
+{name:'Pharaohs Treasure',city: 'Deltona', country:'United States',postcode:'FL',street_address:'2723 Timberlake Ave'},
+{name:'Go Vita Tenterfield',city: 'TENTERFIELD,', country:'Australia',postcode:'2372',street_address:'230 Rouse Street'},
+{name:'Grub Organics',city: 'Pacific Paradise', country:'Australia',postcode:'4564',street_address:'20c Timari St'},
+{name:'Natural Food Market Neutral Bay',city: 'Neutral Bay', country:'Australia',postcode:'2089',street_address:'184 Military Rd'},
+{name:'Stay Healthy Morley',city: 'Morley', country:'Australia',postcode:'6062',street_address:'Shop 41, Galleria Shopping Centre, Russell Street'},
+{name:'Health Kick Rockingham',city: 'Rockingham', country:'Australia',postcode:'6068',street_address:'Shop G081 Rockingham City S/C, 1 Council Ave'},
+{name:'Health Kick Joondalup',city: 'Joondalup', country:'Australia',postcode:'6127',street_address:'Shop T101, Lakeside Joondalup S/C'},
+{name:'Healthy Choice Carousel',city: 'Cannington', country:'Australia',postcode:'6107',street_address:'Shop T1101 Carousel S/Ctr, Albany Highway'},
+{name:'Stay Healthy Belmont',city: 'Belmont', country:'Australia',postcode:'6104',street_address:'Belmont Forum S/C, Abernethy Road'},
+{name:'Goodlife Warwick',city: 'Warwick', country:'Australia',postcode:'6024',street_address:'Shop 4 Centrol Warwick S/C, Beach Road'},
+{name:'Stay Healthy Landsadale',city: 'Madeley', country:'Australia',postcode:'6055',street_address:'Shop 11, Kingsway City Sh/Ctr, Cnr Wanneroo/Hepburn Ave'},
+{name:'Stay Healthy Warnbro',city: 'Warnbro Sound', country:'Australia',postcode:'6169',street_address:'Shop 36 Warnbro Fair S/C, Warnbro Sound Avenue'},
+{name:'Health Kick Raine Square',city: 'Perth', country:'Australia',postcode:'6000',street_address:'Shop 10 TM Raine Square, 306 Murray Street'},
+{name:'Healthy Choice Armadale',city: 'Armadale', country:'Australia',postcode:'6112',street_address:'Shop 77, Armadale Shopping Centre, 224 Jull Street'},
+{name:'Geegelup General Supplies',city: 'Bridgetown', country:'Australia',postcode:'6255',street_address:'130 Hampton Street'},
+{name:'Tumut Pharmacy',city: 'Tumut', country:'Australia',postcode:'2720',street_address:'69 Wynyard St'},
+{name:'Callaghans Campus Pharmacy',city: 'Callaghan', country:'Australia',postcode:'2308',street_address:'Shop 110b/ 130 University Drv'},
+{name:'Terry White Chemist - Clifton Beach',city: 'Clifton Beach ', country:'Australia',postcode:'4879',street_address:'Shop 14 Captain Cook Hwy, Clifton Village S/Centre'},
+{name:'Pharmasave Inverloch',city: 'Inverloch ', country:'Australia',postcode:'3996',street_address:'1/12 A\'Beckett St'},
+{name:'North Fitzroy Pharmacy',city: 'Nth Fitzroy ', country:'Australia',postcode:'3068',street_address:'35 Best St'},
+{name:'The Greater Discount Chemist',city: 'Sunshine ', country:'Australia',postcode:'3020',street_address:'Shop 12/254 Hampshire Rd'},
+{name:'Leighton Beach Drive-In Pharmacy',city: 'North Fremantle ', country:'Australia',postcode:'6159',street_address:'108 Stirling Hwy'},
+{name:'Subiaco 7 Day Pharmacy',city: 'Subiaco ', country:'Australia',postcode:'6008',street_address:'157-159 Rockeby Rd'},
+{name:'Aitkenvale Discount Drugstore',city: 'Aitkenvale', country:'Australia',postcode:'4814',street_address:'268 Ross River Road'},
+{name:'BJ\'s Pharmacy',city: 'Devonport', country:'Australia',postcode:'7310',street_address:'56-58 Rooke Street Mall'},
+{name:'Style &amp; Grace',city: 'Mulgrave', country:'Australia',postcode:'3170',street_address:'46 Monash Drive'},
+{name:'GMD Store',city: 'Maryland', country:'Australia',postcode:'2287',street_address:'7/161 Maryland Drive'},
+{name:'Go Vita Ashfield',city: 'Ashfield', country:'Australia',postcode:'2131',street_address:'Shop 10, Ashfield Mall 260A Liverpool Rd'},
+{name:'Go Vita Hornsby',city: 'Hornsby', country:'Australia',postcode:'2077',street_address:'Shop 10, 25-29 Hunter St'},
+{name:'Go Vita Manly',city: 'Manly', country:'Australia',postcode:'2095',street_address:'Shop 11 The Corso'},
+{name:'Lunatic Fringe ',city: 'Clayfield ', country:'Australia',postcode:'4011',street_address:'458 Sandgate Road'},
+{name:'Ilona on Broadbent Hair Skin Body ',city: 'Parap', country:'Australia',postcode:'820',street_address:'36 Broadbent Street '},
+{name:'Hair by Amanda Hill',city: 'Tuncurry ', country:'Australia',postcode:'2421',street_address:'10 Rennie Street '},
+{name:'Go Vita Corinda',city: 'CORINDA', country:'Australia',postcode:'4075',street_address:'Shop 5/661 Oxley Road'},
+{name:'Believe Hair &amp; Body',city: 'Gawler', country:'Australia',postcode:'5118',street_address:'1A Bridge Street'},
+{name:'You Save Chemist Brookvale',city: 'Brookvale', country:'Australia',postcode:'2100',street_address:'Shop 422 Warringh Mall, Coles Dock '},
+{name:'Rhys Jones Pharmacy',city: 'Rosny Park', country:'Australia',postcode:'7018',street_address:'13 Bayfield Street'},
+{name:'Coventry Pharmacy',city: 'Latrobe', country:'Australia',postcode:'7307',street_address:'45A Gilbert St'},
+{name:'Commercial Rd Pharmacy',city: 'Prahran', country:'Australia',postcode:'3181',street_address:'Shop 1, 212 Commercial Rd'},
+{name:'Victoria Parade Pharmacy',city: 'Fitzroy', country:'Australia',postcode:'3065',street_address:'55 Victoria Parade'},
+{name:'Nova Collins Place Pharmacy',city: 'Melbourne', country:'Australia',postcode:'3000',street_address:'Shop 59-60 / 45 Collins Place'},
+{name:'Plunkets Pharmacy - Port Macquarie',city: 'Port Macquarie', country:'Australia',postcode:'2444',street_address:'158 Gordon St'},
+{name:'Kerrie Birch Styling',city: 'Moorabbin', country:'Australia',postcode:'3189',street_address:'38 Royena Rd'},
+{name:'Chi Hair Skin Body - Glenelg',city: 'Glenelg ', country:'Australia',postcode:'5045',street_address:'Shop 3 Lights Landing Marina Pier - Chappel Drive'},
+{name:'Organic Salon Dimentions Seaforth',city: 'Seaforth', country:'Australia',postcode:'2092',street_address:'6 Brook Road'},
+{name:'Hairyard',city: 'Robina', country:'Australia',postcode:'4226',street_address:'7 Heatherton Street'},
+{name:'Stylz 2 Go',city: 'Bethania ', country:'Australia',postcode:'4205',street_address:'Shop 3 Bethania Water Shopping Centre 78 Station Rd'},
+{name:'Applebom Beauty, Hair &amp; Wellbeing',city: 'Rangeville ', country:'Australia',postcode:'4350',street_address:'22 James St'},
+{name:'Terry White Lutwyche',city: 'Lutwyche', country:'Australia',postcode:'4030',street_address:'543 Lutwyche Road'},
+{name:'Lush Cuts &amp; Beauty',city: 'Buderim ', country:'Australia',postcode:'4556',street_address:'39 Main St'},
+{name:'Blooms- Giffith ',city: 'Griffith ', country:'Australia',postcode:'2680',street_address:'222 Banna Ave'},
+{name:'Terry White - Lutwyche',city: 'Lutwyche ', country:'Australia',postcode:'4030',street_address:'16 Lutwyche City S/Centre, 543 Lutwyche Rd'},
+{name:'Go Vita Ballina Central',city: 'Ballina ', country:'Australia',postcode:'2478',street_address:'10-44 Pacific Highway'},
+{name:'Rivive Health Foods Margaret River',city: 'Margaret River', country:'Australia',postcode:'6285',street_address:'Shop 1, 120 Bussell Highway'},
+{name:'Anubis Dermal Clinic',city: 'Thornlie', country:'Australia',postcode:'6108',street_address:'50 Forest Crescent'},
+{name:'Miami Health Solutions Meadow Springs',city: 'Meadow Springs', country:'Australia',postcode:'6210',street_address:'Shop 4  Meadow Springs Shopping Centre'},
+{name:'Go Vita Cherrybrook',city: 'Cherrybrook', country:'Australia',postcode:'2126',street_address:'Shop 31 Cherrybrook Village S/Centre Shepherds Drive'},
+{name:'Ballarat Health Foods',city: 'Ballarat', country:'Australia',postcode:'3350',street_address:'405A Sturt St'},
+{name:'Go Vita Shellharbour',city: 'Shellharbour', country:'Australia',postcode:'2529',street_address:'Unit 15/75 Cygnet Avenue, Cygnet Centre'},
+{name:'Go Vita Revesby',city: 'REVESBY', country:'Australia',postcode:'2212',street_address:'34 Selems Parade'},
+{name:'House of Wax and Beauty',city: 'Cessnock', country:'Australia',postcode:'2325',street_address:'7 Vincent Street'},
+{name:'One Floor Cosmetics ',city: 'Mountain Creek ', country:'Australia',postcode:'4557',street_address:'Suite 4, Mountain Creek Medical Centre, Karawatha Drive '},
+{name:'Art Hair Studio',city: 'Beaumaris', country:'Australia',postcode:'3193',street_address:'353 Balcombe Road'},
+{name:'Miami Health Solutions - Eskine',city: 'Eskine', country:'Australia',postcode:'6210',street_address:'Cnr Old Coast Rd &amp; Oakleigh Drive'},
+{name:'Miami Health Solutions - Eskine',city: 'Eskine', country:'Australia',postcode:'6210',street_address:'Cnr Old Coast Rd &amp; Oakleigh Drive'},
+{name:'Body Beautiful Jindera',city: 'Jindera', country:'Australia',postcode:'2642',street_address:'91 Urana Street'},
+{name:'Go Vita Toormina',city: 'Toormina', country:'Australia',postcode:'2452',street_address:'3/11 Minorca place'},
+{name:'Amcal Chempro Chemist Eagleby',city: 'Eagleby', country:'Australia',postcode:'4207',street_address:'Shop 14 Eagleby Plaza, Riverhills Rd'},
+{name:'Malouf Pharmacy - Merthyr Village',city: 'New Farm ', country:'Australia',postcode:'4005',street_address:'Merthyr Village S/Centre, 95 Merthyr Rd'},
+{name:'Burleigh Town Amcal',city: 'Burleigh', country:'Australia',postcode:'4220',street_address:'Shop 5 Stocklands S/Centre'},
+{name:'Market Square Day &amp; Night Chemist',city: 'Sunnybank', country:'Australia',postcode:'4109',street_address:'Shop 5 Market Square S/Centre, cnr Harris Rd &amp; McCullough St'},
+{name:'All Ceezens',city: 'Cardwell', country:'Australia',postcode:'4849',street_address:'Shop 5, Victoria Arcade'},
+{name:'La Vita Hair &amp; Beauty',city: 'Centre Bankstown', country:'Australia',postcode:'2200',street_address:'shop 3, Appian Way Compass'},
+{name:'Le Beauty Affair',city: 'No Address ', country:'Australia',postcode:'N/A',street_address:'www.lebeautyaffair.com.au '},
+{name:'Bambu Beauty Lash &amp; Brow Bar',city: 'Castle Hill', country:'Australia',postcode:'2154',street_address:'Shop 1A 7-13 Victoria Ave'},
+{name:'In Home Indulgence',city: 'Melbourne ', country:'Australia',postcode:'N/A',street_address:'No Address - Mobile Business '},
+{name:'The Silken DragonFly',city: 'Rutherglen ', country:'Australia',postcode:'3685',street_address:'113 Main Street'},
+{name:'Riana\'s Health &amp; Skin Care Clinic',city: 'Monash', country:'Australia',postcode:'2904',street_address:'111 Clive Steele Ave'},
+{name:'Vanessa\'s Nail Spot',city: 'Singleton ', country:'Australia',postcode:'2330',street_address:'48 Castlereagh St'},
+{name:'Lumieres De Paris',city: 'Belmore ', country:'Australia',postcode:'2192',street_address:'27 Waverley St'},
+{name:'Nuyu',city: 'Wollongong', country:'Australia',postcode:'2500',street_address:'8 Mangerton Rd'},
+{name:'Glow Beauty Therapy on Gilbert',city: 'Preston', country:'Australia',postcode:'3072',street_address:'19 Gilbert Road'},
+{name:'Glow Dermal Therapy',city: 'Albury ', country:'Australia',postcode:'2641',street_address:'Dragonfly House, 529 Macauley Street'},
+{name:'Go Vita Ocean Keys',city: 'Clarkson', country:'Australia',postcode:'6030',street_address:'Shope 171A Ocean Keys S/Ctr  36 Ocean Keys Boulevard'},
+{name:'Goodlife Geraldton',city: 'Geraldton', country:'Australia',postcode:'6530',street_address:'Shop 8 Penny Lane'},
+{name:'Genesis Beauty Clinic',city: 'Tapping', country:'Australia',postcode:'6065',street_address:'18 Terrigal Pass'},
+{name:'Louise May Laser &amp; Skin Clinic',city: 'Glenside', country:'Australia',postcode:'5065',street_address:'300 Greenhill Road,'},
+{name:'Cosmedic Fusion',city: 'Adelaide', country:'Australia',postcode:'5000',street_address:'148 Hutt Street'},
+{name:'Beauty Savvy',city: 'Melbourne ', country:'Australia',postcode:'3000',street_address:'http://www.beautysavvy.com.au/'},
+{name:'Cassie Turner Beauty &amp; Makeup',city: 'Shoalhaven Heads', country:'Australia',postcode:'2535',street_address:'113 Scott Street'},
+{name:'Shuswap Health Foods',city: 'Salmon Arm', country:'Canada',postcode:'V1E-1T3',street_address:'Piccadilly Mall 115-1151 10th Ave SW'},
+{name:'Vivian Essential Beauty',city: 'Lara', country:'Australia',postcode:'3212',street_address:'4 Kanowna Place'},
+{name:'Eve Makeup Artistry',city: 'hello@evemakeup.com.au', country:'Australia',postcode:'3102',street_address:'http://www.evemakeup.com.au/'},
+{name:'Glo Dermaclinical on Highett',city: 'Highett', country:'Australia',postcode:'3190',street_address:'Shop 2, 535 Highett Road'},
+{name:'Broome Natural Wellness',city: 'BROOME ', country:'Australia',postcode:'6725',street_address:'Shop 20 Broome Boulevard 106 Frederick Street'},
+{name:'Jieya Professional Beauty',city: 'Dandenong', country:'Australia',postcode:'3175',street_address:'76 Langhorne St'},
+{name:'Jieya Professional Beauty',city: 'Dandenong', country:'Australia',postcode:'3175',street_address:'76 Langhorne St'},
+{name:'Jieya Professional Beauty',city: 'Dandenong', country:'Australia',postcode:'3175',street_address:'76 Langhorne St'},
+{name:'Pro Health',city: 'Eltham', country:'Australia',postcode:'3095',street_address:'Shop 21, Eltham Village Shopping Centre, Main Road'},
+{name:'Skinique',city: 'Footscray', country:'Australia',postcode:'3011',street_address:'38-42 Byron St'},
+{name:'Style on South',city: 'Wodonga', country:'Australia',postcode:'3690',street_address:'Shop 6 25 South Street'},
+{name:'The House of Life Clinic',city: 'Armadale.', country:'Australia',postcode:'3143',street_address:'70 Armadale St'},
+{name:'Ivanhoe Health Store',city: 'Ivanhoe', country:'Australia',postcode:'3079',street_address:'96 Upper Heidelberg Road'},
+{name:'Kempsey Bulk Health Foods',city: 'Kempsey', country:'Australia',postcode:'2440',street_address:'30 Smith Street'},
+{name:'The Crystal Temple',city: 'Bondi Junction', country:'Australia',postcode:'2022',street_address:'50 Spring Street'},
+{name:'Sheshwarz Beauty',city: 'Roselands', country:'Australia',postcode:'2196',street_address:'Shop G3 level 2 Centro Roselands Roselands Dr'},
+{name:'Naturally You',city: 'Wanniassa', country:'Australia',postcode:'2903',street_address:'Shop 2 Sangster Place'},
+{name:'Green Horse',city: 'NorthCote ', country:'Australia',postcode:'3070',street_address:'255 High Street'},
+{name:'Go Vita Raw Pantry',city: 'Upper Mt Gravatt', country:'Australia',postcode:'4122',street_address:'Shop 1350, Westfield Garden City, Logan Road'},
+{name:'Varuka Salon',city: 'Tullermarine', country:'Australia',postcode:'3043',street_address:'191a  Melrose Drive'},
+{name:'Atone Lifestyle Salon',city: 'North Melbourne', country:'Australia',postcode:'3051',street_address:'95 Errol Street'},
+{name:'Flannerys North Lakes',city: 'North Lakes', country:'Australia',postcode:'4509',street_address:'Shop 5B, 4-8 Burke Crescent,'},
+{name:'Manik The Hair Studio',city: 'Byron Bay', country:'Australia',postcode:'2481',street_address:'Shop 3, Byrin Street'},
+{name:'Soul Skin &amp; Body WA',city: 'Derby ', country:'Australia',postcode:'6728',street_address:'Unit 2, 9 Cassia Close'},
+{name:'Laser and Lipstick',city: 'Singleton', country:'Australia',postcode:'2330',street_address:'Shop 3 1 Pitt Street'},
+{name:'Egyptian Bazaar',city: 'Surfers Paradise', country:'Australia',postcode:'4217',street_address:'114 Paradise Centre'},
+{name:'Livelife Pharmacy Noosa',city: 'Noosa Heads ', country:'Australia',postcode:'4567',street_address:'22 Sunshine Beach Rd, Noosa Junction '},
+{name:'Amcal Cannonvale',city: 'Cannonvale', country:'Australia',postcode:'4802',street_address:'Shop 15 Cantro S/Centre, 8 Galbraith Rd'},
+{name:'Discount Drug Store Mareeba',city: 'Dimbula', country:'Australia',postcode:'4872',street_address:'10 Raeleigh St'},
+{name:'Blooms The Chemist South West Rocks',city: 'South West Rocks', country:'Australia',postcode:'2431',street_address:'Shop 9-10 The Rocks Shopping Fair'},
+{name:'Star Pharmacy',city: 'Kew', country:'Australia',postcode:'3101',street_address:'127 High St'},
+{name:'Pharmacy on Church',city: 'Hawthorn', country:'Australia',postcode:'3122',street_address:'Suite 1a,  13-25 Church St'},
+{name:'Marlin Coast Amcal Chemist',city: 'Smithfield', country:'Australia',postcode:'4878',street_address:'Shop 1/2 Campus Shopping Village'},
+{name:'Castlemaine Health Food Store',city: 'Castlemaine', country:'Australia',postcode:'3450',street_address:'107 Mostyn St'},
+{name:'Doll Face Makeup',city: 'Potts Point', country:'Australia',postcode:'2011',street_address:'Unit 4/16 St Neot Ave'},
+{name:'The Glamour Bar',city: 'Carina Heights', country:'Australia',postcode:'4152',street_address:'2/107 Anzac Rd'},
+{name:'Fundies Paddington',city: 'Paddington', country:'Australia',postcode:'4064',street_address:'219 Given Tce'},
+{name:'Healthshop Morayfield',city: 'Morayfield', country:'Australia',postcode:'4506',street_address:'Shop 99 Moray Shopping Centre 171 Morayfield Road'},
+{name:'Beauty Indulgence',city: 'Milton', country:'Australia',postcode:'2538',street_address:'94 Princess Hwy'},
+{name:'Spa Eleven',city: 'Bendigo', country:'Australia',postcode:'3550',street_address:'11 Forest Street'},
+{name:'Amcal Cannonvale ',city: 'Cannonvale', country:'Australia',postcode:'4802',street_address:'Shop 15 Cantro S/Centre, 8 Galbraith Rd'},
+{name:'V Pharmacy Smithfield',city: 'Smithfield', country:'Australia',postcode:'4879',street_address:'Shop 121 Smithfield S/Centre, cnr Cook &amp; Kennedy Hwys'},
+{name:'Discount Drug Store Atherton',city: 'Atherton', country:'Australia',postcode:'4883',street_address:'Shop 5A Silos S/Centre, Silos Rd'},
+{name:'Babinda Pharmacy',city: 'Babinda', country:'Australia',postcode:'4861',street_address:'80 Munro St'},
+{name:'Yeppoon Chemmart',city: 'Yeppoon ', country:'Australia',postcode:'4703',street_address:'4 James St'},
+{name:'Torres Pharmacy',city: 'Innisfail', country:'Australia',postcode:'4860',street_address:'46 Edith St'},
+{name:'Malouf Pharmacy - Rockhampton',city: 'Rockhampton', country:'Australia',postcode:'4701',street_address:'Northside Plaza S/Centre, 222-228 Musgrave St'},
+{name:'Carrum Downs Pharmacy',city: 'Carrum Downs', country:'Australia',postcode:'3201',street_address:'Shop 2 The local Village, 1095 Frankston/Dandenong Rd'},
+{name:'Auscare Yandina Pharmacy',city: 'Yandina', country:'Australia',postcode:'4561',street_address:'5/18 Farrell St'},
+{name:'Swansea Pharmacy',city: 'Swansea', country:'Australia',postcode:'7190',street_address:'28 franklin street'},
+{name:'Blooms - Woonona',city: 'Woonona', country:'Australia',postcode:'2517',street_address:'399-401 Princes Highway'},
+{name:'Pharmasave - Moree',city: 'Moree', country:'Australia',postcode:'2400',street_address:'64 Balo St'},
+{name:'Plevey\'s Pharmacy',city: 'Bega', country:'Australia',postcode:'2550',street_address:'154 Carp St'},
+{name:'Terry White - Port Macquarie',city: 'Port Macquarie ', country:'Australia',postcode:'2444',street_address:'Shop 47 Port Central S/Centre'},
+{name:'Blooms - Toormina',city: 'Toormina', country:'Australia',postcode:'2452',street_address:'Shop N52 Centro S/Centre, Toormina Rd'},
+{name:'Narromine Pharmacy',city: 'Narromine', country:'Australia',postcode:'2821',street_address:'53 Dandaloo st'},
+{name:'Health Focus Pharmacy Mudgee',city: 'Mudgee', country:'Australia',postcode:'2850',street_address:'Shop 2 84 Mortimer Street'},
+{name:'scount Drug Store - Kings Langley',city: 'Kings Langley ', country:'Australia',postcode:'2147',street_address:'Shop 5/125 James Cook Drive'},
+{name:'Blooms - Blacktown',city: 'Blacktown', country:'Australia',postcode:'2148',street_address:'Shop 1007 Ground Floor, Westpoint S/Centre'},
+{name:'Blaxland Day &amp; Night Pharmacy',city: 'Blaxland', country:'Australia',postcode:'2774',street_address:'138A Great Western Hwy'},
+{name:'Blooms Penrith - Nepean Square',city: 'Penrith', country:'Australia',postcode:'2750',street_address:'Shop 39 Centro Nepean, Station St'},
+{name:'Best Buy Pharmacy',city: 'Orange', country:'Australia',postcode:'2800',street_address:'171 Lords Place'},
+{name:'Blooms - Tamworth',city: 'Tamworth ', country:'Australia',postcode:'2340',street_address:'358 Peel St'},
+{name:'Bowral Guardian Chemist',city: 'Bowral ', country:'Australia',postcode:'2576',street_address:'306 Bong Bong St'},
+{name:'Blooms - Dubbo',city: 'Dubbo ', country:'Australia',postcode:'2830',street_address:'Shop 15/16A Dubbo Square, Macquarie St'},
+{name:'Pokolbin Village Pharmacy',city: 'Pokolbin', country:'Australia',postcode:'2320',street_address:'Shop 13,  Hunter Valley Gardens Village,  2090 Broke Road'},
+{name:'Erskineville Chemist',city: 'Erskineville', country:'Australia',postcode:'2043',street_address:'Shop 1,  83 Erskineville Road'},
+{name:'Blooms - Orange',city: 'Orange', country:'Australia',postcode:'2800',street_address:'Shop 19 Metro Plaza, 237 Summer St'},
+{name:'Amcal Max - Rutherford',city: 'Rutherford', country:'Australia',postcode:'2320',street_address:'Shop 6 East Mall Rutherford S/Centre'},
+{name:'DELROY CHEMMART PHARMACY',city: 'Dubbo ', country:'Australia',postcode:'2830',street_address:'SHOP 15 WOOLWORTHS SHOPPING CENTRE'},
+{name:'Wamberal Pharmacist Advice',city: 'Wamberal', country:'Australia',postcode:'2260',street_address:'658 The Entrance Rd'},
+{name:'Blooms - Northbridge',city: 'Northbridge', country:'Australia',postcode:'2063',street_address:'Shop 13 Northbridge Plaza, Sailor Bay Rd'},
+{name:'Blooms - Penrith (Westfield Plaza},',city: 'Penrith', country:'Australia',postcode:'2750',street_address:'Shop 110 Westfield Plaza'},
+{name:'Blooms - Erina',city: 'Erina', country:'Australia',postcode:'2250',street_address:'Shop T74 Karalta Road Erina Fair'},
+{name:'Terry White - Shoalhaven',city: 'Nowra ', country:'Australia',postcode:'2541',street_address:'Shop 12 Nowra Fair, East St'},
+{name:'Priceline Pharmacy - Renmark',city: 'Renmark', country:'Australia',postcode:'5341',street_address:'10 Renmark Ave'},
+{name:'Centro Mildura Amcal Pharmacy',city: 'Mildura', country:'Australia',postcode:'3500',street_address:'Shop MM1 Centro Mildura S/Centre, Deakin Ave'},
+{name:'City Markets Chemist',city: 'Canberra', country:'Australia',postcode:'2600',street_address:'Shop EG01-02 Canberra Centre, Bunda St'},
+{name:'Inform Pharmacy - Thornleigh',city: 'Thornleigh', country:'Australia',postcode:'2120',street_address:'57 Thornleigh Marketplace'},
+{name:'Blooms - Bathurst',city: 'Bathurst', country:'Australia',postcode:'2795',street_address:'Shop 18 Stockland Mall, William St'},
+{name:'Discount Day &amp; Night Pharmacy - Newtown',city: 'Newtown', country:'Australia',postcode:'2042',street_address:'293 King St'},
+{name:'Blooms - Bathurst Shop 25 METRO',city: 'Bathurst ', country:'Australia',postcode:'2795',street_address:'Shop 26 Bathurst Central S/Centre'},
+{name:'Healthpoint Pharmacy - Launceston',city: 'Launceston', country:'Australia',postcode:'7250',street_address:'86A - 88 Johns St'},
+{name:'Blayney Pharmacy',city: 'Blayney', country:'Australia',postcode:'2799',street_address:'112 Adelaide St'},
+{name:'Cremorne Town Centre Pharmacy',city: 'Cremorne', country:'Australia',postcode:'2090',street_address:'7 / 287 Military Rd,'},
+{name:'Amcal Max - Dapto',city: 'Dapto ', country:'Australia',postcode:'2530',street_address:'G120-121 Dapto Mall'},
+{name:'Blooms - Coogee',city: 'Coogee', country:'Australia',postcode:'2034',street_address:'202-204 coogee Bay Rd'},
+{name:'The Molong Pharmacy',city: 'Molong', country:'Australia',postcode:'2866',street_address:'43-45 Bank ST'},
+{name:'Parkes Pharmacy',city: 'Parkes ', country:'Australia',postcode:'2870',street_address:'Shop 6 Metro Plaza, 279-283 Clarinda St'},
+{name:'Life Pharmacy - Forbes',city: 'Forbes ', country:'Australia',postcode:'2871',street_address:'Shop 3, 159-173 Lachlan St'},
+{name:'West Gosford Pharmacy',city: 'West Gosford', country:'Australia',postcode:'2250',street_address:'Shop 17 West Gosford S/Centre'},
+{name:'Darby Street Pharmacy',city: 'Cooks Hill', country:'Australia',postcode:'2300',street_address:'145 Darby Street'},
+{name:'Charnwood Capital Chemist',city: 'Charnwood', country:'Australia',postcode:'2615',street_address:'7-8 The Small Mall'},
+{name:'Blooms - Gordon',city: 'Gordon', country:'Australia',postcode:'2072',street_address:'765 Pacific Hwy'},
+{name:'Soul Pattinson - Ermington',city: 'Ermington', country:'Australia',postcode:'2115',street_address:'Shop 4, Betty Cuthbert Ave'},
+{name:'Amcal Max - Queanbeyan',city: 'Queanbeyan', country:'Australia',postcode:'2620',street_address:'23-25 Antill St'},
+{name:'Murry T Martin Pharmacy',city: 'Mt Gambia', country:'Australia',postcode:'5290',street_address:'23-25 Commercial St West'},
+{name:'McCarthy\'s Pharmacy - Orange',city: 'Orange ', country:'Australia',postcode:'2800',street_address:'236 Summer St'},
+{name:'Terry White - Underwood',city: 'Underwood', country:'Australia',postcode:'4119',street_address:'Shop 18/3215 Logan Rd'},
+{name:'Keperra Chemmart',city: 'Keperra', country:'Australia',postcode:'4054',street_address:'Shop B Great Western S/Centre, cnr Samford &amp; Settlement Rds'},
+{name:'Family Pharmacy Granville',city: 'Granville', country:'Australia',postcode:'2142',street_address:'1/60 South St'},
+{name:'Eddie\'s Pharmacy Ramgate',city: 'Ramsgate', country:'Australia',postcode:'2217',street_address:'211B Ramsgate Rd'},
+{name:'Manning River Pharmacy - Taree',city: 'Taree', country:'Australia',postcode:'2430',street_address:'191 Victoria St'},
+{name:'Birkenhead Amcal Chemist',city: 'Drummoyne', country:'Australia',postcode:'2047',street_address:'Shop 136 Birkenhead Point, Roseby St'},
+{name:'Blooms - Lithgow',city: 'Lithgrow', country:'Australia',postcode:'2790',street_address:'Shop 44-46 Lithgow S/Centre'},
+{name:'Urunga Amcal Pharmacy',city: 'Uranga', country:'Australia',postcode:'2455',street_address:'10 Bowra St'},
+{name:'Discount Drug Store - Moree',city: 'Moree', country:'Australia',postcode:'2400',street_address:'Shop 2/215 Balo St'},
+{name:'Bondi Pharmacy',city: 'Bondi ', country:'Australia',postcode:'2026',street_address:'81 Hall St'},
+{name:'Pharmasave Eastgardens',city: 'Pagewood', country:'Australia',postcode:'2035',street_address:'Shop 157-159 Westfield, 152 Bunnerong Rd'},
+{name:'Blooms - Figtree',city: 'Figtree', country:'Australia',postcode:'2525',street_address:'Shop 12-15 Westfield S/Town'}]
+
+stockists.each do |stockist|
+  new = Stockist.find_or_create_by(street_address: stockist[:street_address])
+  country = Country.find_or_create_by(name: stockist[:country])
+  new.country_id = country.id
+  new.save!
+  country.save!
+end
+

@@ -1,0 +1,13 @@
+.row
+  %h1
+    Find #{c('site_name')} in #{@country.name}
+.row
+  .columns.large-8
+    #map{ style: 'width: 100%; height: 500px;'}
+    = content_for :footer_scripts do
+      = render partial: 'maps/map', hash: @hash
+
+
+  .columns.large-4
+    = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
+    = paginate(@paged_stockists)

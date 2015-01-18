@@ -1,0 +1,11 @@
+:coffeescript
+  handler = Gmaps.build("Google")
+  handler.buildMap
+    provider:
+      disableDefaultUI: true
+    internal:
+      id: "map"
+  , ->
+    markers = handler.addMarkers(#{raw hash.to_json })
+    handler.bounds.extendWith markers
+    handler.fitMapToBounds()

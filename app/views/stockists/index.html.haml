@@ -4,26 +4,16 @@
 
 .row
   .columns.large-12
+    Find #{c('name')} by Country
+    - @all_countries.each do |country|
+      = link_to country.name, country, class: 'button'
     #map{style: 'width: 100%; height: 500px;'}
 
 .row
   .columns.large-12
-    - @stockists.each do |stockist|
-      .row.panel
-
-        %h4= link_to stockist.name, stockist
-        = stockist.inspect
+    = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
+    = paginate(@paged_stockists)
 
 
 = content_for :footer_scripts do
-  :coffeescript
-    handler = Gmaps.build("Google")
-    handler.buildMap
-      provider:
-        disableDefaultUI: true
-      internal:
-        id: "map"
-    , ->
-      markers = handler.addMarkers(#{raw @hash.to_json })
-      handler.bounds.extendWith markers
-      handler.fitMapToBounds()
+  = render partial: 'maps/map', hash: @hash

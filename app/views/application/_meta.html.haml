@@ -1,0 +1,28 @@
+-# %meta(name="description" content="#{@product.meta_description}")
+-# - unless @product.meta_keyword.blank? or @product.meta_keyword.include?('furniture online,')
+-#   %meta(name="keywords" content="#{@product.meta_keyword}") 
+-# - if "/#{params[:path]}" != @product.canonical_path or request.query_parameters.any?
+-#   %link(href="http://interiorsonline.com.au#{@product.canonical_path}" rel="canonical")
+-# - unless @product.is_live?
+-#   %meta(name="robots" content="noindex")
+
+%title
+  = c('site_name')
+%meta(http-equiv="content-type" content="text/html; charset=utf-8")/
+%meta(name="author" content="#{c('site_name')}")/
+%meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")/
+
+-# %meta(property="og:title" content="#{@product}" )
+-# %meta(property="og:description" content="#{@product.meta_description}" )
+-# %meta(property="og:type" content="product" )
+-# %meta(property="og:url" content="http://interiorsonline.com.au#{@product.canonical_path}" )
+-# %meta(property="og:image" content="http://interiorsonline.com.au/#{@product.image}" )
+-# - if @product.product_images.any?
+  -# - @product.product_images.each do |img|
+    -# %meta(property="og:image" content="#{IMAGE_CDN}/image/#{url_for(img.image.gsub(' ','%20'))}")
+-# %meta(property="og:site_name" content="Interiors Online" )
+-# %meta(property="og:price:amount" content="#{@product.price}" )
+-# %meta(property="og:price:currency" content="AUD" )
+-# %meta(property="og:availability" content="instock" )
+-# %meta(property="product:gender" content="unisex" )
+

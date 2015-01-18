@@ -5,7 +5,8 @@
 
     %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }
 
-    %title= content_for?(:title) ? yield(:title) : "Untitled"
+    %title= content_for?(:title) ? yield(:title) : c('site_name')
+    = render 'tag_manager'
 
     = stylesheet_link_tag "application"
     = javascript_include_tag "vendor/modernizr"
@@ -14,6 +15,33 @@
     = csrf_meta_tag
 
   %body
+    %nav.top-bar{"data-topbar" => "", :role => "navigation"}
+      %ul.title-area
+        %li.name
+          %h1
+            = link_to root_path do 
+              = image_tag('http://cdn.shopify.com/s/files/1/0717/7955/t/2/assets/logo.png?1311', style: 'height: 42px')
+        / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+        %li.toggle-topbar.menu-icon
+          %a{:href => "#"}
+            %span Menu
+      %section.top-bar-section
+        / Right Nav Section
+        %ul.right
+          %li.active
+            %a{:href => "#"} Right Button Active
+          %li.has-dropdown
+            %a{:href => "#"} Right Button Dropdown
+            %ul.dropdown
+              %li
+                %a{:href => "#"} First link in dropdown
+              %li.active
+                %a{:href => "#"} Active link in dropdown
+        / Left Nav Section
+        %ul.left
+          %li
+            %a{:href => "http://eyeofhoruscosmetics.com"} 
+              Shop Online
     .container
       = yield
 
