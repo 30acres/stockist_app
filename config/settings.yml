@@ -9,7 +9,7 @@ canvas:
   site_code: 'canvas'
   <<: *default
 
-eyeofhorus:
+eyeofhorus: &horus
   <<: *default
   site_name: "Eye of Horus"
   site_code: 'eyeofhorus'
@@ -44,3 +44,5 @@ childrenofthetribe:
   domain: 'stockists.childrenofthetribe.com'
   tag_manager: 'GTM-XXX'
 
+stockists:
+  <<: *horus
