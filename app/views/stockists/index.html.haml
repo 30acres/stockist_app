@@ -5,17 +5,23 @@
       = params[:loc] ? params[:loc] : ''
 
 .row
-  #map{style: 'width: 100%; margin: 0; padding: 0;'}
-  %br/
+  - if @mapped_stockists.count >= 1
+    #map{style: 'width: 100%; margin: 0; padding: 0;'}
+      %br/
+  - else
+    %br/
   - unless params[:long]
     .nearby{ style: 'display: none; text-align: center; margin-top: -1.2em;' }
       = link_to "Find #{c('site_name')} in a store near you", '#', id: 'nearby', class: 'button button-secondary large', style: 'border: 3px solid #444', data: { longitude: '', latitude: ''} 
 
 .row
   .columns.large-12
-    = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
-    %br/
-    = paginate(@paged_stockists)
+    - if @paged_stockists.count >= 1
+      = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
+      %br/
+      = paginate(@paged_stockists)
+    - else
+      %h3 Sorry, no stockists match your search. #{link_to 'See all stockists', stockists_path}
 
 .row
   .columns.large-12

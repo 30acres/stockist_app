@@ -14,35 +14,44 @@
     = csrf_meta_tag
 
   %body
-    %nav.top-bar{"data-topbar" => "", :role => "navigation"}
-      %ul.title-area
-        %li.name
-          %h1
-            = link_to root_path do 
-              = image_tag('http://cdn.shopify.com/s/files/1/0717/7955/t/2/assets/logo.png?1311', style: 'height: 42px')
-        / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-        %li.toggle-topbar.menu-icon
-          %a{:href => "#"}
-            %span Menu
-      %section.top-bar-section
-        / Right Nav Section
-        %ul.right
-          %li.has-dropdown
-            %a{:href => "#"} Stockists
-            %ul.dropdown
-              %li
-                %a{:href => "/"} Become a stockist.
-              - @all_countries.order(name: :asc).each do |country|
+    .fixed
+      %nav.top-bar{"data-topbar" => "", :role => "navigation"}
+        %ul.title-area
+          %li.name
+            %h1
+              = link_to root_path do 
+                = image_tag('http://cdn.shopify.com/s/files/1/0717/7955/t/2/assets/logo.png?1311', style: 'height: 42px')
+          / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+          %li.toggle-topbar.menu-icon
+            %a{:href => "#"}
+              %span Menu
+        %section.top-bar-section
+          / Right Nav Section
+          %ul.right
+            %li.has-form
+              = form_tag(stockists_path, method: :get ) do
+                .row.collapse
+                  .large-9.small-9.columns
+                    = text_field_tag :search, params[:search], placeholder: "Find a stockist"
+                  .large-3.small-3.columns
+                    = submit_tag 'Search', class: 'button expand small', name: nil
+            %li.has-dropdown
+              = link_to stockists_path do 
+                Stockists
+              %ul.dropdown
                 %li
-                  = link_to country, class: 'button' do
-                    #{country.name}
-          %li
-            %a{:href => "#"} Shop Online
-        / Left Nav Section
-        %ul.left
-          %li
-            %a{:href => "http://eyeofhoruscosmetics.com"} 
-              Go to website
+                  %a{:href => "/"} Become a stockist.
+                - @all_countries.order(name: :asc).each do |country|
+                  %li
+                    = link_to country, class: 'button' do
+                      #{country.name}
+            %li
+              %a{:href => "#"} Shop Online
+          / Left Nav Section
+          %ul.left
+            %li
+              %a{:href => "http://eyeofhoruscosmetics.com"} 
+                Go to website
     .container
       = yield
     %footer.row

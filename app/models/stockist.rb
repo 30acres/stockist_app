@@ -9,6 +9,13 @@ class Stockist < ActiveRecord::Base
 
   scope :mapped, -> { where('longitude IS NOT NULL') }
 
+  def self.search(query)
+    open_query = "%#{query.downcase}%"
+    terms = %w( street_address name city country )
+    mapped_terms = terms.map{ |term| "LOWER(" + term + ") like ?"}.join(' OR ')
+    where(mapped_terms, open_query, open_query, open_query, open_query)
+  end
+
   def to_s
     name.html_safe
   end
