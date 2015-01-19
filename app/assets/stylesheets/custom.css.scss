@@ -1,1 +1,22 @@
 .stockist-logo { text-align: center; text-transform: uppercase;}
+
+.features.columns { 
+  text-align: center;
+}
+
+footer {
+  padding: 80px 0 10px 0;
+}
+
+footer a:hover {
+  color: rgba(0, 0, 0, 0.4);
+  background-color: transparent;
+}
+
+.panel i { 
+  font-size: 1.6em; 
+  padding: .4em;
+}
+
+.row.stockist { margin-bottom: 14px; padding-bottom: 0; }
+

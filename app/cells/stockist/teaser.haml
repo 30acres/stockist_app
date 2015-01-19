@@ -1,11 +1,11 @@
-.panel.row
+.panel.row.stockist{id: stockist_id}
   .columns.large-2.visible-large
     .stockist-logo
       We stock
       %br/
       = logo
   .columns.small-9.large-6
-    %h4= link_to name, stockist_url
+    %h4= link_to name.titleize, stockist_url
     %p.address
       = address
   .columns.small-3.large-4.text-right

@@ -1,0 +1,11 @@
+body { background: #111; }
+.panel { background: #333; border: 1px solid #444; color: #ccc; }
+
+
+h1, h2, h3, h4, h5, p { color: #F3E7AF; }
+.panel { 
+h1, h2, h3, h4, h5, p, a, ul, ul li { color: #F3E7AF; }
+a.button{ color: #fff;}
+}
+
+p.address, .panel p { color: #ccc}

@@ -26,4 +26,8 @@ class StockistCell < Cell::ViewModel
     stockist_path(model)
   end
 
+  def stockist_id
+    "stockist_#{model.id}"
+  end
+
 end

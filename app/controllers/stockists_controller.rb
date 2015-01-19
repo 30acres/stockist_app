@@ -26,4 +26,8 @@ class StockistsController < ApplicationController
       @hash = nil
     end
   end
+
+  def media_center
+    @media = 1
+  end
 end

@@ -14,8 +14,10 @@
       %h4= @stockist
       %p= @stockist.address
       %ul
-        %li Directions to here
-        %li= link_to 'More nearby', stockists_path(long: @stockist.longitude, lat: @stockist.latitude, loc: @stockist.city)
+        %li.nearby{style: 'display: none;'}
+          = link_to stockists_path, data: { longitude: '', latitude: '' }, id: 'nearby' do
+            Find an #{c('site_name')} near you
+        %li= link_to 'More nearby...', stockists_path(long: @stockist.longitude, lat: @stockist.latitude, loc: @stockist.city)
         - if @stockist.primary_phone
           %li Phone Number
         - if @stockist.website
