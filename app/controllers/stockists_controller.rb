@@ -1,8 +1,9 @@
 class StockistsController < ApplicationController
   def index
     @all_countries = Country.all
+    @mapped_stockists = Stockist.mapped
     @paged_stockists = Stockist.all.page params[:page]
-    @hash = Gmaps4rails.build_markers(@paged_stockists.mapped) do |stockist, marker|
+    @hash = Gmaps4rails.build_markers(@mapped_stockists) do |stockist, marker|
       marker.lat stockist.latitude
       marker.lng stockist.longitude
     end

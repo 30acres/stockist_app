@@ -7,7 +7,7 @@ class Stockist < ActiveRecord::Base
 
   geocoded_by :address
 
-  scope :mapped, -> { !where(longitude: nil) }
+  scope :mapped, -> { where('longitude IS NOT NULL') }
 
   def address
     [street_address, city, state, country].compact.join(', ')
@@ -15,6 +15,10 @@ class Stockist < ActiveRecord::Base
 
   def is_mapped?
     longitude != nil
+  end
+
+  def map_description
+    "<strong>#{name}</strong><br/><a href=\'/stockists/#{slug}\'>Details</a>"
   end
 
 
