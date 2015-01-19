@@ -1,7 +1,7 @@
 .row
   .columns.large-12
     .header
-      %h1 Find Eye of Horus at #{@stockist.name} in #{@stockist.city.squeeze(" ").strip}, #{@stockist.country}
+      %h1 Find Eye of Horus at #{@stockist} in #{@stockist.city.squeeze(" ").strip}, #{@stockist.country}
 
 .row
   .columns.large-12
@@ -11,7 +11,7 @@
 .row
   .columns.large-6
     .panel
-      %h4= @stockist.name
+      %h4= @stockist
       %p= @stockist.address
       %ul
         %li Directions to here
@@ -29,7 +29,7 @@
 
 
 = content_for :footer_scripts do
-  = render 'maps/map', hash: @hash, zoom: 14
+  = render partial: 'maps/map', locals: { hash: @hash, zoom: 12 }
 
 = content_for :title do
   Find #{c('site_name')} at #{@stockist.name} in #{@stockist.city}

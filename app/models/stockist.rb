@@ -9,6 +9,10 @@ class Stockist < ActiveRecord::Base
 
   scope :mapped, -> { where('longitude IS NOT NULL') }
 
+  def to_s
+    name.html_safe
+  end
+
   def address
     [street_address, city, state, country].compact.join(', ')
   end

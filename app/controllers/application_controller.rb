@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   
-  before_filter :get_site, :all_sites
+  before_filter :get_site, :all_sites, :all_countries
 
   WEBSITE = @site
 
@@ -21,6 +21,10 @@ class ApplicationController < ActionController::Base
 
   def all_sites
     @sites = SITE.map {|l| l[0] }
+  end
+
+  def all_countries
+    @all_countries = Country.all
   end
   
 end

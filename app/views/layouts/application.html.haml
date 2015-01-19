@@ -5,7 +5,7 @@
 
     %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }
 
-    %title= content_for?(:title) ? yield(:title) : c('site_name')
+    %title= content_for?(:title) ? yield(:title) : c('site_name') + " Stockists | " + c('site_slogan')
     = render 'tag_manager'
 
     = stylesheet_link_tag "application"
@@ -26,15 +26,17 @@
       %section.top-bar-section
         / Right Nav Section
         %ul.right
-          %li.active
-            %a{:href => "#"} Want to be a stockist?
+          %li.has-dropdown
+            %a{:href => "#"} Stockists
+            %ul.dropdown
+              %li
+                %a{:href => "/"} Become a stockist.
+              - @all_countries.order(name: :asc).each do |country|
+                %li
+                  = link_to country, class: 'button' do
+                    #{country.name} (#{country.stockists.count})
           %li
             %a{:href => "#"} Shop Online
-            -# %ul.dropdown
-            -#   %li
-            -#     %a{:href => "#"} Some link
-            -#   %li.active
-            -#     %a{:href => "#"} Active link in dropdown
         / Left Nav Section
         %ul.left
           %li

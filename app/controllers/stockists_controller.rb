@@ -1,6 +1,5 @@
 class StockistsController < ApplicationController
   def index
-    @all_countries = Country.all
     unless params[:long] && params[:lat]
       @mapped_stockists = Stockist.mapped
       @paged_stockists = Stockist.all.page params[:page]

@@ -16,10 +16,11 @@
 
 .row
   .columns.large-12
+    %hr/
     Find #{c('name')} by Country
     - @all_countries.order(name: :asc).each do |country|
       = link_to country, class: 'button' do
         #{country.name} (#{country.stockists.count})
 
 = content_for :footer_scripts do
-  = render partial: 'maps/map', hash: @hash
+  = render partial: 'maps/map', locals: { hash: @hash, zoom: nil }
