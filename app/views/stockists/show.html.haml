@@ -24,7 +24,8 @@
   .columns.large-6
     .panel
       %h4 About #{c('site_name')}
-      %p Description
+      %p= raw "#{c('description')}"
+      = link_to "#{c('site_name')} Website", c('website'), class: 'button'
 
 
 = content_for :footer_scripts do
