@@ -40,7 +40,8 @@
                 Stockists
               %ul.dropdown
                 %li
-                  %a{:href => "/"} Become a stockist.
+                  = link_to become_a_stockist_path do
+                    Become a stockist.
                 - @all_countries.order(name: :asc).each do |country|
                   %li
                     = link_to country, class: 'button' do
