@@ -1,14 +1,14 @@
 .panel.row.stockist{id: stockist_id}
-  .columns.large-2.visible-large
+  .columns.large-2.show-for-medium-up
     .stockist-logo
       We stock
       %br/
       = logo
-  .columns.small-9.large-6
+  .columns.small-12.large-6
     %h4= link_to name.titleize, stockist_url
     %p.address
       = address
-  .columns.small-3.large-4.text-right
+  .columns.small-12.large-4.text-right
     = link_to "#{fa_icon 'map-marker'} Find on Map", stockist_url, class: 'button tiny'
     = link_to "#{fa_icon 'search'} More Details", stockist_url, class: 'button tiny'
 
