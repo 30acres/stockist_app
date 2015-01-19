@@ -1,6 +1,6 @@
 .row
   .page-header
-    %h1 
+    %h1.text-center
       Find an Eye of Horus Stockist Near
       = params[:loc] ? params[:loc] : ' You'
 
@@ -19,10 +19,9 @@
 .row
   .columns.large-12
     %hr/
-    Find #{c('name')} by Country
-    - @all_countries.order(name: :asc).each do |country|
-      = link_to country, class: 'button' do
-        #{country.name} (#{country.stockists.count})
+    %p
+      Find #{c('name')} by Country
+      =raw @all_countries.order(name: :asc).map { |country| "#{link_to country.name, country} (#{country.stockists.count})" }.to_sentence
 
 = content_for :footer_scripts do
   = render partial: 'maps/map', locals: { hash: @hash, zoom: nil }
