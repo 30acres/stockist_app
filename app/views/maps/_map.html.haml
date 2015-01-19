@@ -1,4 +1,5 @@
 :coffeescript
+  zoom = #{zoom}
   handler = Gmaps.build("Google")
   handler.buildMap
     provider:
@@ -9,3 +10,5 @@
     markers = handler.addMarkers(#{raw @hash.to_json })
     handler.bounds.extendWith markers
     handler.fitMapToBounds()
+    if zoom > 0
+      handler.getMap().setZoom(zoom);

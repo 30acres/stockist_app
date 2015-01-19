@@ -49,4 +49,5 @@ gem 'jquery-cookie-rails'
 gem 'rails_12factor'
 gem 'geocoder'
 gem 'foundation-rails'
+gem "font-awesome-rails"
 gem 'gmaps4rails'

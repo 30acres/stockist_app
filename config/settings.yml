@@ -26,6 +26,7 @@ eyeofhorus: &horus
   domain: 'stockists.eyeofhoruscosmetics.com'
   logo: 'http://cdn.shopify.com/s/files/1/0717/7955/t/2/assets/logo.png?1311'
   tag_manager: 'GTM-KVHWWC'
+  description: 'Something really great about Eye of Horus'
 
 childrenofthetribe:
   <<: *default

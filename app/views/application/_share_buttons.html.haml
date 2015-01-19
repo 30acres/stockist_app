@@ -1,0 +1,14 @@
+.social
+  Tell a friend: 
+  / Twitter (url, text, @mention)aa
+  %a{:href => "http://twitter.com/share?url=<URL>&text=<TEXT>via=<USERNAME>"}
+    = fa_icon 'twitter'
+  / Google Plus (url)
+  %a{:href => "https://plus.google.com/share?url=<URL>"}
+    = fa_icon 'google-plus'
+  / Facebook (url)
+  %a{:href => "http://www.facebook.com/sharer/sharer.php?u=<URL>"}
+    = fa_icon 'facebook'
+  / Email (subject, body)
+  %a{:href => "mailto:?subject=<SUBJECT>&body=<BODY>"}
+    = fa_icon 'envelope'

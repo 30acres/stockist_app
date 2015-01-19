@@ -173,6 +173,8 @@ GEM
     fog-xml (0.1.1)
       fog-core
       nokogiri (~> 1.5, >= 1.5.11)
+    font-awesome-rails (4.2.0.0)
+      railties (>= 3.2, < 5.0)
     formatador (0.2.5)
     foundation-rails (5.4.5.0)
       railties (>= 3.1.0)
@@ -351,6 +353,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   devise
   fog
+  font-awesome-rails
   foundation-rails
   friendly_id
   geocoder
