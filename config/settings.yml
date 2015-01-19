@@ -24,9 +24,14 @@ eyeofhorus: &horus
   phone_two: '(02) 6685 XXX'
   email: 'info@eyeofhoruscosmetics.com'
   domain: 'stockists.eyeofhoruscosmetics.com'
+  shop: 'http://eyeofhoruscosmetics.com'
   logo: 'http://cdn.shopify.com/s/files/1/0717/7955/t/2/assets/logo.png?1311'
   tag_manager: 'GTM-KVHWWC'
-  description: 'Something really great about Eye of Horus'
+  description: "<p>Eye of Horus illuminating essential range of Goddess eye makeup is based on ancient Egyptian formulas and ingredients, including the revered Moringa Oil claimed by the gods for its beautifying and regenerating powers.</p>
+<p>Eye of Horus hypnotic and high performance products Awakens the Goddess Within you, by delivering cosmetic that are:</p>
+<ul><li>Lengthening</li><li>Volumising</li><li>Smudgeproof</li><li>Non clumping</li><li>Non sensitising.</li></ul>
+<p>Representing regeneration, health and protection, the ancient Egyptian Symbol of the Eye of Horus ensures healing, wisdom and prosperity to its bearer. The ancients used the most precious waxes and oils in their iconic eye makeup, including:</p>
+<p>Beeswax, Ricebran Wax, Canauba, Candellia, and Jojoba waxes and Almond , Moringa, and Sesame oils.</p>"
 
 childrenofthetribe:
   <<: *default
