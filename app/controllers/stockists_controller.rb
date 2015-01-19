@@ -35,4 +35,8 @@ class StockistsController < ApplicationController
   def media_center
     @media = 1
   end
+
+  def become_a_stockist
+    @media = 1
+  end
 end
