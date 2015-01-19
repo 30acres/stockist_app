@@ -6,7 +6,7 @@
   .columns.large-12
     #map{ style: 'width: 100%; height: 500px; margin: 0 0 2em 0'}
     = content_for :footer_scripts do
-      = render partial: 'maps/map', hash: @hash
+      = render partial: 'maps/map', locals: { hash: @hash, zoom: 0 }
 
 .row
   .columns.large-12
