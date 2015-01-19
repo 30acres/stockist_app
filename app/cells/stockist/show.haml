@@ -1,4 +1,34 @@
-%h1
-  Stockist#show
-%p
-  Find me in app/cells/stockist/show.haml
+.row
+  .columns.large-12
+    %h1.text-center
+      Find Eye of Horus at #{model} in #{model.city.squeeze(" ").strip}, #{model.country}
+
+.row
+  .columns.large-12
+    #map{style: 'width: 100%; height: 500px;'}
+    %br/
+
+.row
+  .columns.large-6
+    .panel
+      %h4= model
+      %p= model.address
+      %ul
+        %li.nearby{style: 'display: none;'}
+          = link_to stockists_path, data: { longitude: '', latitude: '' }, id: 'nearby' do
+            Find an #{c('site_name')} near you
+        %li= link_to 'More nearby...', stockists_path(long: model.longitude, lat: model.latitude, loc: model.city)
+        - if model.primary_phone
+          %li Phone Number
+        - if model.website
+          %li Link to website
+      = render 'share_buttons'
+  .columns.large-6
+    .panel
+      %h4 About #{c('site_name')}
+      %p= raw "#{c('description')}"
+      = link_to "#{c('site_name')} Website", c('website'), class: 'button'
+
+// Map code in the view.haml
+// Title code in the view.haml
+
