@@ -15,7 +15,7 @@
       %p= @stockist.address
       %ul
         %li Directions to here
-        %li= link_to 'More nearby', stockists_path
+        %li= link_to 'More nearby', stockists_path(long: @stockist.longitude, lat: @stockist.latitude, loc: @stockist.city)
         - if @stockist.primary_phone
           %li Phone Number
         - if @stockist.website
@@ -29,7 +29,7 @@
 
 
 = content_for :footer_scripts do
-  = render 'maps/map', hash: @hash, zoom: '14'
+  = render 'maps/map', hash: @hash, zoom: 14
 
 = content_for :title do
   Find #{c('site_name')} at #{@stockist.name} in #{@stockist.city}

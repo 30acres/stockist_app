@@ -1,6 +1,6 @@
 class StockistCell < Cell::ViewModel
   include ApplicationHelper
-
+  include FontAwesome::Rails::IconHelper
   def initialize(*args)
     super
     @site = options[:site] 

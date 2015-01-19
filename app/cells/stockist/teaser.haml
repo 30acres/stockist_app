@@ -1,14 +1,16 @@
 .panel.row
-  .columns.small-3
-    = logo
-  .columns.small-7
-    %h3= link_to name, stockist_url
+  .columns.large-2.visible-large
+    .stockist-logo
+      We stock
+      %br/
+      = logo
+  .columns.small-9.large-6
+    %h4= link_to name, stockist_url
     %p.address
       = address
-  .columns.small-2
-    = link_to 'Find on Map', stockist_url
-    %br/
-    = link_to 'More Details', stockist_url
+  .columns.small-3.large-4.text-right
+    = link_to "#{fa_icon 'map-marker'} Find on Map", stockist_url, class: 'button tiny'
+    = link_to "#{fa_icon 'search'} More Details", stockist_url, class: 'button tiny'
 
 
 

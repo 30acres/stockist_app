@@ -1,5 +1,5 @@
 :coffeescript
-  zoom = #{@zoom.nil? ? 0 : @zoom}
+  zoom = #{@zoom ? @zoom : 0}
   handler = Gmaps.build("Google")
   handler.buildMap
     provider:
