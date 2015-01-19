@@ -1,12 +1,30 @@
 body { background: #111; }
 .panel { background: #333; border: 1px solid #444; color: #ccc; }
 
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
 
-h1, h2, h3, h4, h5, p { color: #F3E7AF; }
-.panel { 
-h1, h2, h3, h4, h5, p, a, ul, ul li { color: #F3E7AF; }
-a.button{ color: #fff;}
+h1, h2, h3, h4, h5 { 
+  font-family: 'Play', sans-serif
 }
 
-p.address, .panel p { color: #ccc}
-hr { border-color: #666;  }
+h1, h2, h3, h4, h5 { color: #F3E7AF; }
+
+p { color: #efefef;}
+
+.panel { 
+  h1, h2, h3, h4, h5, p, a, ul, ul li { color: #F3E7AF; }
+  a.button{ color: #fff;}
+}
+
+p.address, .panel p, footer { color: #ccc}
+
+hr { border-color: #666; margin: 2em;  }
+
+.page-header h1{ line-height: 2em; }
+
+.copyright { background: #333; padding: .8em;
+  color: #ccc;
+  a { color: #F3E7AF }
+}
+
+.feature { margin: 2em 0 4em 0; }

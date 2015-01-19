@@ -35,7 +35,7 @@
               - @all_countries.order(name: :asc).each do |country|
                 %li
                   = link_to country, class: 'button' do
-                    #{country.name} (#{country.stockists.count})
+                    #{country.name}
           %li
             %a{:href => "#"} Shop Online
         / Left Nav Section
@@ -49,19 +49,20 @@
       .columns.large-12
         %hr/
       .row.features
-        .columns.large-4
-          VIP
-        .columns.large-4
-          SHOP ONLINE
-        .columns.large-4
-          BECOME A STOCKIST
-      .row
         .columns.large-6
+          = render 'feature_1'
+        .columns.large-6
+          = render 'feature_2'
+    .copyright
+      .row
+        .columns.large-5
           = link_to 'Stockist Center', stockists_media_center_path
+          | 
           = link_to 'Online Shop', '#'
+          | 
           = link_to 'Contact Us', '#'
-        .columns.large-6.text-right
-          Copyright 20#{Time.now.year}
+        .columns.large-7.text-right
+          &copy; #{c('copyright')} #{Time.now.year}
 
 
 
