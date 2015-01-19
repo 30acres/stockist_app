@@ -22,7 +22,7 @@ class Stockist < ActiveRecord::Base
   end
 
   def map_description
-    "<strong>#{name}</strong><br/><a href=\'/stockists/#{slug}\'>Details</a>"
+    "<div class='stockist_description'><strong>#{name}</strong><br/><a href=\'/stockists/#{slug}\'>Details</a></div>"
   end
 
 

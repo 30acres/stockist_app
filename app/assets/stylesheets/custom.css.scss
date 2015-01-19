@@ -20,10 +20,18 @@ footer a:hover {
 
 .row.stockist { margin-bottom: 14px; padding-bottom: 0; }
 #map { height: 500px; width: 100%; }
+.actions { text-align: right;}
+
+.stockist_description { width: 180px; height: 86px;  }
+
+
 // Small screens
 @media only screen { } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { #map { height: 250px; width: 80%; } } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) { 
+  #map { height: 250px; width: 80%; } 
+  .actions { text-align: left;}
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
