@@ -1,16 +1,53 @@
 .row
   .page-header
-    %h1 Media Center Stuff
+    .columns.large-12{style: 'color: #fff;'}
+      %h1 Media Center Stuff
+      %p Messages updatable by EOH Staff
 .row
-  .columns.large-8
-    %p Stuff here about this and that.
-    %h4 Downloads
+  .columns.large-12{style: 'color: #fff;'}
+    %h4 Latest Product Updates
+    %p Some text
+
+
+.row
+  .columns.large-4{style: 'color: #fff;'}
+    %h4 Product Image Downloads
     %ul
       - 10.times do
         %li 
           Some list
           = link_to 'some link', '#'
-  .columns.large-4
-    %h4 Important News
-    %p some news feed
+  .columns.large-4{style: 'color: #fff;'}
+    %h4 Video Downloads
+    %ul
+      - 10.times do
+        %li 
+          Some list
+          = link_to 'some link', '#'
+  .columns.large-4{style: 'color: #fff;'}
+    %h4 Product Pack Downloads
+    %ul
+      - 10.times do
+        %li 
+          Some list
+          = link_to 'some link', '#'
 
+.row
+  .columns.large-12{style: 'color: #fff;'}
+    %h4 Branding Guidelines
+    %p Some text and other stuff
+
+.row
+  .columns.large-6{style: 'color: #fff;'}
+    %h4 Important Links
+    %ul
+      - 4.times do
+        %li 
+          Some Website (AU Shop)
+          = link_to 'some link', '#'
+  .columns.large-6{style: 'color: #fff;'}
+    %h4 Contact Info
+    %ul
+      %li 
+        ABN Number
+        = link_to 'some link', '#'
