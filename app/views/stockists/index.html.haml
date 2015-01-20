@@ -5,7 +5,7 @@
       = params[:loc] ? params[:loc] : ''
 
 .row
-  - if @mapped_stockists.count >= 1
+  - if @mapped_stockists.count(:all) >= 1
     #map{style: 'width: 100%; margin: 0; padding: 0;'}
       %br/
   - else
@@ -16,7 +16,7 @@
 
 .row
   .columns.large-12
-    - if @paged_stockists.count >= 1
+    - if @paged_stockists.count(:all) >= 1
       = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
       %br/
       = paginate(@paged_stockists)
