@@ -5,7 +5,7 @@
       %br/
       = logo
   .columns.small-12.large-6
-    %h4= link_to clean_name, stockist_url
+    %h4= link_to raw(clean_name).html_safe, stockist_url
     %p.address
       = address
   .columns.small-12.large-4.actions

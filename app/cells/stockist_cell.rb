@@ -32,7 +32,7 @@ class StockistCell < Cell::ViewModel
   end
 
   def clean_name
-    raw model.to_s.titleize.html_safe
+    model.to_s.titleize.html_safe
   end
 
   def page_title
