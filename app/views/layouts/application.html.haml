@@ -32,7 +32,7 @@
               = form_tag(stockists_path, method: :get ) do
                 .row.collapse
                   .large-9.small-9.columns
-                    = text_field_tag :search, params[:search], placeholder: "Find a stockist"
+                    = text_field_tag :search, params[:search], placeholder: "Find a retailer"
                   .large-3.small-3.columns
                     = submit_tag 'Search', class: 'button expand small', name: nil
             %li.has-dropdown
@@ -41,7 +41,7 @@
               %ul.dropdown
                 %li
                   = link_to become_a_stockist_path do
-                    Become a stockist.
+                    Become a retailer.
                 - @all_countries.order(name: :asc).each do |country|
                   %li
                     = link_to country, class: 'button' do
