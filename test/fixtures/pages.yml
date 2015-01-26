@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  seo_title: MyString
+  seo_desc: MyString
+  status: 1
+  content: MyText
+  content_type: 1
+  position: 1
+  slug: MyString
+  parentals: MyString
+  ancestry: MyString
+  image: MyString
+  template: MyString
+  client_id: 1
+
+two:
+  title: MyString
+  seo_title: MyString
+  seo_desc: MyString
+  status: 1
+  content: MyText
+  content_type: 1
+  position: 1
+  slug: MyString
+  parentals: MyString
+  ancestry: MyString
+  image: MyString
+  template: MyString
+  client_id: 1

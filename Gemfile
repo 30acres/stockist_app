@@ -20,7 +20,8 @@ gem 'taps'
 gem 'friendly_id'
 gem 'simple_form'
 gem 'carrierwave-aws'
-gem 'fog'
+gem 'carrierwave'
+#gem 'fog'
 gem 'RedCloth'
 
 gem 'sidekiq'
@@ -51,3 +52,8 @@ gem 'geocoder'
 gem 'foundation-rails'
 gem "font-awesome-rails"
 gem 'gmaps4rails'
+
+gem 'acts_as_list'
+gem 'acts_as_tree'
+gem 'ancestry'
+

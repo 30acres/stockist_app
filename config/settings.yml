@@ -12,7 +12,7 @@ canvas:
 eyeofhorus: &horus
   <<: *default
   site_name: "Eye of Horus"
-  site_code: 'eyeofhorus'
+  site_code: 'eyeofhoruscosmetics'
   site_slogan: 'Awaken the Goddess Within'
   page_title: "Eye of Horus Stockists | Mascara, Eyeshadow, Eyeline, Makeup Specialists"
   address_street: '17 Lawson Street'

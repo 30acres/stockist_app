@@ -56,17 +56,19 @@
     .container
       = yield
     %footer.row
-      .columns.large-12
-        %hr/
-      .row.features
-        .columns.large-6
-          = render 'feature_1'
-        .columns.large-6
-          = render 'feature_2'
+      - unless current_retailer
+        .columns.large-12
+          %hr/
+          
+        .row.features
+          .columns.large-6
+            = render 'feature_1'
+          .columns.large-6
+            = render 'feature_2'
     .copyright
       .row
         .columns.large-5
-          = link_to 'Stockist Center', media_center_path
+          = link_to 'Retail Center', media_center_path
           | 
           = link_to 'Online Shop', '#'
           | 
