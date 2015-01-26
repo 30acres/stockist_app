@@ -12,7 +12,7 @@ class Site
       @cookie_code
     else
       ## Use the URLs to set the site in prod etc
-      @url_code.split('.').select {|c| c.length > 4 }.first
+      @url_code.split('.').select {|c| c.length > 4 }.last
     end
   end
 
