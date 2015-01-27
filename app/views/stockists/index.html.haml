@@ -6,8 +6,9 @@
 
 .row
   - if @mapped_stockists.count(:all) >= 1
-    #map{style: 'width: 100%; margin: 0; padding: 0;'}
-      %br/
+    - cache("map_#{Time.now.day}") do
+      #map{style: 'width: 100%; margin: 0; padding: 0;'}
+        %br/
   - else
     %br/
   - unless params[:long]

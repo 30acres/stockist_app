@@ -5,10 +5,10 @@ class StockistsController < ApplicationController
       @paged_stockists = @mapped_stockists.page params[:page]
     else
       unless params[:long] && params[:lat]
-        @mapped_stockists = Stockist.cache.mapped
+        @mapped_stockists = Stockist.mapped
         @paged_stockists = Stockist.all.page params[:page]
       else
-        @mapped_stockists = Stockist.cache.mapped.near([params[:lat].to_f, params[:long].to_f], 30)
+        @mapped_stockists = Stockist.near([params[:lat].to_f, params[:long].to_f], 30)
         @paged_stockists = @mapped_stockists.page params[:page]
       end
     end
