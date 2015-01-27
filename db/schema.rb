@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150120215029) do
+ActiveRecord::Schema.define(version: 20150120222722) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,6 +44,24 @@ ActiveRecord::Schema.define(version: 20150120215029) do
   add_index "friendly_id_slugs", ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type", using: :btree
   add_index "friendly_id_slugs", ["sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_id", using: :btree
   add_index "friendly_id_slugs", ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type", using: :btree
+
+  create_table "pages", force: :cascade do |t|
+    t.string   "title"
+    t.string   "seo_title"
+    t.string   "seo_desc"
+    t.integer  "status"
+    t.text     "content"
+    t.integer  "content_type"
+    t.integer  "position"
+    t.string   "slug"
+    t.string   "parentals"
+    t.string   "ancestry"
+    t.string   "image"
+    t.string   "template"
+    t.integer  "client_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
 
   create_table "regions", force: :cascade do |t|
     t.string   "name"
@@ -93,6 +111,18 @@ ActiveRecord::Schema.define(version: 20150120215029) do
     t.datetime "updated_at",      null: false
     t.integer  "country_id"
     t.string   "slug"
+  end
+
+  create_table "uploads", force: :cascade do |t|
+    t.string   "title"
+    t.string   "file"
+    t.integer  "position"
+    t.integer  "status"
+    t.string   "source_url"
+    t.integer  "upload_type"
+    t.integer  "client_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
 end
