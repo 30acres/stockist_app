@@ -9,7 +9,7 @@ canvas:
   site_code: 'canvas'
   <<: *default
 
-eyeofhorus: &horus
+eyeofhoruscosmetics: &horus
   <<: *default
   site_name: "Eye of Horus"
   site_code: 'eyeofhoruscosmetics'
