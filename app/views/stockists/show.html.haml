@@ -3,5 +3,8 @@
 
 = cell(:stockist, @stockist, site: @site)
 
+- if current_admin
+  = link_to 'Edit', '#edit_this', class: 'btn btn-alert'
+
 = content_for :footer_scripts do
   = render partial: 'maps/map', locals: { hash: @hash, zoom: 16 }
