@@ -3,8 +3,14 @@
 
 = cell(:stockist, @stockist, site: @site)
 
+- if current_retailer
+  .row#admin
+    .columns.twelve
+      = mail_to 'Please update my listing', 'amy@eyeofhorus.com.au', class: 'button primary'
 - if current_admin
-  = link_to 'Edit', '#edit_this', class: 'btn btn-alert'
+  .row#admin
+    .columns.twelve
+      = link_to 'Edit this listing', '#edit_this', class: 'button'
 
 = content_for :footer_scripts do
   = render partial: 'maps/map', locals: { hash: @hash, zoom: 16 }

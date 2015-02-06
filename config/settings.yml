@@ -1,12 +1,16 @@
 default: &default
   logo: "new/logo_color.png"
   site_name: 'Canvas Theme'
+  site_code: 'eyeofhoruscostmetics'
   site_slogan: "Theming"
   hero1: 'hero1.jpg'
 
 canvas:
   site_name: 'Canvas'
   site_code: 'canvas'
+  <<: *default
+
+localhost\:3000: 
   <<: *default
 
 eyeofhoruscosmetics: &horus

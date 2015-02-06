@@ -5,6 +5,8 @@ class ApplicationController < ActionController::Base
   
   before_filter :get_site, :all_sites, :all_countries
 
+  
+
   WEBSITE = @site
 
   def get_site
@@ -13,7 +15,7 @@ class ApplicationController < ActionController::Base
 
   def site_code
     cookies[:site_code] ||= { 
-       :value => 'eyeofhorus',
+       :value => 'eyeofhoruscosmetics',
        :expires => 1.year.from_now,
        :domain => request.host
     }[:value]

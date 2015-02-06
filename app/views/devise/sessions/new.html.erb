@@ -17,5 +17,9 @@
     <%= f.button :submit, "Log in" %>
   </div>
 <% end %>
+<% if resource_name.to_s.humanize == 'Retailer' %>
+  <h4>Are you a retailer for Eye of Horus and don't have a login?</h4>
+  <a href="mailto: amy@eyeofhorus.com.au">Email Us</a>
+<% end %>
 
 </div>
