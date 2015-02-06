@@ -56,7 +56,7 @@
     .container
       = yield
     %footer.row
-      - unless current_retailer
+      - unless current_retailer or controller_name == 'retailers'
         .columns.large-12
           %hr/
           
