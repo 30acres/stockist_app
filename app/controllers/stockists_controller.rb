@@ -1,5 +1,5 @@
 class StockistsController < ApplicationController
-  before_action :authenticate_admin!, only: [:media_center]
+  before_action :authenticate_retailer!, only: [:media_center]
 
   def index
     if params[:search]
