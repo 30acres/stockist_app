@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :admins
   devise_for :retailers
   resources 'stockists'
   get 'countries/:id' => 'country#show', as: 'country'
