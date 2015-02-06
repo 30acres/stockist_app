@@ -1,4 +1,5 @@
 <div class="row">
+  <br/>
 
   <h2><%= resource_name.to_s.humanize %> Log in</h2>
 
@@ -9,17 +10,22 @@
     <% else %>
       <%= f.input :email, required: false, autofocus: true %>
     <% end %>
-    <%= f.input :password, required: false %>
+    <%= f.input :password, required: false, input_html: { style: 'width: 500px' } %>
     <% f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
   </div>
 
   <div class="form-actions">
     <%= f.button :submit, "Log in" %>
-  </div>
+    <% if resource_name.to_s.humanize == 'Retailer' %>
+      &nbsp;
+      &nbsp;
+      &nbsp;
+  <h4 style="display: inline-block">Are you a retailer for Eye of Horus and don't have a login?
+    <%= mail_to 'retailers@eyeofhorus.com.au','Email Us'  %>
+  </h4>
 <% end %>
-<% if resource_name.to_s.humanize == 'Retailer' %>
-  <h4>Are you a retailer for Eye of Horus and don't have a login?</h4>
-  <a href="mailto: amy@eyeofhorus.com.au">Email Us</a>
+
+  </div>
 <% end %>
 
 </div>
