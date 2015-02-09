@@ -37,7 +37,7 @@
                     = submit_tag 'Search', class: 'button expand small', name: nil
             %li.has-dropdown
               = link_to stockists_path do 
-                Stockists
+                Retailers
               %ul.dropdown
                 %li
                   = link_to become_a_stockist_path do
@@ -67,13 +67,16 @@
             = render 'feature_2'
     .copyright
       .row
-        .columns.large-5
+        .columns.large-6
+          = link_to become_a_stockist_path do
+            Become a retailer.
+          |
           = link_to 'Retail Center', media_center_path
           | 
           = link_to 'Online Shop', '#'
           | 
           = link_to 'Contact Us', '#'
-        .columns.large-7.text-right
+        .columns.large-6.text-right
           &copy; #{c('copyright')} #{Time.now.year}
 
 
