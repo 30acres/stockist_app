@@ -1,14 +1,17 @@
-.row
-  .columns.large-12
-    %h1
-      Find #{c('site_name')} in #{@country.name}
-.row
-  .columns.large-12
-    #map{ style: 'width: 100%; height: 500px; margin: 0 0 2em 0'}
-    = content_for :footer_scripts do
-      = render partial: 'maps/map', locals: { hash: @hash, zoom: 0 }
+- if @country.name == 'Philippines'
+  = render 'stockists/phillipines'
+- else
+  .row
+    .columns.large-12
+      %h1
+        Find #{c('site_name')} in #{@country.name}
+  .row
+    .columns.large-12
+      #map{ style: 'width: 100%; height: 500px; margin: 0 0 2em 0'}
+      = content_for :footer_scripts do
+        = render partial: 'maps/map', locals: { hash: @hash, zoom: 0 }
 
-.row
-  .columns.large-12
-    = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
-    = paginate(@paged_stockists)
+  .row
+    .columns.large-12
+      = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
+      = paginate(@paged_stockists)

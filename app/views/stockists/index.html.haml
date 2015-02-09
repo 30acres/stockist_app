@@ -1,35 +1,4 @@
-.row
-  .page-header
-    %h1.text-center
-      #{c('site_name')} Shopfinder
-      = params[:loc] ? params[:loc] : ''
-
-.row
-  - if @mapped_stockists.count(:all) >= 1
-    - cache("map_#{Time.now.day}") do
-      #map{style: 'width: 100%; margin: 0; padding: 0;'}
-        %br/
-  - else
-    %br/
-  - unless params[:long]
-    .nearby{ style: 'display: none; text-align: center; margin-top: -1.2em;' }
-      = link_to "Find #{c('site_name')} in a store near you", '#', id: 'nearby', class: 'button button-secondary large', style: 'border: 3px solid #444', data: { longitude: '', latitude: ''} 
-
-.row
-  .columns.large-12
-    - if @paged_stockists.count(:all) >= 1
-      = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
-      %br/
-      = paginate(@paged_stockists)
-    - else
-      %h3 Sorry, no stockists match your search. #{link_to 'See all stockists', stockists_path}
-
-.row
-  .columns.large-12
-    %hr/
-    %p
-      Find #{c('name')} by Country
-      =raw @all_countries.order(name: :asc).map { |country| "#{link_to country.name, country}" }.to_sentence
-
-= content_for :footer_scripts do
-  = render partial: 'maps/map', locals: { hash: @hash, zoom: nil }
+- unless is_phillipines?
+  = render 'finder'
+- else
+  = render 'phillipines'
