@@ -41,7 +41,7 @@
               %ul.dropdown
                 %li
                   = link_to become_a_stockist_path do
-                    Become a retailer.
+                    Become a retailer
                 - @all_countries.order(name: :asc).each do |country|
                   %li
                     = link_to country, class: 'button' do
@@ -69,7 +69,7 @@
       .row
         .columns.large-6
           = link_to become_a_stockist_path do
-            Become a retailer.
+            Become a retailer
           |
           = link_to 'Retail Center', media_center_path
           | 
