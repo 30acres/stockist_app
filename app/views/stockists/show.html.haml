@@ -14,3 +14,4 @@
 
 = content_for :footer_scripts do
   = render partial: 'maps/map', locals: { hash: @hash, zoom: 16 }
+  = render('stockists/get_collections')

@@ -1,0 +1,20 @@
+<script>
+$(document).ready(function(e) {
+    var main_cats = ['accessories','mascara','brow','eyeliner','pencil','accessories','goddess-promotion']
+    var form_url = 'http://www.eyeofhoruscosmetics.com/collections.json';
+    $.ajax({
+      url: form_url, 
+      cache: false
+    }).done(function( data ) {
+    // console.log( "Sample of data:", data );
+    $.each(data, function( index, value ) {
+      $.each(value, function(index, collection ) { 
+        //alert(collection.title);
+        if ($.inArray(collection.handle, main_cats) !== -1) {
+          $('ul#products').append('<li><a href="http://www.eyeofhoruscosmetics.com/collections/' + collection.handle + '?link_src=retailers"><img src="' + collection.image.src + '"><h4>' +collection.title + '</h4></a></li>');
+        }
+      });
+    });
+  });
+});
+</script>
