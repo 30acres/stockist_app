@@ -1,5 +1,8 @@
-- if @country.name == 'Philippines'
+- case @country.name
+- when 'Philippines'
   = render 'stockists/phillipines'
+- when 'Hong Kong SAR China'
+  = render 'stockists/hongkong'
 - else
   .row
     .columns.large-12
