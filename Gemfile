@@ -45,7 +45,7 @@ group :development, :test do
 end
 
 gem 'jquery-cookie-rails'
-#gem 'pry'
+gem 'pry'
 #
 gem 'rails_12factor'
 gem 'geocoder'
@@ -57,4 +57,7 @@ gem 'acts_as_list'
 gem 'acts_as_tree'
 gem 'ancestry'
 
+gem 'rubyntlm', '~> 0.3.2'
 gem 'dalli'
+gem 'iconv'
+gem 'mechanize'

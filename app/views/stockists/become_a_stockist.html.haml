@@ -30,29 +30,34 @@
     %br/
     .panel
       %h4 Apply to become an #{c('site_name')} retailer
-      = form_tag('#') do
-        %p
-          %strong Business Name
-          %input{id:"person_first_name", name:"person[first_name]", type:"text"}
-        %p
-          %strong Contact Phone
-          %input{id:"person_first_name", name:"person[first_name]", type:"text"}
-        %p
-          %strong Email
-          %input{id:"person_first_name", name:"person[first_name]", type:"text"}
-        %p
-          %strong Website
-          %input{id:"person_first_name", name:"person[first_name]", type:"text"}
-        %p
-          %strong ABN
-          %input{id:"person_first_name", name:"person[first_name]", type:"text"}
-        %p
-          %strong Comments
-          %input{id:"person_first_name", name:"person[first_name]", type:"text", style: 'height: 140px'}
-        %p
-          %input{id:"person_first_name", name:"person[first_name]", type:"checkbox"}
-          Have you tried the products?
-        %p
-          = link_to 'APPLY', '#', class: 'button small'
+      - if 1 == 2
+        = form_tag('#') do
+          %p
+            %strong Business Name
+            %input{id:"person_first_name", name:"person[first_name]", type:"text"}
+          %p
+            %strong Contact Phone
+            %input{id:"person_first_name", name:"person[first_name]", type:"text"}
+          %p
+            %strong Email
+            %input{id:"person_first_name", name:"person[first_name]", type:"text"}
+          %p
+            %strong Website
+            %input{id:"person_first_name", name:"person[first_name]", type:"text"}
+          %p
+            %strong ABN
+            %input{id:"person_first_name", name:"person[first_name]", type:"text"}
+          %p
+            %strong Comments
+            %input{id:"person_first_name", name:"person[first_name]", type:"text", style: 'height: 140px'}
+          %p
+            %input{id:"person_first_name", name:"person[first_name]", type:"checkbox"}
+            Have you tried the products?
+          %p
+            = link_to 'APPLY', '#', class: 'button small'
+      - else
+        Email to: 
+        = mail_to 'retailers@eyeofhoruscosmetics.com'
+        your Business Name, Contact Phone, Website URL, ABN and a bit about your business.
 
 
