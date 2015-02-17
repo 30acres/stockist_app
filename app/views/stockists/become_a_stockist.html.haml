@@ -1,6 +1,8 @@
 .row
   .columns.large-12
     %br/
+    - if params[:thank_you] == true
+      %h2 Thank you for your application. Someone will contact you shortly.
     <iframe style="width: 100%" height="535" src="//www.youtube.com/embed/mHgZMMWLeTo?autoplay=1&amp;showinfo=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 .row
   .columns.large-7
@@ -55,9 +57,9 @@
             Have you tried the products?
           %p
             = link_to 'APPLY', '#', class: 'button small'
-      - else
+      - elsif 2 == 3
         Email to: 
         = mail_to 'contact@eyeofhoruscosmetics.com'
         your Business Name, Contact Phone, Website URL, ABN and a bit about your business.
-
-
+      - else
+        = render 'subscribe_become_form'

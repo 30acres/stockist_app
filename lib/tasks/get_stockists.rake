@@ -29,36 +29,29 @@ task :get_stockists => :environment do
     end
 
     login = home_page.form_with(:action => '/ajax_login') do |form|
-      form.login_email  = 'jonny+eoh@dropbox.com'
+      form.login_email  = 'jonny+eoh@30acres.com.au'
       form.login_password = 'AwakenTheGoddess'
-      @next_page = form.button_with(:class => "login-button button-primary")
+      # @next_page = form.button_with(:class => "login-button button-primary")
       # form.click_button(@next_page)
       # a.submit(form, next_page)
       # next_page.click
       # a.click(next_page)
-    end.submit
-    raise 'Login Failed' if login.body !~ /Logged in!/
-    
-      puts 'HERE:'
+    end
+      @next_page = home_page.at('.sign-in-text')
       puts @next_page
+      next_link = Mechanize::Page::Link.new( @next_page, Mechanize.new , home_page )
+      a.click(next_link)
       puts '___'
-      binding.pry
-
-
-
 
     file_page = a.get("https://www.dropbox.com/home/stockists")
-    # our_time = Time.now
-    # puts "Day Now: " + our_time.strftime('%d%m%Y')
-    # puts "Hour: " + our_time.strftime('%H')
-    ## because of the ONQ naming convention, if the day is a single, we strip the ZERO to make it match
-    # puts "Filename: Vacancy_data_#{our_time.strftime('%d').to_i <= 9 ? (our_time.strftime('%d').gsub('0','') + our_time.strftime('%m%Y')) : our_time.strftime('%d%m%Y')}_#{our_time.strftime('%H').to_i <= 13 ? "855" : "355"}.csv"
+    binding.pry
 
-    #link = file_page.link_with(:href => /Vacancy_data_#{our_time.strftime('%d').to_i <= 9 ? (our_time.strftime('%d').gsub('0','') + our_time.strftime('%m%Y')) : our_time.strftime('%d%m%Y')}_#{our_time.strftime('%H').to_i <= 13 ? "855" : "355"}.csv/)
-    link = file_page.link_with(:href => /Vacancy_data_#{our_time.strftime('%d').to_i <= 9 ? (our_time.strftime('%d').gsub('0','') + our_time.strftime('%m%Y')) : our_time.strftime('%d%m%Y')}_#{our_time.strftime('%H').to_i <= 13 ? "855" : "355"}.xml/)
+    link = file_page.link_with(:href => /xls/)
     if link.nil?
-      ReportMailer.import_failed.deliver
+      raise 'dead'
+      # ReportMailer.import_failed.deliver
     end
+    raise 'hell'
     file_path = link.href.to_s + "?dl=1"
 
     # Click the upload link
