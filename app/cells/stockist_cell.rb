@@ -36,7 +36,7 @@ class StockistCell < Cell::ViewModel
   end
 
   def page_title
-    "Find #{c('site_name')} at #{clean_name} in #{model.city}"
+    "Find #{c('site_name')} #{c('site_meta')} at #{clean_name} in #{model.city}"
   end
 
 end
