@@ -25,6 +25,7 @@ eyeofhoruscosmetics: &horus
   address_postcode: '2481'
   address_state: 'NSW'
   address_country: 'Australia'
+  twitter: 'horus_mascara'
   phone_one: '(02) 6685 XXX'
   phone_two: '(02) 6685 XXX'
   email: 'info@eyeofhoruscosmetics.com'
