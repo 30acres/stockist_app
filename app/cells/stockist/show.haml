@@ -12,7 +12,10 @@
   .columns.large-6
     .panel
       %h4= model
-      %p= model.address
+      %p
+        = model.address
+        %br/
+        = model.postcode
       %ul
         %li.nearby{style: 'display: none;'}
           = link_to stockists_path, data: { longitude: '', latitude: '' }, id: 'nearby' do

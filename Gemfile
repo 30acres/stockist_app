@@ -61,3 +61,8 @@ gem 'rubyntlm', '~> 0.3.2'
 gem 'dalli'
 gem 'iconv'
 gem 'mechanize'
+
+gem 'dropbox-sdk'
+# gem "dropbox-api"
+#
+gem 'roo'
