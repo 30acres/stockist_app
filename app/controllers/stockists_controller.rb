@@ -3,15 +3,15 @@ class StockistsController < ApplicationController
 
   def index
     if params[:search]
-      @mapped_stockists = Stockist.search(params[:search]).active.order("name DESC")
+      @mapped_stockists = Stockist.search(params[:search]).active.order("name ASC")
       @paged_stockists = @mapped_stockists.page params[:page]
     else
       unless params[:long] && params[:lat]
-        @mapped_stockists = Stockist.active.mapped
-        @paged_stockists = Stockist.active.order('name DESC').page params[:page]
+        @mapped_stockists = Stockist.active.mapped.order('name ASC')
+        @paged_stockists = Stockist.active.page params[:page]
       else
-        @mapped_stockists = Stockist.active.near([params[:lat].to_f, params[:long].to_f], 30)
-        @paged_stockists = @mapped_stockists.order('name DESC').page params[:page]
+        @mapped_stockists = Stockist.active.near([params[:lat].to_f, params[:long].to_f], 30).order('name ASC')
+        @paged_stockists = @mapped_stockists.page params[:page]
       end
     end
     @hash = Gmaps4rails.build_markers(@mapped_stockists) do |stockist, marker|
