@@ -15,7 +15,7 @@ task :get_stockists => :environment do
   parse_xls(the_file['url'], 'update_stockists')
   puts 'Offlining stockists not in list...'
   offlining_stockists
-  
+
 end
 
 def client
@@ -54,7 +54,7 @@ def parse_xls(file, task)
 end
 
 def check_headers(s)
-  headers = ['Contact',	'Company',	'First name',	'Last name',	'Street',	'City',	'Email address',	'Last contacted', 'Mobile',	'Postcode',	'Telephone',	'Last ordered',	'Created']
+  headers = ['Contact',	'Company',	'First name',	'Last name',	'Street',	'Suburb', 'City',	'Code', 'County/State', 'Credit limit', 'Credit days', 'Created',nil, 'Email address', 'Fax', nil,	'Last contacted', 'Mobile', 'Mailmerges',	'Postcode',	'Telephone', 'Retailers','Retailers','Country','Last ordered']
   headers.each_with_index do |check, index|
     col = index + 1
     heading = s.cell(1, col)
@@ -74,33 +74,41 @@ def standby_stockists
 end
 
 def update_stockists(s)
-  
- (s.first_row..s.last_row).each do |row|
-   puts s.row(row).inspect
-   stockist = Stockist.find_or_initialize_by(client_id: s.cell(row, 'A'))
-   stockist.name = s.cell(row, 'B')
-   stockist.first_name = s.cell(row, 'C')
-   stockist.last_name = s.cell(row, 'D')
-   stockist.street_address = s.cell(row, 'E')
-   stockist.city = s.cell(row, 'F')
-   stockist.secondary_phone = s.cell(row, 'I')
-   stockist.postcode = s.cell(row, 'J')
-   stockist.primary_phone = s.cell(row, 'K')
-   ##stockist.state = s.cell(row, 'B')
-   stockist.email_address = s.cell(row, 'G')
-   if stockist.street_address.nil? or stockist.street_address != s.cell(row,'E')
-     stockist.street_address = s.cell(row,'E')
-     stockist.geocode
-   end
-   stockist.save!
-   puts stockist
- end
- # binding.pry
+  (s.first_row..s.last_row).each do |row|
+    puts s.row(row).inspect
+    unless row == 1
+      stockist = Stockist.find_or_initialize_by(client_id: s.cell(row, 'A'))
+      stockist.name = s.cell(row, 'B')
+      stockist.first_name = s.cell(row, 'C')
+      stockist.last_name = s.cell(row, 'D')
+      stockist.street_address = s.cell(row, 'E')
+      stockist.city = "#{s.cell(row, 'F')} #{s.cell(row, 'G')}"
+      stockist.state = s.cell(row, 'I')
+      stockist.secondary_phone = s.cell(row, 'R')
+      stockist.postcode = s.cell(row, 'T')
+      stockist.primary_phone = s.cell(row, 'U')
+      stockist.email_address = s.cell(row, 'N')
+      if stockist.street_address.nil? or stockist.street_address != s.cell(row,'E')
+        stockist.street_address = s.cell(row,'E')
+        stockist.geocode
+      end
+       country = Country.find_or_create_by(name: s.cell(row, 'X'))
+       stockist.country_id = country.id
+       country.save!
+      ## Put them back online
+      stockist.status = 1
+      stockist.save!
+      sleep(2)
+      puts stockist
+    end
+
+  end
+  # binding.pry
 
 end
 
 def offlining_stockists
-  Stockist.standby.all.each do |stockist|
+  Stockist.standby.each do |stockist|
     stockist.status = 3
     puts "Offline: #{stockist.name}"
     stockist.save!

@@ -1,6 +1,9 @@
 class Stockist < ActiveRecord::Base
   belongs_to :country
-  after_create :geocode #, if: ->(obj){ obj.address.present? and obj.address.changed }
+  ##after_create :geocode #, if: ->(obj){ obj.address.present? and obj.address.changed }
+  after_validation :geocode #, if: ->(obj){ obj.address.present? and obj.address.changed }
+
+  validates_presence_of :name
   
   extend FriendlyId
   friendly_id :name, use: :slugged
@@ -16,15 +19,15 @@ class Stockist < ActiveRecord::Base
     open_query = "%#{query.downcase}%"
     terms = %w( street_address name city country postcode )
     mapped_terms = terms.map{ |term| "LOWER(" + term + ") like ?"}.join(' OR ')
-    where(mapped_terms, open_query, open_query, open_query, open_query)
+    where(mapped_terms, open_query, open_query, open_query, open_query, open_query)
   end
 
   def to_s
-    name.html_safe
+    name
   end
 
   def address
-    [street_address, city, state, country].compact.join(', ')
+    [street_address.titleize.gsub(', ','/'), city.titleize.gsub(',',' '), state.upcase, country.to_s.titleize].compact.map{|e| e.to_s }.join(', ')
   end
 
   def is_mapped?
