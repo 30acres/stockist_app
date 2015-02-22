@@ -27,7 +27,7 @@ class Stockist < ActiveRecord::Base
   end
 
   def address
-    [street_address.titleize.gsub(', ','/'), city.titleize.gsub(',',' '), state.upcase, country.to_s.titleize].compact.map{|e| e.to_s }.join(', ')
+    [street_address.titleize.gsub(', ','/'), city.titleize.gsub(',',' ').strip, state.upcase, country.to_s.titleize].compact.map{|e| e.to_s }.join(', ')
   end
 
   def is_mapped?
