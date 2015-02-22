@@ -17,12 +17,15 @@
         %br/
         = model.postcode
       %ul
+        - if model.primary_phone
+          %li 
+            %strong
+              Phone Number:
+            = model.primary_phone
         %li.nearby{style: 'display: none;'}
           = link_to stockists_path, data: { longitude: '', latitude: '' }, id: 'nearby' do
             Find an #{c('site_name')} near you
         %li= link_to 'More nearby...', stockists_path(long: model.longitude, lat: model.latitude, loc: model.city)
-        - if model.primary_phone
-          %li Phone Number
         - if model.website
           %li Link to website
       = render 'share_buttons'
