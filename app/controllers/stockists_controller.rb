@@ -53,7 +53,7 @@ class StockistsController < ApplicationController
 
   def load_client
     require 'dropbox_sdk'
-    access_token = '1VAsKEO59SAAAAAAAAAAHwViu5Kh5tZljATvAk4Qhp2QMqCHn-NJredzMyU-Ja_V'
+    access_token = 'peIHv38CaNcAAAAAAAC20raFgkju_Is3QDqCWYW1K8hyZcX0shOD-b-nMFZG7DO6'
     @client = DropboxClient.new(access_token)
   end
 

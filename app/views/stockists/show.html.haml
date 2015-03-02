@@ -9,7 +9,7 @@
     .columns.twelve.text-center
       %h3
         Is this your listing? 
-        = link_to  'Click here to update your listing', "mailto:amy@eyeofhorus.com.au?subject=Hi%20Amy,%20Please%20Update%20#{@stockist.name.gsub(' ','%20').gsub('&','and')}", class: 'button primary'
+        = link_to  'Click here to update your listing', "mailto:amy@eyeofhorus.com.au?subject=Hi%20Amy,%20Please%20Update%20#{@stockist.name.gsub(' ','%20').gsub('&','and')}&body=My%20url:%20#{request.url}", class: 'button primary'
 - if current_admin
   .row#admin
     .columns.twelve

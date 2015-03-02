@@ -1,11 +1,11 @@
-APP_KEY = 'ness7afbzbssotj'
-APP_SECRET = 'z5z48xgmqtxik80'
+# APP_KEY = 'ness7afbzbssotj'
+# APP_SECRET = 'z5z48xgmqtxik80'
 #encoding UTF-8
 desc "Get Stockists"
 task :get_stockists => :environment do
   # get_client
   puts 'Grabbing the file...'
-  the_file = client.media('/stockists/retailers.xls')
+  the_file = client.media('/30 Acres - Eye of Horus Retail Centre/stockist-data/retailers.xls')
   the_file.inspect
   puts 'Checking the headers...'
   parse_xls(the_file['url'], 'check_headers')
@@ -34,7 +34,7 @@ def client
   # # This will fail if the user gave us an invalid authorization code
   # access_token, user_id = flow.finish(code)
   # puts access_token
-  access_token = '1VAsKEO59SAAAAAAAAAAHwViu5Kh5tZljATvAk4Qhp2QMqCHn-NJredzMyU-Ja_V'
+  access_token = 'peIHv38CaNcAAAAAAAC20raFgkju_Is3QDqCWYW1K8hyZcX0shOD-b-nMFZG7DO6'
   # client = 
   DropboxClient.new(access_token)
   # puts "linked account:", client.account_info().inspect
