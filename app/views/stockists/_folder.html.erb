@@ -3,7 +3,9 @@
       <i class="fa fa-folder"></i>
       <%= key['path'].split('/').last.titleize %>
       <% if @client.metadata("#{key['path']}")['contents'] %>
+        <small>
         (<%= @client.metadata("#{key['path']}")['contents'].count  %>)
+      </small>
       <% end %>
     <% end %>
 <% end %>
