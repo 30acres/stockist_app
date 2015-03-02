@@ -1,5 +1,4 @@
 <% if key['is_dir'] == true %>
-  <h3>
     <%= link_to url_for(path: key['path']), class: 'button' do   %>
       <i class="fa fa-folder"></i>
       <%= key['path'].split('/').last.titleize %>
@@ -7,5 +6,4 @@
         (<%= @client.metadata("#{key['path']}")['contents'].count  %>)
       <% end %>
     <% end %>
-  </h3>
 <% end %>
