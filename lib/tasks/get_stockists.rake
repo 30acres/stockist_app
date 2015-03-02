@@ -34,7 +34,7 @@ def client
   # # This will fail if the user gave us an invalid authorization code
   # access_token, user_id = flow.finish(code)
   # puts access_token
-  access_token = '1VAsKEO59SAAAAAAAAAAEvX09M3OFO8Lpd4ANK6StBMAd1PcQsphCGfnwhEHUiH3'
+  access_token = '1VAsKEO59SAAAAAAAAAAHwViu5Kh5tZljATvAk4Qhp2QMqCHn-NJredzMyU-Ja_V'
   # client = 
   DropboxClient.new(access_token)
   # puts "linked account:", client.account_info().inspect

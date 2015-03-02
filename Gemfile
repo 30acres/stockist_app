@@ -63,6 +63,6 @@ gem 'iconv'
 gem 'mechanize'
 
 gem 'dropbox-sdk'
-# gem "dropbox-api"
+gem "dropbox-api"
 #
 gem 'roo'

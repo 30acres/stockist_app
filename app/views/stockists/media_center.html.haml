@@ -1,47 +1,12 @@
+- content_for(:footer_scripts) do
+  :javascript
+    $("#dropbox").html("#{escape_javascript(render(:partial => 'droppy'))}");
+
 .row
   .page-header
     .columns.large-12{style: 'color: #fff;'}
       %h1 Media Center
-      %h2 COMING SOON
-.row
-  .columns.large-12{style: 'color: #fff;'}
-    %h4 Latest Product Updates
-    %p Coming Soon
+      #dropbox
 
-
-.row
-  .columns.large-4{style: 'color: #fff;'}
-    %h4 Product Image Downloads
-    %ul
-      - 10.times do
-        %li 
-          Coming Soon
-          = link_to 'link', '#'
-  .columns.large-4{style: 'color: #fff;'}
-    %h4 Video Downloads
-    %ul
-      - 10.times do
-        %li 
-          Coming Soon
-          = link_to 'link', '#'
-  .columns.large-4{style: 'color: #fff;'}
-    %h4 Product Pack Downloads
-.row
-  .columns.large-12{style: 'color: #fff;'}
-    %h4 Branding Guidelines
-    %p Coming Soon
-
-.row
-  .columns.large-6{style: 'color: #fff;'}
-    %h4 Important Links
-    %ul
-      - 4.times do
-        %li 
-          Coming Soon
-          = link_to 'some link', '#'
-  .columns.large-6{style: 'color: #fff;'}
-    %h4 Contact Info
-    %ul
-      %li 
-        ABN Number
-        = link_to 'Coming Soon', '#'
+.clearfix
+%br/

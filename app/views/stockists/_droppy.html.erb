@@ -1,0 +1,28 @@
+<% root_path = '/stockists/media/' %>
+
+<% if params[:path] %>
+  <% path ||= "#{root_path}#{params[:path].gsub(root_path,'')}" %>
+<% else %>
+  <% path ||= root_path %>
+<% end %>
+
+<div class="panel">
+  <h2>Main Downloads</h2>
+  <% @client.metadata(root_path)['contents'].each do |key, value| %>
+    <%= render 'folder', key: key, value: value %>
+  <% end %>
+</div>
+
+<% unless root_path == path %>
+  <h2><%= @client.metadata(path)['path'].split('/').last.titleize %> Folder</h2>
+  <% if @client.metadata(path)['contents'] %>
+  <% @client.metadata(path)['contents'].each do |key, value| %>
+    <% if key['is_dir'] == true %>
+      <%= render 'folder', key: key, value: value %>
+    <% else %>
+      <%= link_to "<div class='fa fa-file' title='#{key['modified']}'></div> #{key['path'].split('/').last.titleize } [#{key["size"]}]".html_safe, dropbox_download_path(path: key["path"]), :target => "_blank", style: 'color: #fff' %>
+      <br/>
+      <% end %>
+  <% end %>
+<% end %>
+<% end %>

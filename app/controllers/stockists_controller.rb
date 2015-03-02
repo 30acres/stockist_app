@@ -1,5 +1,6 @@
 class StockistsController < ApplicationController
   before_action :authenticate_retailer!, only: [:media_center]
+  before_filter :load_client, only: [:media_center, :dropbox_download]
 
   def index
     if params[:search]
@@ -43,4 +44,17 @@ class StockistsController < ApplicationController
   def become_a_stockist
     @media = 1
   end
+  
+  def dropbox_download
+    redirect_to @client.shares(params[:path])["url"]
+  end
+
+  private
+
+  def load_client
+    require 'dropbox_sdk'
+    access_token = '1VAsKEO59SAAAAAAAAAAHwViu5Kh5tZljATvAk4Qhp2QMqCHn-NJredzMyU-Ja_V'
+    @client = DropboxClient.new(access_token)
+  end
+
 end
