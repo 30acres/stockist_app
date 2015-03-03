@@ -45,7 +45,7 @@
                 - @all_countries.order(name: :asc).each do |country|
                   %li
                     = link_to country, class: 'button' do
-                      #{country.name}
+                      #{country.name.gsub('Phillipines','Philippines')}
             %li
               %a{:href => "#"} Shop Online
           / Left Nav Section

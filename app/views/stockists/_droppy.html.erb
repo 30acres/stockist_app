@@ -9,6 +9,7 @@
   <% @client.metadata(root_path)['contents'].each do |key, value| %>
     <%= render 'folder', key: key, value: value %>
   <% end %>
+
 <% unless root_path == path %>
   <div class="panel">
     <h2><%= link_to 'Home', url_for(path: nil), style: 'color: #ccc;' %> / <%= @client.metadata(path)['path'].split('/').last.titleize %> Folder</h2>
