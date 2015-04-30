@@ -5,22 +5,21 @@
 -#   %link(href="http://interiorsonline.com.au#{@product.canonical_path}" rel="canonical")
 -# - unless @product.is_live?
 -#   %meta(name="robots" content="noindex")
-
-%title
-  = c('site_name')
+%title= content_for?(:title) ? yield(:title) : c('site_name') + " Retailers | " + c('site_slogan')
 %meta(http-equiv="content-type" content="text/html; charset=utf-8")/
 %meta(name="author" content="#{c('site_name')}")/
+%meta(name="description" content="#{c('site_meta')} | #{c('site_slogan')}")/
 %meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")/
 
--# %meta(property="og:title" content="#{@product}" )
--# %meta(property="og:description" content="#{@product.meta_description}" )
--# %meta(property="og:type" content="product" )
--# %meta(property="og:url" content="http://interiorsonline.com.au#{@product.canonical_path}" )
--# %meta(property="og:image" content="http://interiorsonline.com.au/#{@product.image}" )
+%meta(property="og:title" content="#{c('site_name')}" )
+%meta(property="og:description" content="#{c('site_meta')}" )
+%meta(property="og:type" content="shop" )
+%meta(property="og:url" content="#{request.url}" )
+%meta(property="og:image" content="#{c('logo')}" )
 -# - if @product.product_images.any?
   -# - @product.product_images.each do |img|
     -# %meta(property="og:image" content="#{IMAGE_CDN}/image/#{url_for(img.image.gsub(' ','%20'))}")
--# %meta(property="og:site_name" content="Interiors Online" )
+%meta(property="og:site_name" content="#{c('site_name')}" )
 -# %meta(property="og:price:amount" content="#{@product.price}" )
 -# %meta(property="og:price:currency" content="AUD" )
 -# %meta(property="og:availability" content="instock" )

@@ -1,3 +1,6 @@
+= content_for(:title) do
+  - "Find #{c('site_name')} in #{@country.name}"
+
 - case @country.name
 - when 'Philippines'
   = render 'stockists/philippines'
@@ -20,6 +23,19 @@
   .columns.large-12
     = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
     = paginate(@paged_stockists)
+
+.row
+  .columns.large-12{style: 'color: #fff; font-size: 10px;'}
+    - if @mapped_stockists.count >= 1
+      %h3
+        Find by City: 
+      - i = 0
+      - @mapped_stockists.to_a.inject({}) { |res, o| res.reverse_merge! o.city => o  }.each do |city, stockist|
+        - if stockist.longitude && stockist.latitude && !city.blank?
+          = ', ' unless i == 0
+          - i = i+1
+          = link_to city.split.map(&:capitalize).join(' '), stockists_path(long: stockist.longitude, lat: stockist.latitude, loc: city)
+
 
 = content_for :footer_scripts do
   = render('stockists/get_collections')

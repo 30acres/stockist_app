@@ -1,3 +1,5 @@
+- content_for(:title) do
+  = (params[:loc] ? " #{params[:loc]} " : '') + "#{c('site_name')} Shopfinder"
 .row
   .page-header
     %h1.text-center
