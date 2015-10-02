@@ -39,13 +39,14 @@
               = link_to stockists_path do 
                 Retailers
               %ul.dropdown
-                %li
+                %li.country
                   = link_to become_a_stockist_path do
                     Become a retailer
                 - @all_countries.order(name: :asc).each do |country|
-                  %li
-                    = link_to country, class: 'button' do
-                      #{country.name.to_s.gsub('Phillipines','Philippines')}
+                  - unless country.name == 'Phillipines' 
+                    %li.country 
+                      = link_to country, class: 'button' do
+                        #{country.name.to_s.gsub('Phillipines','Philippines')}
             %li
               %a{:href => "#"} Shop Online
           / Left Nav Section
