@@ -31,12 +31,27 @@ class Stockist < ActiveRecord::Base
   end
 
   def is_mapped?
-    longitude != nil
+    slongitude != nil
   end
 
   def map_description
     "<div class='stockist_description'><strong>#{name}</strong><br/>#{address}</br/><a href=\'/stockists/#{slug}\'>Details</a></div>"
   end
 
+ def slongitude
+  unless customlongitude
+    longitude
+  else
+    customlongitude
+  end
+ end
+
+  def slatitude
+  unless customlatitude
+    latitude
+  else
+    customlatitude
+  end
+ end
 
 end

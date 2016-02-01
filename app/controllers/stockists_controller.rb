@@ -28,8 +28,8 @@ class StockistsController < ApplicationController
     @stockist = Stockist.friendly.find(params[:id])
     if @stockist.is_mapped?
       @hash = Gmaps4rails.build_markers([@stockist]) do |stockist, marker|
-        marker.lat stockist.latitude
-        marker.lng stockist.longitude
+        marker.lat stockist.slatitude
+        marker.lng stockist.slongitude
         marker.infowindow stockist.map_description
       end
     else
