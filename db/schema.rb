@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150228230642) do
+ActiveRecord::Schema.define(version: 20160201014835) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -51,6 +51,15 @@ ActiveRecord::Schema.define(version: 20150228230642) do
     t.string   "slug"
   end
 
+  create_table "downloads", force: :cascade do |t|
+    t.string   "title"
+    t.integer  "position"
+    t.integer  "status"
+    t.string   "file"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "enquiries", force: :cascade do |t|
     t.string   "username"
     t.string   "business_name"
@@ -62,8 +71,11 @@ ActiveRecord::Schema.define(version: 20150228230642) do
     t.string   "tried_products"
     t.string   "url"
     t.string   "src"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.string   "name"
+    t.string   "localities"
+    t.text     "business_profile"
   end
 
   create_table "friendly_id_slugs", force: :cascade do |t|
@@ -78,6 +90,49 @@ ActiveRecord::Schema.define(version: 20150228230642) do
   add_index "friendly_id_slugs", ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type", using: :btree
   add_index "friendly_id_slugs", ["sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_id", using: :btree
   add_index "friendly_id_slugs", ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type", using: :btree
+
+  create_table "galleries", force: :cascade do |t|
+    t.integer  "listing_id"
+    t.string   "title"
+    t.string   "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "images", force: :cascade do |t|
+    t.string   "file"
+    t.string   "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "listing_id"
+    t.integer  "photo_id"
+  end
+
+  create_table "listings", force: :cascade do |t|
+    t.string   "name"
+    t.string   "contact_name"
+    t.string   "email"
+    t.string   "phone"
+    t.string   "website_url"
+    t.string   "profile_image"
+    t.string   "profile_description"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.string   "street_address"
+    t.string   "city"
+    t.string   "state"
+    t.integer  "country_id"
+    t.integer  "status"
+    t.string   "slug"
+    t.float    "longitude"
+    t.float    "latitude"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "country"
+    t.string   "postcode"
+    t.text     "location_dump"
+    t.integer  "validation_status"
+  end
 
   create_table "pages", force: :cascade do |t|
     t.string   "title"
@@ -95,6 +150,29 @@ ActiveRecord::Schema.define(version: 20150228230642) do
     t.integer  "client_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+  end
+
+  create_table "photos", force: :cascade do |t|
+    t.integer  "position"
+    t.string   "caption"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "gallery_id"
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string   "description"
+    t.string   "wholesale_price"
+    t.integer  "status"
+    t.string   "itemcode"
+    t.string   "barcode"
+    t.string   "handle"
+    t.string   "image"
+    t.string   "position"
+    t.string   "rrp"
+    t.string   "product_type"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
   create_table "regions", force: :cascade do |t|
@@ -156,6 +234,9 @@ ActiveRecord::Schema.define(version: 20150228230642) do
     t.string   "slug"
     t.string   "first_name"
     t.string   "last_name"
+    t.integer  "retailer_id"
+    t.float    "customlongitude"
+    t.float    "customlatitude"
   end
 
   create_table "uploads", force: :cascade do |t|

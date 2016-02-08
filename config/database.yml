@@ -11,8 +11,7 @@ default: &default
 
 development:
   <<: *default
-  user: postgres
-  password: postgres
+
   database: stockist_dev
 
 # Warning: The database defined as "test" will be erased and
@@ -20,8 +19,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  user: postgres
-  password: postgres
+
   database: stockist_test
 
 production:
