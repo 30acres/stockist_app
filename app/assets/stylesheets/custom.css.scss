@@ -28,7 +28,7 @@ footer {
 @media only screen and (max-width: 40em) { 
   #map { height: 250px; width: 80%; } 
   .actions { text-align: left;}
-  .top-bar-section .dropdown li.country a{line-height:16px;}
+  .top-bar-section .dropdown li.country a{line-height:8px;}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
