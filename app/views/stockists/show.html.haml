@@ -1,20 +1,27 @@
-= content_for :title do
-  = cell(:stockist, @stockist, site: @site).call('page_title')
+- if stockist_is_active?
 
-= cell(:stockist, @stockist, site: @site)
+  = content_for :title do
+    = cell(:stockist, @stockist, site: @site).call('page_title')
 
-- if current_retailer
-  %hr/
-  .row#admin
-    .columns.twelve.text-center
-      %h3
-        Is this your listing? 
-        = link_to  'Click here to update your listing', "mailto:amy@eyeofhorus.com.au?subject=Hi%20Amy,%20Please%20Update%20#{@stockist.name.gsub(' ','%20').gsub('&','and')}&body=My%20url:%20#{request.url}", class: 'button primary'
-- if current_admin
-  .row#admin
-    .columns.twelve
-      = link_to 'Edit this listing', '#edit_this', class: 'button'
+  = cell(:stockist, @stockist, site: @site)
 
-= content_for :footer_scripts do
-  = render partial: 'maps/map', locals: { hash: @hash, zoom: 16 }
-  = render('stockists/get_collections')
+  - if current_retailer
+    %hr/
+    .row#admin
+      .columns.twelve.text-center
+        %h3
+          Is this your listing? 
+          = link_to  'Click here to update your listing', "mailto:amy@eyeofhorus.com.au?subject=Hi%20Amy,%20Please%20Update%20#{@stockist.name.gsub(' ','%20').gsub('&','and')}&body=My%20url:%20#{request.url}", class: 'button primary'
+  - if current_admin
+    .row#admin
+      .columns.twelve
+        = link_to 'Edit this listing', '#edit_this', class: 'button'
+
+  = content_for :footer_scripts do
+    = render partial: 'maps/map', locals: { hash: @hash, zoom: 16 }
+    = render('stockists/get_collections')
+- else
+  %h3
+    This retailer is longer stocking Eye of Horus Cosmetics - Search from our 
+    = link_to 'homepage', root_path 
+    to find more.
