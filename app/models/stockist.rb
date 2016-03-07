@@ -54,4 +54,8 @@ class Stockist < ActiveRecord::Base
   end
  end
 
+ def stockist_is_active?
+  status <= 2
+ end
+
 end

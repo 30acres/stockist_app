@@ -1,4 +1,4 @@
-- if stockist_is_active?
+- if @stockist.stockist_is_active?
 
   = content_for :title do
     = cell(:stockist, @stockist, site: @site).call('page_title')
