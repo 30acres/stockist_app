@@ -67,7 +67,7 @@ def check_headers(s)
 end
 
 def standby_stockists
-  Stockist.all.each do |stockist|
+  Stockist.active.each do |stockist|
     stockist.status = 2
     stockist.save!
   end
