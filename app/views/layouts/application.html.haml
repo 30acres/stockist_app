@@ -20,7 +20,7 @@
           %li.name
             %h1
               = link_to root_path do 
-                = image_tag('http://cdn.shopify.com/s/files/1/0717/7955/t/2/assets/logo.png?1311', style: 'height: 42px')
+                = image_tag('https://cdn.shopify.com/s/files/1/0717/7955/t/4/assets/logo.png?12566221044867465009', style: 'height: 42px')
           / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
           %li.toggle-topbar.menu-icon
             %a{:href => "#"}
@@ -30,11 +30,11 @@
           %ul.right
             %li.has-form
               = form_tag(stockists_path, method: :get ) do
-                .row.collapse
+                .row.collapse{:style => "margin-top:4px;"}
                   .large-9.small-9.columns
                     = text_field_tag :search, params[:search], placeholder: "Find a retailer"
                   .large-3.small-3.columns
-                    = submit_tag 'Search', class: 'button expand small', name: nil
+                    = submit_tag 'Search', class: 'button expand small', name: nil, :style => "padding-top: 0.207rem;"
             %li.has-dropdown
               = link_to stockists_path do 
                 Retailers
