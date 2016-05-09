@@ -25,7 +25,7 @@ class LocationsController < ApplicationController
       @location = Location.find(params[:id])
     
     
-        @mapped_stockists = Stockist.near([@location.latitude, @location.longitude], 30).order('name ASC')
+        @mapped_stockists = Stockist.near([@location.latitude, @location.longitude], 10).order('name ASC')
         @paged_stockists = @mapped_stockists.page params[:page]
 
     @hash = Gmaps4rails.build_markers(@mapped_stockists) do |stockist, marker|
