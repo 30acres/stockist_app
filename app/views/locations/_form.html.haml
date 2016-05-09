@@ -1,0 +1,8 @@
+= simple_form_for(Location.new) do |f|
+  = f.error_notification
+  .row.collapse{:style => "margin-top:4px;"}
+    .form-inputs.large-9.small-9.columns
+      = f.input :name, label: false, placeholder: "Find stores by location" 
+    .form-actions
+      = f.button :submit, value: "Search", class: "button expand small", name: nil, :style => 'padding-top: 0.207rem'
+

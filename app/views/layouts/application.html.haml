@@ -29,12 +29,13 @@
           / Right Nav Section
           %ul.right
             %li.has-form
-              = form_tag(stockists_path, method: :get ) do
+              = simple_form_for(Location.new) do |f|
+                = f.error_notification
                 .row.collapse{:style => "margin-top:4px;"}
-                  .large-9.small-9.columns
-                    = text_field_tag :search, params[:search], placeholder: "Find a retailer"
-                  .large-3.small-3.columns
-                    = submit_tag 'Search', class: 'button expand small', name: nil, :style => "padding-top: 0.207rem;"
+                  .form-inputs.large-9.small-9.columns
+                    = f.input :name, label: false, placeholder: "Find stores by location" 
+                  .form-actions.large-3.small-3.columns
+                    = f.button :submit, value: "Search", class: "button expand small", name: nil, :style => 'padding-top: 0.207rem'
             %li.has-dropdown
               = link_to stockists_path do 
                 Retailers
@@ -79,6 +80,7 @@
           = link_to 'Contact Us', '#'
         .columns.large-6.text-right
           &copy; #{c('copyright')} #{Time.now.year}
+
 
 
 
