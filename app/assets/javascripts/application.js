@@ -15,5 +15,6 @@
 //= require foundation
 //= require underscore
 // = require gmaps/google
+// = require markerClusterer
 
 $(function(){ $(document).foundation(); });
