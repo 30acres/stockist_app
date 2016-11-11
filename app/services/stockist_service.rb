@@ -14,17 +14,24 @@ class StockistService
     # .Company.where(limit: 25, status: 'active')
   end
 
-  # def access_token
-  #   OAuth2::AccessToken.new(gecko.oauth_client, API_TOKEN)
-  # end
+  def get_companies(page=0)
+    trade_gecko.Company.where(limit: 250, page: page)
+  end
 
-  # def gecko_account
-  #   gecko.access_token = access_token
-  #   gecko.Account.current
-  # end
-
-  def get_companies
-    gecko.Company.where(limit: 25, status: 'active')
+  def self.match_companies
+    matches = []
+    page = 0
+    8.times do
+      page = page + 1
+      tg = StockistService.new
+      tg.get_companies(page).each do |tg_stockist|
+        if Stockist.where(email: tg_stockist.email).any?
+          # binding.pry
+          matches << tg_stockist.email
+        end
+      end
+    end
+    puts matches
   end
 
 end
