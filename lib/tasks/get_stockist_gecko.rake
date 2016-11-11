@@ -2,7 +2,7 @@
 # APP_SECRET = 'z5z48xgmqtxik80'
 #encoding UTF-8
 desc "Get Stockists"
-task :get_stockists => :environment do
+task :get_stockists_gecko => :environment do
   # get_client
   puts 'Grabbing the file...'
   the_file = client.media('/30 Acres - Eye of Horus Retail Centre/stockist-data/retailers.xls')
@@ -35,7 +35,7 @@ def client
   # access_token, user_id = flow.finish(code)
   # puts access_token
   access_token = 'peIHv38CaNcAAAAAAAC20raFgkju_Is3QDqCWYW1K8hyZcX0shOD-b-nMFZG7DO6'
-  # client = 
+  # client =
   DropboxClient.new(access_token)
   # puts "linked account:", client.account_info().inspect
 end
@@ -54,12 +54,12 @@ def parse_xls(file, task)
 end
 
 def check_headers(s)
-  headers = ['Contact',	'Company',	'First name',	'Last name',	'Street',	'Suburb', 'City',	'Code', 'County/State', 'Credit limit', 'Credit days', 'Created',nil, 'Email address', 'Fax', nil,	'Last contacted', 'Mobile', 'Mailmerges',	'Postcode',	'Telephone', 'Retailers','Retailers','Country','Last ordered']
+  headers = ['Contact', 'Company',  'First name', 'Last name',  'Street', 'Suburb', 'City', 'Code', 'County/State', 'Credit limit', 'Credit days', 'Created',nil, 'Email address', 'Fax', nil,  'Last contacted', 'Mobile', 'Mailmerges', 'Postcode', 'Telephone', 'Retailers','Retailers','Country','Last ordered']
   headers.each_with_index do |check, index|
     col = index + 1
     heading = s.cell(1, col)
     puts (heading == check ? "#{check} correct" : "#{check} wrong : #{heading}")
-    if heading != check 
+    if heading != check
       puts 'broken'
       raise 'HEADINGS ARE WRONG!'
     end

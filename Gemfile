@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
- 
-ruby '2.0.0'
+
+ruby '2.3.0'
 
 gem 'rails', '4.2.0'
 gem 'pg'
@@ -66,3 +66,7 @@ gem 'dropbox-sdk'
 gem "dropbox-api"
 #
 gem 'roo'
+
+gem 'omniauth-tradegecko'
+gem 'gecko-ruby'
+gem 'access_token_wrapper', github: 'tradegecko/access_token_wrapper'

@@ -739,10 +739,11 @@ stockists= [{name:'Eye of Horus Headquarters',city: 'Torquay', country:'Australi
 {name:'Blooms - Figtree',city: 'Figtree', country:'Australia',postcode:'2525',street_address:'Shop 12-15 Westfield S/Town'}]
 
 stockists.each do |stockist|
-  new = Stockist.find_or_create_by(street_address: stockist[:street_address])
+  stock = Stockist.find_or_create_by(street_address: stockist[:street_address])
   country = Country.find_or_create_by(name: stockist[:country])
-  new.country_id = country.id
-  new.save!
+  stock.country_id = country.id
+  stock.name = stockist[:name]
+  stock.save!
   sleep(1.1)
   country.save!
 end
