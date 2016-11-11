@@ -11,7 +11,6 @@ class StockistService
     access_token = OAuth2::AccessToken.new(gecko.oauth_client, API_TOKEN)
     gecko.access_token = access_token
     gecko
-    t
   end
 
   def get_companies(page=0)
