@@ -11,7 +11,7 @@ class StockistService
     access_token = OAuth2::AccessToken.new(gecko.oauth_client, API_TOKEN)
     gecko.access_token = access_token
     gecko
-    # .Company.where(limit: 25, status: 'active')
+    t
   end
 
   def get_companies(page=0)
@@ -25,9 +25,10 @@ class StockistService
       page = page + 1
       tg = StockistService.new
       tg.get_companies(page).each do |tg_stockist|
-        if Stockist.where(email: tg_stockist.email).any?
+        if Stockist.where(name: tg_stockist.name).any?
           # binding.pry
-          matches << tg_stockist.email
+          matches << tg_stockist.name
+          ## update fax  to "(R) current fax"
         end
       end
     end
