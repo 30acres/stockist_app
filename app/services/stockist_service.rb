@@ -24,6 +24,7 @@ class StockistService
       page = page + 1
       tg = StockistService.new
       tg.get_companies(page).each do |tg_stockist|
+        binding.pry
         if Stockist.where(name: tg_stockist.name).any?
           # binding.pry
           matches << tg_stockist.name
@@ -32,6 +33,7 @@ class StockistService
       end
     end
     puts matches
+    puts "MATCHES COUNT #{matches.count}"
   end
 
 end
