@@ -27,7 +27,12 @@ class StockistService
         # binding.pry
         if Stockist.where(name: tg_stockist.name).any?
           # binding.pry
+          stockist = Stockist.where(name: tg_stockist.name).first
           matches << tg_stockist.name
+          tg.fax = "(R) #{tg.fax}"
+          tg.save
+          stockist.trade_gecko = tg_stockist.id
+          stockist.save!
           ## update fax  to "(R) current fax"
         end
       end
