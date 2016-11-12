@@ -28,12 +28,14 @@ class StockistService
         sleep(1)
         if Stockist.where(name: tg_stockist.name).any?
           # binding.pry
-          stockist = Stockist.where(name: tg_stockist.name).first
+          stockist = Stockist.where('name ILIKE ?', tg_stockist.name).first
           matches << tg_stockist.name
-          tg_stockist.fax = "(R) #{tg_stockist.fax}"
-          tg_stockist.save
-          stockist.trade_gecko = tg_stockist.id
-          stockist.save!
+          unless tg_stockist.fax.include?('(R)')
+            tg_stockist.fax = "(R) #{tg_stockist.fax}"
+            tg_stockist.save
+            stockist.trade_gecko = tg_stockist.id
+            stockist.save!
+          end
           ## update fax  to "(R) current fax"
         end
       end
