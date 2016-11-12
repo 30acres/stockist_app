@@ -25,6 +25,7 @@ class StockistService
       tg = StockistService.new
       tg.get_companies(page).each do |tg_stockist|
         # binding.pry
+        sleep(1)
         if Stockist.where(name: tg_stockist.name).any?
           # binding.pry
           stockist = Stockist.where(name: tg_stockist.name).first
