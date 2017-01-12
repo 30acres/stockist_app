@@ -25,9 +25,11 @@ class StockistService
       tg = StockistService.new
       tg.get_companies(page).each do |tg_stockist|
 
-        binding.pry
+        # binding.pry
         sleep(1)
+        puts "****************************************"
         if Stockist.where(name: tg_stockist.name).any?
+          puts "== A N Y =="
           stockist = Stockist.where('name ILIKE ?', tg_stockist.name).first
           matches << tg_stockist.name
           unless tg_stockist.fax and tg_stockist.fax.include?('(R)')
@@ -37,6 +39,16 @@ class StockistService
           end
           stockist.status = 1
           stockist.save!
+        else
+          puts " === NONE === "
+          if tg_stockist.fax
+            puts " HAS FAX! "
+            stockist = Stockist.where(name:tg_stockist.name).first_or_create
+            stockist.data = tg_stockist
+            stockist.save!
+          else
+            puts "! NO FAX ! "
+          end
         end
       end
     end
