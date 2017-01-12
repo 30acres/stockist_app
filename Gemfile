@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # gem 'cells', github: 'apotonick/cells'
 gem "cells-rails"
+gem "cells-erb"
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
 gem 'devise'
