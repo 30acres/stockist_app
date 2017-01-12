@@ -12,9 +12,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# gem 'cells', github: 'apotonick/cells'
-gem "cells-rails"
-gem "cells-erb"
+gem 'cells', github: 'apotonick/cells'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
 gem 'devise'
@@ -23,6 +21,7 @@ gem 'friendly_id'
 gem 'simple_form'
 gem 'carrierwave-aws'
 gem 'carrierwave'
+gem 'modernizr-rails'
 #gem 'fog'
 gem 'RedCloth'
 
