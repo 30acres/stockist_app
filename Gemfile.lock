@@ -89,6 +89,9 @@ GEM
     carrierwave-aws (1.0.2)
       aws-sdk (~> 2.0)
       carrierwave (>= 0.7, < 2.0)
+    cells-rails (0.0.6)
+      actionpack (>= 3.0)
+      cells (>= 4.1)
     coderay (1.1.1)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
@@ -367,6 +370,7 @@ DEPENDENCIES
   carrierwave
   carrierwave-aws
   cells!
+  cells-rails
   coffee-rails (~> 4.1.0)
   dalli
   devise
