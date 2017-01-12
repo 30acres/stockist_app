@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/apotonick/cells.git
-  revision: 6d54b99a14a55960d92cc16063f03490edf1da03
-  specs:
-    cells (4.1.5)
-      tilt (>= 1.4, < 3)
-      uber (>= 0.1.0, < 0.2.0)
-
-GIT
   remote: git://github.com/tradegecko/access_token_wrapper.git
   revision: e3f5395d591c9109845737e98af18b30102c9f27
   specs:
@@ -89,6 +81,9 @@ GEM
     carrierwave-aws (1.0.2)
       aws-sdk (~> 2.0)
       carrierwave (>= 0.7, < 2.0)
+    cells (4.1.5)
+      tilt (>= 1.4, < 3)
+      uber (>= 0.1.0, < 0.2.0)
     cells-rails (0.0.6)
       actionpack (>= 3.0)
       cells (>= 4.1)
@@ -369,7 +364,6 @@ DEPENDENCIES
   byebug
   carrierwave
   carrierwave-aws
-  cells!
   cells-rails
   coffee-rails (~> 4.1.0)
   dalli

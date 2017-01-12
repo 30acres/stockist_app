@@ -12,7 +12,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'cells', github: 'apotonick/cells'
+# gem 'cells', github: 'apotonick/cells'
 gem "cells-rails"
 gem 'bootstrap-sass', '~> 3.0.3.0'
 

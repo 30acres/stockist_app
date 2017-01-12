@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
+/* line 1, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+body {
+  background: #111;
+}
+
+/* line 2, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+.panel {
+  background: #333;
+  border: 1px solid #444;
+  color: #ccc;
+}
+
+/* line 6, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "Play", sans-serif;
+}
+
+/* line 10, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+h1, h2, h3, h4, h5 {
+  color: #FFF;
+}
+
+/* line 12, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+p {
+  color: #efefef;
+}
+
+/* line 15, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel p, .panel a, .panel ul, .panel ul li {
+  color: #FFF;
+}
+/* line 16, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+.panel a.button {
+  color: #fff;
+}
+
+/* line 19, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+p.address, .panel p, footer {
+  color: #ccc;
+}
+
+/* line 21, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+hr {
+  border-color: #666;
+  margin: 2em;
+}
+
+/* line 23, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+.page-header h1 {
+  line-height: 2em;
+}
+
+/* line 25, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+.copyright {
+  background: #333;
+  padding: .8em;
+  color: #ccc;
+}
+/* line 27, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+.copyright a {
+  color: #FFF;
+}
+
+/* line 30, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+.feature {
+  margin: 2em 0 4em 0;
+}
+
+/* line 32, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+ul#products {
+  text-align: center;
+}
+/* line 34, /Users/jonnydalgleish/Sites/stockists/app/assets/stylesheets/sites/eyeofhoruscosmetics/custom.css.scss */
+ul#products img {
+  height: 200px;
+}
