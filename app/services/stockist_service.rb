@@ -32,6 +32,7 @@ class StockistService
           unless tg_stockist.fax and tg_stockist.fax.include?('(R)')
             tg_stockist.fax = "(R) #{tg_stockist.fax}"
             tg_stockist.save
+            stockist.status = 1
             stockist.trade_gecko = tg_stockist.id
             stockist.save!
           end
