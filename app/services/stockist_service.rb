@@ -27,7 +27,6 @@ class StockistService
         # binding.pry
         sleep(1)
         if Stockist.where(name: tg_stockist.name).any?
-          # binding.pry
           stockist = Stockist.where('name ILIKE ?', tg_stockist.name).first
           matches << tg_stockist.name
           unless tg_stockist.fax and tg_stockist.fax.include?('(R)')
