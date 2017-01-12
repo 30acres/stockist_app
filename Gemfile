@@ -21,7 +21,6 @@ gem 'friendly_id'
 gem 'simple_form'
 gem 'carrierwave-aws'
 gem 'carrierwave'
-gem 'modernizr-rails'
 #gem 'fog'
 gem 'RedCloth'
 
