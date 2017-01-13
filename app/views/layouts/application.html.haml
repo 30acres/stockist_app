@@ -16,18 +16,17 @@
 
   %body
     = render 'tag_manager'
-    .fixed{style:'display: none'  }
-      %nav.top-bar{"data-topbar" => "", :role => "navigation"}
-        %ul.title-area
-          %li.name
-            %h1
-              = link_to root_path do 
-                = image_tag('https://cdn.shopify.com/s/files/1/0717/7955/t/4/assets/logo.png?12566221044867465009', style: 'height: 42px')
+    .top-bar
+      .top-bar-left
+        .top-bar-title
+          <span data-responsive-toggle="responsive-menu" data-hide-for="medium"><button class="menu-icon dark" type="button" data-toggle></button></span>
+          = link_to root_path do 
+            = image_tag('https://cdn.shopify.com/s/files/1/0717/7955/t/4/assets/logo.png?12566221044867465009', style: 'height: 42px')
           / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
           %li.toggle-topbar.menu-icon
             %a{:href => "#"}
               %span Menu
-        %section.top-bar-section
+        #responsive-menu.top-bar-left
           / Right Nav Section
           %ul.right
             %li.has-form
@@ -52,11 +51,10 @@
                         #{country.name.to_s.gsub('Phillipines','Philippines')}
             %li
               %a{:href => "#"} Shop Online
-          / Left Nav Section
-          %ul.left
-            %li
-              %a{:href => "http://eyeofhoruscosmetics.com"} 
-                Go to website
+            %ul.left
+              %li
+                %a{:href => "http://eyeofhoruscosmetics.com"} 
+                  Go to website
     .container
       = yield
     %footer.row
