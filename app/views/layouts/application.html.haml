@@ -18,43 +18,42 @@
     = render 'tag_manager'
     .top-bar
       .top-bar-left
-        .top-bar-title
-          <span data-responsive-toggle="responsive-menu" data-hide-for="medium"><button class="menu-icon dark" type="button" data-toggle></button></span>
-          = link_to root_path do 
-            = image_tag('https://cdn.shopify.com/s/files/1/0717/7955/t/4/assets/logo.png?12566221044867465009', style: 'height: 42px')
+        %ul.men.accordion-menu{ data: { 'responsive-menu': "accordion" }, role: 'tablist', 'aria-multiselectable': "true" }
+          %li
+            .top-bar-title
+              <span data-responsive-toggle="responsive-menu" data-hide-for="medium"><button class="menu-icon dark" type="button" data-toggle></button></span>
+              = link_to root_path do 
+                = image_tag('https://cdn.shopify.com/s/files/1/0717/7955/t/4/assets/logo.png?12566221044867465009', style: 'height: 42px')
           / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
           %li.toggle-topbar.menu-icon
             %a{:href => "#"}
               %span Menu
-        #responsive-menu.top-bar-left
-          / Right Nav Section
-          %ul.right
-            %li.has-form
-              = simple_form_for(Location.new) do |f|
-                = f.error_notification
-                .row.collapse{:style => "margin-top:4px;"}
-                  .form-inputs.large-9.small-9.columns
-                    = f.input :name, label: false, placeholder: "Find stores by location" 
-                  .form-actions.large-3.small-3.columns
-                    = f.button :submit, value: "Search", class: "button expand small", name: nil, :style => 'padding-top: 0.207rem'
-            %li.has-dropdown
-              = link_to stockists_path do 
-                Retailers
-              %ul.dropdown
-                %li.country
-                  = link_to become_a_stockist_path do
-                    Become a retailer
-                - @all_countries.order(name: :asc).each do |country|
-                  - unless country.name == 'Phillipines' 
-                    %li.country 
-                      = link_to country, class: 'button' do
-                        #{country.name.to_s.gsub('Phillipines','Philippines')}
-            %li
-              %a{:href => "#"} Shop Online
-            %ul.left
-              %li
-                %a{:href => "http://eyeofhoruscosmetics.com"} 
-                  Go to website
+      #responsive-menu.top-bar-left
+        = simple_form_for(Location.new) do |f|
+          = f.error_notification
+          .row.collapse{:style => "margin-top:4px;"}
+            .form-inputs.large-9.small-9.columns
+              = f.input :name, label: false, placeholder: "Find stores by location" 
+            .form-actions.large-3.small-3.columns
+              = f.button :submit, value: "Search", class: "button expand small", name: nil, :style => 'padding-top: 0.207rem'
+        %ul.dropdown.menu{data: { 'dropdown-menu': true }}
+          %li
+          = link_to stockists_path do 
+            Retailers
+          %li
+            = link_to become_a_stockist_path do
+              Become a retailer
+          - @all_countries.order(name: :asc).each do |country|
+            - unless country.name == 'Phillipines' 
+              %li.country 
+                = link_to country, class: 'button' do
+                  #{country.name.to_s.gsub('Phillipines','Philippines')}
+      .top-bar-right
+        %a{:href => "#"} Shop Online
+        %ul.left
+          %li
+            %a{:href => "http://eyeofhoruscosmetics.com"} 
+              Go to website
     .container
       = yield
     %footer.row
