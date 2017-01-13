@@ -20,7 +20,8 @@
 .row
   .columns.large-12
     - if @paged_stockists.count(:all) >= 1
-      = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
+      - @paged_stockists.each do |stockist|
+        = render 'teaser', stockist: stockist
       %br/
       = paginate(@paged_stockists)
     - else

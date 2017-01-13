@@ -1,0 +1,16 @@
+.panel.row.stockist{id: stockist.id}
+  .columns.large-2.show-for-large-up
+    .stockist-logo
+      We stock
+      %br/
+      = image_tag 'logo.jpg'
+  .columns.small-12.large-6
+    %h4= link_to raw((stockist.to_s.titleize.html_safe).html_safe).gsub('&Amp;','&'), stockist_path(stockist)
+    %p.address
+      = stockist.address
+  .columns.small-12.large-4.actions
+    = link_to "#{fa_icon 'map-marker'} Find on Map", stockist_url(stockist), class: 'button tiny'
+    = link_to "#{fa_icon 'search'} More Details", stockist_url(stockist), class: 'button tiny'
+
+
+

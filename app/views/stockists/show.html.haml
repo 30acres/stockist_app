@@ -1,21 +1,62 @@
 - if @stockist.stockist_is_active?
 
   = content_for :title do
-    = cell(:stockist, @stockist, site: @site).call('page_title')
+    Find Eye of Horus Cosmetics at #{@stockist.to_s.titleize.html_safe} in #{@stockist.city}"
 
-  = cell(:stockist, @stockist, site: @site)
+.row
+  .columns.large-12
+    %h1.text-center
+      Find Eye of Horus Mascara, Eyeliner and Cosmetics at #{@stockist.to_s.titleize.html_safe} in #{@stockist.city}
 
-  - if current_retailer
-    %hr/
-    .row#admin
-      .columns.twelve.text-center
-        %h3
-          Is this your listing? 
-          = link_to  'Click here to update your listing', "mailto:amy@eyeofhorus.com.au?subject=Hi%20Amy,%20Please%20Update%20#{@stockist.name.gsub(' ','%20').gsub('&','and')}&body=My%20url:%20#{request.url}", class: 'button primary'
-  - if current_admin
-    .row#admin
-      .columns.twelve
-        = link_to 'Edit this listing', '#edit_this', class: 'button'
+.row
+  .columns.large-12
+    #map{style: 'width: 100%; height: 500px;'}
+    %br/
+
+.row
+  .columns.large-6
+    .panel
+      %h4= @stockist
+      %p
+        = @stockist.address
+        %br/
+        = @stockist.postcode
+      %ul
+        - if @stockist.primary_phone
+          %li 
+            %strong
+              Phone Number:
+            = @stockist.primary_phone
+        %li.nearby{style: 'display: none;'}
+          = link_to stockists_path, data: { longitude: '', latitude: '' }, id: 'nearby' do
+            Find an #{c('site_name')} near you
+        %li= link_to 'More nearby...', stockists_path(long: @stockist.longitude, lat: @stockist.latitude, loc: @stockist.city)
+        - if @stockist.website
+          %li Link to website
+    %h3 Our Products
+    %ul#products.small-block-grid-3
+  .columns.large-6
+    .panel{style: 'padding: 1em;' }
+      %h4 About #{c('site_name')}
+      %p= raw "#{c('description')}"
+      = link_to "#{c('site_name')} Website", c('website'), class: 'button'
+
+// Map code in the view.haml
+// Title code in the view.haml
+
+  
+
+- if current_retailer
+  %hr/
+  .row#admin
+    .columns.twelve.text-center
+      %h3
+        Is this your listing? 
+        = link_to  'Click here to update your listing', "mailto:amy@eyeofhorus.com.au?subject=Hi%20Amy,%20Please%20Update%20#{@stockist.name.gsub(' ','%20').gsub('&','and')}&body=My%20url:%20#{request.url}", class: 'button primary'
+- if current_admin
+  .row#admin
+    .columns.twelve
+      = link_to 'Edit this listing', '#edit_this', class: 'button'
 
   = content_for :footer_scripts do
     = render partial: 'maps/map', locals: { hash: @hash, zoom: 16 }
