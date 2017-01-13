@@ -48,3 +48,40 @@ footer {
 
 // XXLarge screens
 @media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+
+body { background: #111; }
+.panel { background: #333; border: 1px solid #444; color: #ccc; }
+
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
+
+h1, h2, h3, h4, h5 { 
+  font-family: 'Play', sans-serif
+}
+
+h1, h2, h3, h4, h5 { color: #FFF; }
+
+p { color: #efefef;}
+
+.panel { 
+  h1, h2, h3, h4, h5, p, a, ul, ul li { color: #FFF; }
+  a.button{ color: #fff;}
+}
+
+p.address, .panel p, footer { color: #ccc}
+
+hr { border-color: #666; margin: 2em;  }
+
+.page-header h1{ line-height: 2em; }
+
+.copyright { background: #333; padding: .8em;
+  color: #ccc;
+  a { color: #FFF }
+}
+
+.feature { margin: 2em 0 4em 0; }
+
+ul#products { 
+  text-align: center;
+  img { height: 200px; }
+}
+.top-bar-left div, .top-bar .row { background: none}

@@ -11,8 +11,7 @@
  * file per style scope.
  *
  *= require_self
-//= require foundation_and_overrides
-
+ *= require foundation_and_overrides
  *= require font-awesome
  *= require custom
  */
