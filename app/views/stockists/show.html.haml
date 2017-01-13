@@ -66,3 +66,21 @@
     This retailer is longer stocking Eye of Horus Cosmetics - Search from our 
     = link_to 'homepage', root_path 
     to find more.
+
+:coffeescript
+// zoom = #{zoom ? zoom : 0}
+  handler = Gmaps.build("Google")
+  handler.buildMap
+    provider:
+      disableDefaultUI: true
+    internal:
+      id: "map"
+  , ->
+    markers = handler.addMarkers(#{raw @hash.to_json })
+    handler.bounds.extendWith markers
+    handler.fitMapToBounds()
+    if zoom > 0
+      handler.getMap().setZoom(zoom);
+
+
+
