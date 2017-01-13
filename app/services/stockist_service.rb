@@ -43,8 +43,9 @@ class StockistService
           puts " === NONE === "
           if tg_stockist.fax
             puts " HAS FAX! "
+            binding.pry
             stockist = Stockist.where(name:tg_stockist.name).first_or_create
-            stockist.data = tg_stockist
+            stockist.data = tg_stockist.to_hash
             stockist.save!
           else
             puts "! NO FAX ! "
