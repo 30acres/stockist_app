@@ -18,16 +18,13 @@
     = render 'tag_manager'
     .top-bar
       .top-bar-left
-        %ul.men.accordion-menu{ data: { 'responsive-menu': "accordion" }, role: 'tablist', 'aria-multiselectable': "true" }
-          %li
+        %ul.menu.accordion-menu{ data: { 'responsive-menu': "accordion" }, role: 'tablist', 'aria-multiselectable': "true" } 
+          %li.menu-item
             .top-bar-title
               <span data-responsive-toggle="responsive-menu" data-hide-for="medium"><button class="menu-icon dark" type="button" data-toggle></button></span>
               = link_to root_path do 
                 = image_tag('https://cdn.shopify.com/s/files/1/0717/7955/t/4/assets/logo.png?12566221044867465009', style: 'height: 42px')
           / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-          %li.toggle-topbar.menu-icon
-            %a{:href => "#"}
-              %span Menu
       #responsive-menu.top-bar-left
         = simple_form_for(Location.new) do |f|
           = f.error_notification
@@ -37,7 +34,7 @@
             .form-actions.large-3.small-3.columns
               = f.button :submit, value: "Search", class: "button expand small", name: nil, :style => 'padding-top: 0.207rem'
         %ul.dropdown.menu{data: { 'dropdown-menu': true }}
-          %li
+          %li.menu-item
           = link_to stockists_path do 
             Retailers
           %li
