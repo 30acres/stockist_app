@@ -59,7 +59,7 @@ class StockistService
     Stockist.all.each do |stockist|
       tg = StockistService.new
 
-      if stockist.data and (!stockist.street_address or stockist.street_address.blank?)
+      if stockist.data #and (!stockist.street_address or stockist.street_address.blank?)
         address_id = stockist.data["address_ids"].last
         if address_id
           # binding.pry
