@@ -16,6 +16,12 @@ task :get_stockists_gecko => :environment do
 
 end
 
+task :process_stockists_gecko => :environment do
+
+  StockistService.process_all_data
+
+end
+
 def standby_stockists
   Stockist.active.each do |stockist|
     stockist.status = 2

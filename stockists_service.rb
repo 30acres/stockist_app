@@ -16,7 +16,7 @@ class StockistsService
 
   def get_companies
     gecko.Company.where(limit: 25, status: 'active')
-      end
+  end
 
 end
 

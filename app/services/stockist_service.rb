@@ -14,7 +14,7 @@ class StockistService
   end
 
   def get_companies(page=0)
-    trade_gecko.Company.where(limit: 250, page: page)
+    trade_gecko.Company.where(limit: 250, page: page, status: 'active')
   end
 
   def self.match_companies
@@ -25,7 +25,6 @@ class StockistService
       tg = StockistService.new
       tg.get_companies(page).each do |tg_stockist|
 
-        # binding.pry
         sleep(1)
         puts "****************************************"
         if Stockist.where(name: tg_stockist.name).any?
@@ -43,7 +42,6 @@ class StockistService
           puts " === NONE === "
           if tg_stockist.fax
             puts " HAS FAX! "
-            # binding.pry
             stockist = Stockist.where(name:tg_stockist.name).first_or_create
             stockist.data = tg_stockist.to_hash
             stockist.save!
@@ -55,6 +53,34 @@ class StockistService
     end
     puts matches
     puts "MATCHES COUNT #{matches.count}"
+  end
+
+  def self.process_all_data
+    Stockist.all.each do |stockist|
+      tg = StockistService.new
+
+      if stockist.data
+        address_id = stockist.data["address_ids"].first
+        if address_id
+          # binding.pry
+          address = tg.trade_gecko.Address.find(address_id)
+          if address
+            #<Gecko::Record::Address id: 14295415, updated_at: "2017-01-03 22:21:36", created_at: "2017-01-03 22:21:36", company_id: 11827400, label: "Isabella Beauty", first_name: nil, last_name: nil, company_name: "Isabella Beauty", address1: "Storgata 12", address2: nil, suburb: "Glasshuspassasjen", city: "", state: "Bodø", country: "Norway", zip_code: "8006", phone_number: "97537658", email: "siljemm@live.no", status: "active">
+            stockist.street_address = address.address1
+            stockist.city = [address.suburb,address.city].join(',')
+            stockist.country = Country.where(name: address.country).first_or_create
+            stockist.postcode = address.zip_code
+            stockist.primary_phone = address.phone_number
+            stockist.email_address = address.email
+            sleep(1) # for google
+            stockist.save!
+          end
+
+        end
+      end
+
+
+    end
   end
 
 end
