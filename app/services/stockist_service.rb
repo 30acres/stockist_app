@@ -73,7 +73,7 @@ class StockistService
             stockist.primary_phone = address.phone_number
             stockist.email_address = address.email
             sleep(10) # for google
-            puts stockist.title
+            puts stockist.inspect
             stockist.save!
           end
 
