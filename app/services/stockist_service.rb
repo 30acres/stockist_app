@@ -66,7 +66,7 @@ class StockistService
           address = tg.trade_gecko.Address.find(address_id)
           if address
             #<Gecko::Record::Address id: 14295415, updated_at: "2017-01-03 22:21:36", created_at: "2017-01-03 22:21:36", company_id: 11827400, label: "Isabella Beauty", first_name: nil, last_name: nil, company_name: "Isabella Beauty", address1: "Storgata 12", address2: nil, suburb: "Glasshuspassasjen", city: "", state: "Bodø", country: "Norway", zip_code: "8006", phone_number: "97537658", email: "siljemm@live.no", status: "active">
-            if [address.address1, address.country].any?
+            if [address.address1, address.country].all?
             stockist.street_address = address.address1
             stockist.city = [address.suburb,address.city].join(',')
             stockist.country = Country.where(name: address.country).first_or_create
