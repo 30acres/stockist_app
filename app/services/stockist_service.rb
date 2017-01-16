@@ -69,7 +69,7 @@ class StockistService
             if [address.address1, address.country].all?
             stockist.street_address = [address.address1, address.address2].join(',')
             stockist.city = [address.suburb,address.city].join(',')
-            stockist.country = Country.where(name: address.country.titleize).first_or_create
+            stockist.country = Country.where(name: address.country.titleize.strip).first_or_create
             stockist.postcode = address.zip_code
             stockist.primary_phone = address.phone_number
             stockist.email_address = address.email
