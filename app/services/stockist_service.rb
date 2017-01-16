@@ -59,7 +59,7 @@ class StockistService
     Stockist.all.each do |stockist|
       tg = StockistService.new
 
-      if stockist.data
+      if stockist.data and stockist.street_address.blank?
         address_id = stockist.data["address_ids"].first
         if address_id
           # binding.pry
