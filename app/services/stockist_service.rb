@@ -59,7 +59,7 @@ class StockistService
     Stockist.all.each do |stockist|
       tg = StockistService.new
 
-      if stockist.data and stockist.street_address.blank?
+      if stockist.data and !stockist.street_address or stockist.street_address.blank?
         address_id = stockist.data["address_ids"].first
         if address_id
           # binding.pry
@@ -73,6 +73,7 @@ class StockistService
             stockist.primary_phone = address.phone_number
             stockist.email_address = address.email
             sleep(10) # for google
+            puts stockist.title
             stockist.save!
           end
 
