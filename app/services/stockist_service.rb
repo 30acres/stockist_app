@@ -72,7 +72,7 @@ class StockistService
             stockist.postcode = address.zip_code
             stockist.primary_phone = address.phone_number
             stockist.email_address = address.email
-            sleep(1) # for google
+            sleep(10) # for google
             stockist.save!
           end
 
