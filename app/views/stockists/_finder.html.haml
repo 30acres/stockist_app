@@ -21,7 +21,7 @@
   .columns.large-12
     - if @paged_stockists.count(:all) >= 1
       - @paged_stockists.each do |stockist|
-        = render 'teaser', stockist: stockist
+        = render 'stockists/teaser', stockist: stockist
       %br/
       = paginate(@paged_stockists)
     - else

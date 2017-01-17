@@ -1,0 +1,23 @@
+<div class="social">
+  Tell a friend: 
+  <!-- Twitter (url, text, @mention)aa
+  -->
+  <a href="http://twitter.com/share?url=<%= stockist_path %>&text=<%= page_title %>&via=<%= c('twitter') %>" rel="nofollow">
+    <%= fa_icon 'twitter' %>
+  </a>
+  <!-- Google Plus (url)
+  -->
+  <a href="https://plus.google.com/share?url=http://retailers.eyeofhoruscosmetics.com<%= stockist_path %>" rel="nofollow">
+    <%= fa_icon 'google-plus' %>
+  </a>
+  <!-- Facebook (url)
+  -->
+  <a href="http://www.facebook.com/sharer/sharer.php?u=http://retailers.eyeofhoruscosmetics.com<%= stockist_path %>" rel="nofollow">
+    <%= fa_icon 'facebook' %>
+  </a>
+  <!-- Email (subject, body)
+  -->
+  <a href="mailto:?subject=<%= page_title %>&body=Check%20It%20Out" rel="nofollow">
+    <%= fa_icon 'envelope' %>
+  </a>
+</div>

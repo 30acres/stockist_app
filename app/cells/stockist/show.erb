@@ -1,0 +1,64 @@
+<div class="row">
+  <div class="columns large-12">
+    <h1 class="text-center">
+      Find Eye of Horus Mascara, Eyeliner &amp; Cosmetics at #{model} in #{model.city.squeeze(" ").strip}, #{model.country}
+    </h1>
+  </div>
+</div>
+<div class="row">
+  <div class="columns large-12">
+    <div id="map" style="width: 100%; height: 500px;"></div>
+    <br/>
+  </div>
+</div>
+<div class="row">
+  <div class="columns large-6">
+    <div class="panel">
+      <h4>
+        <%= model %>
+      </h4>
+      <p>
+        <%= model.address %>
+        <br/>
+        <%= model.postcode %>
+      </p>
+      <ul>
+        <% if model.primary_phone %>
+          <li>
+            <strong>
+              Phone Number:
+            </strong>
+            <%= model.primary_phone %>
+          </li>
+        <% end %>
+        <li class="nearby" style="display: none;">
+          <%= link_to stockists_path, data: { longitude: '', latitude: '' }, id: 'nearby' do %>
+            Find an #{c('site_name')} near you
+          <% end %>
+        </li>
+        <li>
+          <%= link_to 'More nearby...', stockists_path(long: model.longitude, lat: model.latitude, loc: model.city) %>
+        </li>
+        <% if model.website %>
+          <li>Link to website</li>
+        <% end %>
+      </ul>
+      <%= render 'share_buttons' %>
+    </div>
+    <h3>Our Products</h3>
+    <ul class="small-block-grid-3" id="products"></ul>
+  </div>
+  <div class="columns large-6">
+    <div class="panel">
+      <h4>About #{c('site_name')}</h4>
+      <p>
+        <%= raw "#{c('description')}" %>
+      </p>
+      <%= link_to "#{c('site_name')} Website", c('website'), class: 'button' %>
+    </div>
+  </div>
+</div>
+<!--/ Map code in the view.haml
+-->
+<!--/ Title code in the view.haml
+-->

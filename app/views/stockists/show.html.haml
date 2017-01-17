@@ -12,10 +12,12 @@
   .columns.large-12
     #map{style: 'width: 100%; height: 500px;'}
     %br/
+    = content_for :footer_scripts do
+      = render partial: 'maps/map', locals: { hash: @hash, zoom: 0 }
 
 .row
   .columns.large-6
-    .panel
+    .panel{style: 'padding: 1em;' }
       %h4= @stockist
       %p
         = @stockist.address
@@ -63,7 +65,7 @@
     = render('stockists/get_collections')
 - else
   %h3
-    This retailer is longer stocking Eye of Horus Cosmetics - Search from our 
+    This retailer is no longer stocking Eye of Horus Cosmetics - Search from our 
     = link_to 'homepage', root_path 
     to find more.
 

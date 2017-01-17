@@ -21,8 +21,14 @@
 
 .row
   .columns.large-12
-    = cell(:stockist, collection: @paged_stockists, method: :teaser, site: @site)
-    = paginate(@paged_stockists)
+    - if @paged_stockists.count(:all) >= 1
+      - @paged_stockists.each do |stockist|
+        = render 'stockists/teaser', stockist: stockist
+      %br/
+      = paginate(@paged_stockists)
+    - else
+      %h3 Sorry, no stockists match your search. #{link_to 'See all stockists', stockists_path}
+
 
 .row
   .columns.large-12{style: 'color: #fff; font-size: 10px;'}
