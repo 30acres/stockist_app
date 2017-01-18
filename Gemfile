@@ -69,3 +69,5 @@ gem 'roo'
 gem 'omniauth-tradegecko'
 gem 'gecko-ruby'
 gem 'access_token_wrapper', github: 'tradegecko/access_token_wrapper'
+gem 'shopify_app'
+

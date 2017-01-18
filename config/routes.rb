@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  mount ShopifyApp::Engine, at: '/'
   resources :locations
 
   devise_for :admins
