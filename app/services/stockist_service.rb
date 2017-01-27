@@ -86,6 +86,25 @@ class StockistService
     end
   end
 
+  def self.get_data
+    tg = StockistService.new
+    #{"type":"SYSTEM","name":"email","subtype":"home","value":"vanhooydonk@bigpond.com"}
+    # ''
+    binding.pry
+
+    # find matching customer based on email address
+    tg.trade_gecko.Contact.find ##
+    #
+    # user customer id to find orders for that customer
+    tg.trade_gecko.Order.find
+    #
+    # match all orders created in last "30days"
+   
+    # send back report to TG
+
+    
+  end
+
 end
 
 # gecko = Gecko::Client.new(<OAUTH_ID>, <OAUTH_SECRET>)
