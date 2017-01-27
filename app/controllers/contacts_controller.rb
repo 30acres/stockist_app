@@ -1,5 +1,6 @@
 class ContactsController < ApplicationController
-    layout false
+  layout false
+  # before_filter :skip_authentication
 
   def show
     
